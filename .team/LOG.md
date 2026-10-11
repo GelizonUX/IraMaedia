@@ -10,3 +10,4 @@
 [qa][round 2] Designer sign-off received; loop complete (QA PASS + design approved)
 [designer][round 2] reviewed round2 shots (1440/375/320, nav, contact, work); all fixes verified; DESIGN SIGN-OFF sent to developer + qa (2 optional polish notes: chip scroller inline padding, quote glyph overlap)
 [developer][round 2b] optional polish after sign-off: chip scroller gutter padding, quote glyph overlap -.35em, IO rootMargin -4% so bottom-of-viewport items reveal after anchor jumps (QA L12). Regression check clean.
+[developer][round 3] per lead: self-hosted GSAP 3.12.5 + ScrollTrigger + Lenis 1.1.13 (+lenis.css) in assets/vendor/ (served same-origin, no CDN); waiting on DESIGN.md v2
