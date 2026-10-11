@@ -299,9 +299,7 @@ html[data-theme="light"] .cursor__ring { border-color: var(--green-700); }
 }
 .nav::before {
   content: ""; position: absolute; inset: 0; z-index: -1;
-  background: rgba(20, 48, 42, .92);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
+  background: #17322B; /* solid: nothing (sheet corners) may ghost through the scrolled bar */
   opacity: 0; transition: opacity 300ms ease;
 }
 .nav.is-scrolled::before { opacity: 1; }
@@ -715,6 +713,9 @@ html.gsap-live .marquee__track { animation: none; }
   /* Sticky stacking only with motion */
   html.motion-ok .cards { gap: 12vh; }
   html.motion-ok .card { position: sticky; top: calc(96px + var(--i) * 20px); }
+  /* Depth: a soft top shadow on each incoming card (2-4) */
+  html.motion-ok .card + .card { box-shadow: 0 -24px 48px -28px rgba(10, 28, 23, .45); }
+  html.motion-ok .card + .card--green { box-shadow: 0 -24px 48px -28px rgba(10, 28, 23, .45), inset 0 0 0 1px var(--line-on-dark); }
 }
 
 /* Bento */

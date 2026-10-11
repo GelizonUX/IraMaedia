@@ -497,8 +497,10 @@
         if (i === n - 1) return;
         var trig = { trigger: cards[i + 1], start: 'top bottom', end: 'top top+=' + (96 + (i + 1) * 20), scrub: true };
         gsap.to(card, { scale: 1 - (n - 1 - i) * 0.04, ease: 'none', scrollTrigger: trig });
-        // Dim only once the next card covers more than 40% of this one
-        gsap.to($('.card__shade', card), { opacity: 0.45, ease: 'none', scrollTrigger: {
+        // Dim only once the next card covers more than 40% of this one.
+        // Light cards (blush/rose/cream) dim very little so they never turn grey; the green card keeps .45.
+        var dim = card.classList.contains('card--green') ? 0.45 : 0.12;
+        gsap.to($('.card__shade', card), { opacity: dim, ease: 'none', scrollTrigger: {
           trigger: trig.trigger, scrub: true, invalidateOnRefresh: true,
           start: function () { return 'top ' + Math.round(96 + i * 20 + card.offsetHeight * 0.6) + 'px'; },
           end: trig.end
