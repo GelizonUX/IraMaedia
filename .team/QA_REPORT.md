@@ -139,3 +139,29 @@ New harness checks: readability per text node, preloader timeline, Lenis anchors
 
 **Round 3 result: 1 High (14), 3 Medium (15–17), 7 Low, 4 Info → not a pass. Retest in round 4.**
 Developer deviation (V2.5-J body colour swap replaced by gradient seams): this passes QA with no contrast failures and solid section backgrounds. The designer is to rule on it.
+
+## Round 4 (build r4, tested 2026-10-11)
+Same matrix as round 3: root and `/IraMaedia/`; widths 320–1920 plus 1024x600 and 1024x700; reduced motion; JS off; vendor scripts aborted or hanging. Also new: the rounded "sheet" section-edge probe, and a targeted re-check script `.team/qa/diag9.js` for #14–23. Raw results: `.team/qa/round4-results.json`, summary `.team/qa/sum4.txt`. Screenshots: `.team/shots/round4-*.png`, plus `round4-1440-work-seemore-focus.png` and `round4-375-form-centred-bar.png`.
+
+**Re-verified**
+- **#14 Packages counters: FIXED.** All 10 values (1,12 / 2,16,4,1 / Up to 3, 20+, 8, 2) are correct immediately and 3s later. Tested via nav click, instant jump, `/#packages` deep link and wheel at 1440; wheel and instant at 375; and reduced motion.
+- **#15 Footer links: FIXED.** At 1440, normal and reduced motion, Services, Process, Packages and FAQ are clickable and land at 88px with the hash set. 0 focus stops are covered anywhere (round 3 had 4).
+- **#16 Desktop deep links: FIXED.** At 1440, `/#faq`, `#contact`, `#process`, `#packages` and `#work` all land with the section top at 88px. At 375 they land at 72px.
+  - The `hash-1440 #work ok=False` flag in the harness is a false positive: the section top is 88, but the H2 sits inside the pin intro at 3415px. The same flag appeared in round 3.
+- **#17 Focus or viewport reveal: FIXED.** Anchor jumps leave 0 invisible items in view at every config (round 3 had "@iramaedia on Instagram", "Your name *" and an FAQ question). `#f-name` is no longer focused while at opacity 0. Focus problems: 0.
+- **#18 Hanging vendor scripts: FIXED.** The preloader unblocks at 1675ms (was 2.9s).
+- **#19 Back to top: FIXED.** Focus moves to `main#main` and scrollY is 0. The hash is cleared rather than set to `#top`, which is fine.
+- **#20 "See more on Instagram" focus: FIXED.** The link sits at 671–1296 of 1440 when focused.
+- **#22 Bottom bar: FIXED.** With `#f-name` centred at 375 (before focus), the bar is hidden.
+- **#23 Double submit: FIXED.** `aria-busy` and `aria-disabled` are set, and a second submit returns early through the guard.
+
+**Sheet edges (new check):** 0 problems at 320, 375, 768, 1024x600, 1024x700, 1440, 1920 and reduced motion (1440 and 375). All 7 pairs, from about→services through faq→contact, overlap by exactly the radius (40px desktop and tablet, 24px mobile). No text from the previous section sits under an edge. No section has its own text inside its curved band. z-order is OK.
+
+**Still passing:** No console errors, page errors or 404s on either base. No overflow at any width or scroll step. Pins and stacking behave as in round 3. Keyboard scrolling works (`ok:true` on every config). The form v2 flow works, including the package prefill. JS off and vendor abort work. The preloader unblocks at about 1.85s, skips in 150–440ms, and never shows under reduced motion. Readability flags are identical to round 3, and all of them are exempt by spec: the logo wordmark at 12px/.32em, the "Ira" signature italic, and 15px secondary text as Info. The 20 contrast entries are the about text-fill words at opacity 0.18 before they are scrolled past, which is by design, as in round 3.
+
+**Remaining**
+21. [Low, open] CLS during the desktop scroll is still 2.0, from two shifts on `DIV.work__pin` at pin start and end. CLS on load is 0.015.
+24. [Low, open] At 375 with 4x CPU throttling, total blocking time is 895ms on load (longest task 248ms). Desktop scroll averages about 42fps.
+29. [Info] For the designer: in `round4-1440-services-mid.png`, the top of the rearmost dimmed stacking card reads as a flat grey (about #9A9F9C) rather than green. In the packages and process shots, a dark rounded corner shows at the top-right under the header, from the next sheet's corner. Both are cosmetic.
+
+**Round 4 result: 0 High, 0 Medium, 2 Low (21, 24) → QA PASS.**
