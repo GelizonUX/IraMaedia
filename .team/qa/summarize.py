@@ -26,3 +26,5 @@ for k,v in d.items():
             if kk in v: print('  ',kk,v[kk] if kk!='overflowAfterNav' else (v[kk]['overflow'],v[kk]['offenders'][:4]))
 print('REDUCED MOTION',json.dumps(d.get('reducedMotion'))[:2000])
 print('NOJS',d.get('noJS'))
+print('EXTRA WIDTHS',{k:(v['overflow'],v['scrollWidth'],v['offenders'][:5],'invis',v['invisible']) for k,v in d.get('extraWidths',{}).items()})
+print('ANCHOR JUMPS'); [print('  ',k,v) for k,v in d.get('anchorJumps',{}).items()]

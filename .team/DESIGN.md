@@ -318,3 +318,8 @@ Performance: `will-change` only during active animation; IntersectionObserver no
 - Tap targets ≥44px. Form labels real `<label>`. Error text linked via `aria-describedby`.
 - `<html lang="en">`, meta description: `IraMaedia is Ira's social media content studio: strategy, Reels, content creation and account management for brands that want a feed with taste.` OG title `IraMaedia · Social media content that makes them stop scrolling`.
 - All URLs relative (GitHub Pages sub-path).
+
+---
+
+## Changelog
+- **r1 review:** added `--champagne-200: #EBD9B4` for small gold text on dark (5.0:1). Gold text on light is `#7A5F2E`. Eyebrows on green use blush at .86 alpha. The scrolled nav is `rgba(20,48,42,.94)` with a hairline. Bodoni numerals and prices use `opsz 18` at weight 500. Mobile hero lines sit flush left. Curly quotes throughout. "HOW IT WORKS". The FAQ question is now "Do you work with brands in other cities?". Stagger capped at 280ms. Font weights trimmed.

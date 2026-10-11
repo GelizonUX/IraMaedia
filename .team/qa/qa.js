@@ -41,9 +41,9 @@ async function scrollThrough(page) {
   await page.evaluate(async () => {
     const h = () => document.documentElement.scrollHeight;
     for (let y = 0; y < h(); y += Math.round(innerHeight * 0.5)) {
-      window.scrollTo(0, y); await new Promise(r => setTimeout(r, 120));
+      window.scrollTo({ top: y, behavior: 'instant' }); await new Promise(r => setTimeout(r, 120));
     }
-    window.scrollTo(0, h()); await new Promise(r => setTimeout(r, 600));
+    window.scrollTo({ top: h(), behavior: 'instant' }); await new Promise(r => setTimeout(r, 2500));
   });
 }
 
@@ -375,7 +375,7 @@ async function formTest(page) {
       entry.lcpMs = await page.evaluate(() => Math.round(window.__lcp));
       entry.invisibleAfterScroll = await page.evaluate(invisibleProbe);
       entry.overflow = await page.evaluate(overflowProbe);
-      await page.evaluate(() => window.scrollTo(0, 0)); await page.waitForTimeout(500);
+      await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' })); await page.waitForTimeout(1500);
       if (base.k === 'root') await page.screenshot({ path: `${SHOTS}/round${ROUND}-${vp.name}-full.png`, fullPage: true });
       if (base.k === 'root' && vp.name === 'desktop') {
         const st = await page.evaluate(staticAudit);
@@ -404,6 +404,48 @@ async function formTest(page) {
       R(key, entry);
       await ctx.close();
     }
+  }
+
+  // ---------- extra widths: overflow only ----------
+  {
+    const ex = {};
+    for (const w of [320, 1024, 1920]) {
+      const ctx = await browser.newContext({ viewport: { width: w, height: 800 }, isMobile: w < 400, hasTouch: w < 400 });
+      const page = await ctx.newPage();
+      await page.goto(ROOT, { waitUntil: 'networkidle' }); await scrollThrough(page);
+      ex[w] = await page.evaluate(overflowProbe);
+      ex[w].invisible = (await page.evaluate(invisibleProbe)).length;
+      if (w === 320) await page.screenshot({ path: `${SHOTS}/round${ROUND}-320-full.png`, fullPage: true });
+      await ctx.close();
+    }
+    R('extraWidths', ex);
+  }
+
+  // ---------- anchor jumps: content in view must be visible ----------
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+    const page = await ctx.newPage();
+    const out = {};
+    const ids = await (async () => { await page.goto(ROOT, { waitUntil: 'networkidle' }); return page.evaluate(() => [...document.querySelectorAll('main section[id], footer[id]')].map(s => s.id)); })();
+    for (const id of ids) {
+      await page.goto(ROOT + '#' + id, { waitUntil: 'networkidle' }); await page.waitForTimeout(1500);
+      out[id] = await page.evaluate(() => {
+        const inv = [];
+        for (const el of document.querySelectorAll('main *')) {
+          const r = el.getBoundingClientRect(); if (r.bottom < 0 || r.top > innerHeight || r.width === 0) continue;
+          const hasText = [...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim().length > 1); if (!hasText) continue;
+          if (el.closest('[aria-hidden=true],[hidden]')) continue;
+          let op = 1, n = el; while (n && n.nodeType === 1) { op *= parseFloat(getComputedStyle(n).opacity); n = n.parentElement; }
+          if (op < 0.9) inv.push(`${el.tagName}.${String(el.className).slice(0, 25)} "${el.textContent.trim().slice(0, 30)}" op=${op.toFixed(2)}`);
+        }
+        const hdr = document.querySelector('header'); const tgt = document.getElementById(location.hash.slice(1));
+        const hb = hdr ? hdr.getBoundingClientRect().bottom : 0; const tt = tgt ? tgt.getBoundingClientRect().top : null;
+        const heading = tgt && tgt.querySelector('h2,h3'); const ht = heading ? heading.getBoundingClientRect().top : null;
+        return { invisible: inv.slice(0, 6), invisibleCount: inv.length, headerBottom: Math.round(hb), targetTop: tt && Math.round(tt), headingTop: ht && Math.round(ht), headingUnderHeader: ht !== null && ht < hb };
+      });
+    }
+    R('anchorJumps', out);
+    await ctx.close();
   }
 
   // ---------- reduced motion ----------
