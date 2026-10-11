@@ -171,7 +171,7 @@
         if (e.target.hasAttribute('data-steps')) lightSteps(e.target);
         io.unobserve(e.target);
       });
-    }, { threshold: 0.15, rootMargin: '0px 0px -10% 0px' });
+    }, { threshold: 0.15, rootMargin: '0px 0px -4% 0px' });
     // clip-path elements report a zero intersection area while clipped, so watch their parent instead
     var proxied = new Map();
     var io2 = new IntersectionObserver(function (entries) {
@@ -180,7 +180,7 @@
         (proxied.get(e.target) || []).forEach(function (el) { el.classList.add('is-in'); });
         io2.unobserve(e.target);
       });
-    }, { threshold: 0, rootMargin: '0px 0px -12% 0px' });
+    }, { threshold: 0, rootMargin: '0px 0px -4% 0px' });
     els.forEach(function (el) {
       if (el.classList.contains('reveal-line') || el.classList.contains('reveal-clip')) {
         var parent = el.parentElement;
