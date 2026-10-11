@@ -165,3 +165,28 @@ Same matrix as round 3: root and `/IraMaedia/`; widths 320–1920 plus 1024x600 
 29. [Info] For the designer: in `round4-1440-services-mid.png`, the top of the rearmost dimmed stacking card reads as a flat grey (about #9A9F9C) rather than green. In the packages and process shots, a dark rounded corner shows at the top-right under the header, from the next sheet's corner. Both are cosmetic.
 
 **Round 4 result: 0 High, 0 Medium, 2 Low (21, 24) → QA PASS.**
+
+## Round 5 (build r5 = designer polish only, tested 2026-10-11, final round)
+I ran the full `node qa.js 5` regression (summary `.team/qa/sum5.txt`) plus `.team/qa/diag10.js` for the two design fixes. Screenshots: `.team/shots/round5-*.png`, including `round5-1440-services-mid1.png` and `-mid2.png` (two stack scroll points), `round5-1440-process.png`, `round5-1440-packages.png` and `round5-1440-{process,packages}-navcorner.png`.
+
+**Regression:** the summary is identical to round 4, apart from timing noise. Specifically:
+- Basics: 0 console errors, page errors or 404s on either base; 0 overflow; 0 focus problems (37 stops); 0 invisible items after anchor jumps.
+- Sheet edges: 0 problems at every width.
+- Preloader: unblocks at about 1.87s, hang case at 1660ms, skip works, never shown under reduced motion or with JS off.
+- Form v2 and fallbacks: pass.
+- Readability and contrast flags: unchanged, all exempt or by design.
+- Desktop CLS on load: 0.014.
+
+**Design fix 1, stacking-card dim: verified.**
+- Computed `.card__shade` opacity: blush .12 (rearmost), rose ≤.12 (.109 at mid2), green .45. The light cards never exceed .12.
+- Incoming cards 2–4 carry the `0 -24px 48px -28px rgba(10,28,23,.45)` shadow.
+- Pixel sample of the rearmost blush strip at y=105: rgb(192,186,188) at mid2 and (198,192,194) at mid1 (round 4: (154,160,158) grey-green). The rose strip is (210,180,189).
+- The blush strip is now light and slightly mauve rather than grey-green. It is still a muted tone, because the incoming card's shadow falls on that 20px strip. I'm leaving that judgement to the designer (Info).
+
+**Design fix 2, solid scrolled nav: verified.**
+- `.nav::before` is rgb(23,50,43) = #17322B with `backdrop-filter: none`. The pixel at the nav's top-right corner is (23,50,43) on both the process and packages jumps.
+- The sheet's rounded corner now shows only below the 72px nav, not through it.
+
+**Open Lows (unchanged and optional):** #21 desktop pin CLS 2.0; #24 TBT at 375 with 4x CPU throttling, 880ms.
+
+**Round 5 result: 0 High, 0 Medium, 2 Low → QA PASS (final).**
