@@ -77,7 +77,8 @@
     lenis = new window.Lenis({ lerp: 0.1, smoothWheel: true, syncTouch: false, wheelMultiplier: 1 });
     lenis.on('scroll', ST.update);
     gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
-    gsap.ticker.lagSmoothing(0);
+    // lagSmoothing(0) only after the intro, so a busy first frame can't fast-forward the preloader counter
+    if (!(doc.classList.contains('motion-ok') && !doc.classList.contains('intro-seen'))) gsap.ticker.lagSmoothing(0);
   }
 
   var userMoved = false;
@@ -371,6 +372,7 @@
       finished = true;
       ['click', 'keydown', 'wheel', 'touchstart'].forEach(function (t) { window.removeEventListener(t, skip, true); });
       if (pl.parentNode) pl.remove();
+      if (lenis) gsap.ticker.lagSmoothing(0);
       done();
       ST.refresh();
     }
@@ -397,7 +399,7 @@
       var k = ctx.conditions.lg ? 1 : ctx.conditions.md ? 0.7 : 0.5;
       var narrow = window.innerWidth < 640;
       var base = {
-        l: { xPercent: narrow ? -30 : -22, yPercent: 4, z: -160, rotationZ: -7 },
+        l: { xPercent: narrow ? -30 : (window.innerWidth >= 1024 ? -16 : -22), yPercent: 4, z: -160, rotationZ: -7 },
         r: { xPercent: 22, yPercent: 8, z: -110, rotationZ: 6 },
         c: { xPercent: narrow ? 14 : 0, yPercent: 0, z: 0, rotationZ: 0, scale: 1 }
       };
@@ -495,7 +497,12 @@
         if (i === n - 1) return;
         var trig = { trigger: cards[i + 1], start: 'top bottom', end: 'top top+=' + (96 + (i + 1) * 20), scrub: true };
         gsap.to(card, { scale: 1 - (n - 1 - i) * 0.04, ease: 'none', scrollTrigger: trig });
-        gsap.to($('.card__shade', card), { opacity: 0.35, ease: 'none', scrollTrigger: { trigger: trig.trigger, start: trig.start, end: trig.end, scrub: true } });
+        // Dim only once the next card covers more than 40% of this one
+        gsap.to($('.card__shade', card), { opacity: 0.45, ease: 'none', scrollTrigger: {
+          trigger: trig.trigger, scrub: true, invalidateOnRefresh: true,
+          start: function () { return 'top ' + Math.round(96 + i * 20 + card.offsetHeight * 0.6) + 'px'; },
+          end: trig.end
+        } });
       });
     });
   }
@@ -604,25 +611,17 @@
   function initCounters() {
     var els = $$('.count[data-to]');
     if (!els.length || !('IntersectionObserver' in window)) return;
-    // The HTML holds the real value. Only counters still below the fold are zeroed and counted up.
+    // The HTML always holds the real value; it only counts up from 0 as it enters the lower viewport.
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (!e.isIntersecting) return;
         io.unobserve(e.target);
-        var el = e.target, to = parseInt(el.getAttribute('data-to'), 10), o = { v: 0 };
+        var el = e.target, to = parseInt(el.getAttribute('data-to'), 10);
+        var o = { v: 0 };
         gsap.to(o, { v: to, duration: 1.2, ease: 'power2.out', onUpdate: function () { el.textContent = Math.round(o.v); }, onComplete: function () { el.textContent = to; } });
       });
-    }, { threshold: 0 });
-    els.forEach(function (el) {
-      if (el.getBoundingClientRect().top > window.innerHeight) { el.textContent = '0'; io.observe(el); }
-    });
-    // Jumped past (anchor, deep link)? Show the real value straight away.
-    function sweep() {
-      els.forEach(function (el) {
-        if (el.textContent === '0' && el.getBoundingClientRect().bottom < 0) { io.unobserve(el); el.textContent = el.getAttribute('data-to'); }
-      });
-    }
-    window.addEventListener('scroll', sweep, { passive: true });
+    }, { threshold: 0, rootMargin: '0px 0px -20% 0px' });
+    els.forEach(function (el) { if (el.getBoundingClientRect().top > window.innerHeight * 0.8) io.observe(el); });
   }
 
   /* ---------- Custom cursor ---------- */

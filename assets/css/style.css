@@ -138,24 +138,13 @@ body::after {
 .section-deep { background-color: var(--forest-900); color: var(--petal); }
 .section-light, .marquee { background-color: var(--blush-50); color: var(--ink-900); font-weight: 400; letter-spacing: 0; }
 .section-paper { background-color: var(--cream-50); color: var(--ink-900); font-weight: 400; letter-spacing: 0; }
-/* Soft colour seams between sections (no hard cuts). Each section blends in from the
-   previous surface inside its own top padding, so text always sits on its own solid colour. */
-.surface[data-prev] { --seam: clamp(64px, 7vw, 112px); }
-.services { --prev: var(--blush-50); }
-.work { --prev: var(--forest-800); }
-.process { --prev: var(--forest-900); }
-.results { --prev: var(--cream-50); }
-.packages { --prev: var(--blush-50); }
-.faq { --prev: var(--green-700); }
-.contact { --prev: var(--cream-50); }
-.surface[data-prev]::before {
-  content: ""; position: absolute; left: 0; right: 0; top: 0; height: var(--seam); z-index: -1; pointer-events: none;
-  background: linear-gradient(180deg, var(--prev), transparent);
-}
-.footer::before {
-  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 56px; pointer-events: none;
-  background: linear-gradient(180deg, var(--green-700), transparent);
-}
+/* Sheets: each section after the hero bands slides over the previous one with rounded top corners.
+   Every section keeps a solid background. The transparent top border acts as the extra 40px of padding. */
+.sheet { --sheet: 24px; position: relative; margin-top: calc(var(--sheet) * -1); border-top: var(--sheet) solid transparent; border-radius: var(--sheet) var(--sheet) 0 0; }
+@media (min-width: 768px) { .sheet { --sheet: 40px; } }
+.services { z-index: 2; } .work { z-index: 3; } .process { z-index: 4; } .results { z-index: 5; }
+.packages { z-index: 6; } .faq { z-index: 7; } .contact { z-index: 8; }
+.hero, .marquee, .about { z-index: 1; }
 
 /* ---------- Type ---------- */
 .label {
@@ -422,8 +411,8 @@ html.motion-ok:not(.intro-seen) .preloader {
   will-change: transform;
 }
 .aurora__a { background: radial-gradient(closest-side, rgba(70, 126, 92, .9), transparent 70%); top: -30vmax; right: -24vmax; animation: drift-a 22s ease-in-out infinite alternate; }
-.aurora__b { background: radial-gradient(closest-side, rgba(232, 180, 196, .28), transparent 70%); bottom: -34vmax; left: -26vmax; animation: drift-b 28s ease-in-out -6s infinite alternate; }
-.aurora__c { background: radial-gradient(closest-side, rgba(152, 178, 171, .35), transparent 70%); top: 10%; right: -8vmax; width: 52vmax; animation: drift-c 34s ease-in-out -12s infinite alternate; }
+.aurora__b { background: radial-gradient(closest-side, rgba(232, 180, 196, .14), transparent 70%); bottom: -40vmax; right: -34vmax; animation: drift-b 28s ease-in-out -6s infinite alternate; }
+.aurora__c { background: radial-gradient(closest-side, rgba(94, 154, 124, .45), transparent 70%); top: 10%; right: -8vmax; width: 52vmax; animation: drift-c 34s ease-in-out -12s infinite alternate; }
 @keyframes drift-a { 0% { transform: translate3d(0, 0, 0) scale(1); } 50% { transform: translate3d(-10vmax, 6vmax, 0) scale(1.08); } 100% { transform: translate3d(-4vmax, 12vmax, 0) scale(.94); } }
 @keyframes drift-b { 0% { transform: translate3d(0, 0, 0) scale(1); } 50% { transform: translate3d(12vmax, -6vmax, 0) scale(1.1); } 100% { transform: translate3d(6vmax, -10vmax, 0) scale(.96); } }
 @keyframes drift-c { 0% { transform: translate3d(0, 0, 0) scale(1); } 50% { transform: translate3d(-8vmax, -8vmax, 0) scale(.92); } 100% { transform: translate3d(-12vmax, 4vmax, 0) scale(1.06); } }
@@ -509,14 +498,16 @@ html.is-hidden .aurora i { animation-play-state: paused !important; }
   .hero__grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 32px; }
   .hero__text { grid-column: 1 / -1; grid-row: 1; }
   .hero__copy { max-width: none; width: calc(5 / 12 * 100%); }
-  .hero__stage { grid-column: 8 / -1; grid-row: 1; align-self: center; height: 560px; margin-top: 0; translate: 0 6%; }
+  .hero__stage { grid-column: 8 / -1; grid-row: 1; align-self: center; height: 560px; margin-top: 0; translate: 32px 6%; }
   .stack { width: 236px; margin-left: -118px; top: 50%; margin-top: -243px; }
+  .stack__slot--l { transform: translate3d(-16%, 4%, -160px) rotateZ(-7deg); }
   .stack .phone--hero { --r-phone: 40px; --r-screen: 31px; padding: 10px; }
 }
 
 /* Qualifier band */
 .qualifier { position: relative; z-index: 2; margin-top: clamp(48px, 6vw, 72px); }
-.qualifier__inner { display: grid; gap: 16px 40px; padding-block: 32px; border-top: 1px solid var(--line-on-dark); }
+.qualifier__inner { position: relative; display: grid; gap: 16px 40px; padding-block: 32px; }
+.qualifier__inner::before { content: ""; position: absolute; top: 0; left: var(--gutter); right: var(--gutter); height: 1px; background: var(--line-on-dark); }
 .qualifier__inner .label { margin: 0; align-self: center; }
 .qualifier__text { font-size: var(--fs-lead); line-height: 1.45; color: var(--petal); max-width: 30ch; }
 .qualifier__tags { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -707,7 +698,7 @@ html.gsap-live .marquee__track { animation: none; }
 .card--green .tags li { border-color: rgba(213, 226, 221, .45); }
 .card__art { position: relative; z-index: 1; display: grid; place-items: center; }
 .phone--card { width: min(180px, 46vw); }
-.card__shade { position: absolute; inset: 0; z-index: 3; background: var(--forest-900); opacity: 0; pointer-events: none; border-radius: inherit; }
+.card__shade { position: absolute; inset: 0; z-index: 3; background: #1E4237; opacity: 0; pointer-events: none; border-radius: inherit; }
 .plan {
   width: min(260px, 66vw); aspect-ratio: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
   padding: 14px; border-radius: 20px; background: var(--petal); box-shadow: 0 30px 60px -30px rgba(20, 48, 42, .45);
@@ -817,7 +808,7 @@ html.pin-work .work__bar { width: 200px; flex: none; }
 }
 
 /* ---------- Process ---------- */
-.process { padding-block: var(--pad); }
+.process { padding-block: var(--pad) clamp(72px, 8vw, 112px); }
 .steps { position: relative; display: grid; gap: 48px; padding-left: 40px; --p: 1; }
 .steps::before, .steps::after { content: ""; position: absolute; left: 6px; top: 8px; bottom: 8px; width: 1px; background: rgba(201, 169, 110, .7); }
 .steps::after { width: 2px; left: 5.5px; background: var(--green-700); transform-origin: top; transform: scaleY(var(--p)); }
@@ -947,7 +938,9 @@ html.pin-work .work__bar { width: 200px; flex: none; }
 }
 
 /* ---------- Contact ---------- */
-.contact { padding-block: var(--pad-hero); overflow: hidden; }
+.contact { padding-block: var(--pad-hero) clamp(80px, 9vw, 128px); overflow: hidden; }
+/* contact clips its aurora, so its sheet offset is padding (not border) to let the aurora reach the rounded edge */
+.contact.sheet { border-top-width: 0; padding-top: calc(var(--pad-hero) + var(--sheet)); }
 .contact__title { font-size: var(--fs-mega); line-height: .94; letter-spacing: -0.03em; max-width: 12ch; margin-bottom: clamp(48px, 7vw, 96px); }
 .contact__grid { display: grid; gap: 56px; }
 .contact__info .lead { color: var(--petal); }
@@ -1013,11 +1006,11 @@ html.pin-work .work__bar { width: 200px; flex: none; }
 }
 @media (min-width: 1024px) {
   .contact__grid { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 80px; align-items: start; }
-  .contact__info { position: sticky; top: 120px; }
+  .contact__info { position: sticky; top: 120px; align-self: start; }
 }
 
 /* ---------- Footer ---------- */
-.footer { background: var(--forest-900); color: var(--petal); padding-top: 72px; overflow: hidden; position: relative; }
+.footer { background: var(--forest-900); color: var(--petal); padding-top: 72px; overflow: hidden; position: relative; border-top: 1px solid var(--line-on-dark); }
 .footer__row { display: grid; gap: 24px; padding-bottom: 32px; }
 .footer__links, .footer__social { display: flex; flex-wrap: wrap; gap: 0 24px; font-size: var(--fs-small); font-weight: 500; color: var(--mist); }
 .footer__links a, .footer__social a { display: inline-flex; align-items: center; min-height: 44px; transition: color 200ms ease; }

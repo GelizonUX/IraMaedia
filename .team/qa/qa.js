@@ -798,7 +798,8 @@ const sheetEdgeProbe = () => {
     const y = cTop + Math.min(band, 40) / 2 - scrollY;
     if (y > 0 && y < innerHeight) {
       const h = document.elementFromPoint(innerWidth / 2, y); pair.centreHit = h ? (cur.contains(h) ? 'cur' : prev.contains(h) ? 'prev' : h.tagName) : null;
-      if (h && overlapPx > 0 && !cur.contains(h) && !h.closest('header')) res.problems.push(`z-order: ${pair.cur} edge band at centre paints under ${name(h.closest('main > *, footer') || h)}`);
+      const inFixed = h && (() => { for (let n = h; n && n.nodeType === 1; n = n.parentElement) if (getComputedStyle(n).position === 'fixed') return true; return false; })();
+      if (h && overlapPx > 0 && !cur.contains(h) && !inFixed) res.problems.push(`z-order: ${pair.cur} edge band at centre paints under ${name(h.closest('main > *, footer') || h)}`);
     }
   }
   return res;
