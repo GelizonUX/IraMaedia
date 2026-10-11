@@ -9,3 +9,4 @@
 [qa][round 2] Retested r2 full matrix + designer items; all 4 Medium fixed, 0 contrast failures; 2 Low left (bottom-edge reveal after anchor jump, font weight). QA PASS sent.
 [qa][round 2] Designer sign-off received; loop complete (QA PASS + design approved)
 [designer][round 2] reviewed round2 shots (1440/375/320, nav, contact, work); all fixes verified; DESIGN SIGN-OFF sent to developer + qa (2 optional polish notes: chip scroller inline padding, quote glyph overlap)
+[developer][round 2b] optional polish after sign-off: chip scroller gutter padding, quote glyph overlap -.35em, IO rootMargin -4% so bottom-of-viewport items reveal after anchor jumps (QA L12). Regression check clean.
