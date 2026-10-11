@@ -1,0 +1,6238 @@
+{
+  "round": "3",
+  "root": "http://localhost:8080/",
+  "sub": "http://localhost:8081/IraMaedia/",
+  "checks": {
+    "static": {
+      "headings": [
+        "H1: Content that makes them stop scrolling.",
+        "H2: Your brand, but a little more lovely.",
+        "H2: Everything your feed needs.",
+        "H3: Social media management",
+        "H3: Content creation",
+        "H3: Reels & short-form editing",
+        "H3: Content strategy",
+        "H3: Feed & graphic design",
+        "H3: Captions & copywriting",
+        "H3: UGC-style content",
+        "H3: Launch & campaign content",
+        "H3: Brand photography",
+        "H3: Not sure what you need?",
+        "H2: A peek at the grid.",
+        "H3: Morning menu launch",
+        "H3: 5 ways to style one blazer",
+        "H3: A day at the studio",
+        "H3: Spring grid refresh",
+        "H3: Behind the bouquet",
+        "H3: What I wish I knew",
+        "H3: Unboxing, but pretty",
+        "H3: Launch week teaser",
+        "H2: Simple, from hello to posted.",
+        "H3: Discovery call",
+        "H3: Strategy & plan",
+        "H3: Create & approve",
+        "H3: Post, learn, grow",
+        "H2: Consistent feeds. Real conversations.",
+        "H2: Pick your pace.",
+        "H3: Starter",
+        "H3: Signature",
+        "H3: Full Feed",
+        "H2: Before you ask.",
+        "H3: Do you work with brands in other cities?",
+        "H3: Which platforms do you manage?",
+        "H3: How long until I see results?",
+        "H3: Do I need to be on camera?",
+        "H3: Do I approve everything before it’s posted?",
+        "H3: Is there a minimum contract?",
+        "H2: Let’s make your feed unforgettable.",
+        "H3: Almost there."
+      ],
+      "headingSkips": [],
+      "h1Count": 1,
+      "landmarks": {
+        "header": 1,
+        "nav": 2,
+        "main": 1,
+        "footer": 1
+      },
+      "skipLink": "#main \"Skip to content\"",
+      "lang": "en",
+      "title": "IraMaedia · Social media content that makes them stop scrolling",
+      "metaDesc": "IraMaedia is Ira’s social media content studio: strategy, Reels, content creation and account management for brands that want a feed with taste.",
+      "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+      "favicon": "http://localhost:8080/assets/img/favicon.svg",
+      "ogImage": "https://gelizonux.github.io/IraMaedia/assets/img/og-image.png",
+      "imgNoAlt": [],
+      "imgCount": 0,
+      "svgNoLabel": 4,
+      "rootAbsoluteUrls": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#top",
+          "text": "IMD\n        \n        IRAMAEDIA",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram ↗ (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#contact",
+          "text": "Book a free discovery call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "See the work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a free call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "See more on Instagram ↗ (opens in a new ",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#contact",
+          "text": "Start with Starter",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call about Signature",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Talk about Full Feed",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Ask about it",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "send an email",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "@iramaedia on Instagram ↗ (opens in a ne",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#top",
+          "text": "IMD\n          \n          IRAMAEDIA",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram ↗ (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#top",
+          "text": "Back to top ↑",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a free call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Message me on Instagram (opens in a new ",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      ],
+      "emptyLinks": [],
+      "badHref": [],
+      "blankNoRel": [],
+      "brokenAnchors": [],
+      "unnamedButtons": [],
+      "unlabeledInputs": [],
+      "duplicateIds": [],
+      "junk": [],
+      "doubleWords": []
+    },
+    "contrast": [
+      {
+        "text": "Pretty",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "is",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "the",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "baseline.",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "Every",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "post",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "make",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "has",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "job:",
+        "tag": "SPAN",
+        "cls": "hl fw",
+        "ratio": 1.32,
+        "need": 3,
+        "color": "rgb(122, 58, 82)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "stop",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "scroll,",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "start",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "conversation,",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "and",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "bring",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "right",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "people",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "to",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "your",
+        "tag": "SPAN",
+        "cls": "fw",
+        "ratio": 1.42,
+        "need": 3,
+        "color": "rgb(26, 38, 34)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      },
+      {
+        "text": "door.",
+        "tag": "SPAN",
+        "cls": "hl fw",
+        "ratio": 1.32,
+        "need": 3,
+        "color": "rgb(122, 58, 82)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 56,
+        "opacity": 0.18,
+        "gradientBg": false
+      }
+    ],
+    "localLinkStatus": {},
+    "externalLinks": [
+      "mailto:hello@iramaedia.com",
+      "https://www.instagram.com/iramaedia/"
+    ],
+    "focus": [
+      {
+        "tag": "A",
+        "text": "Skip to content",
+        "href": "#main",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "IMD\n        \n        IRAMAEDIA",
+        "href": "#top",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Work",
+        "href": "#work",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Services",
+        "href": "#services",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Process",
+        "href": "#process",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Packages",
+        "href": "#packages",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "FAQ",
+        "href": "#faq",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a free discovery call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "See the work",
+        "href": "#work",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a free call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "the oat latte that started it ",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "one piece, five moodsyourbrand",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "POV: your 7am classyourbrand",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "yourbrand",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "how a Friday order comes toget",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "lesson 03: rest is productivey",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "packed with love (and tissue)y",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "DIV",
+        "text": "something new is comingyourbra",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "See more on Instagram ↗ (opens",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Previous testimonial",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Next testimonial",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Start with Starter",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a call about Signature",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Talk about Full Feed",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Ask about it",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Instagram (opens in a new tab)",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "send an email",
+        "href": "mailto:hello@iramaedia.com",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do you work with brands in oth",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Which platforms do you manage?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "How long until I see results?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do I need to be on camera?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do I approve everything before",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Is there a minimum contract?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "hello@iramaedia.com",
+        "href": "mailto:hello@iramaedia.com",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "@iramaedia on Instagram ↗ (ope",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": false,
+        "outlineStr": "none 0px rgb(255, 247, 249)",
+        "shadow": true,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": false,
+        "outlineStr": "none 0px rgb(255, 247, 249)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": false,
+        "outlineStr": "none 0px rgb(255, 247, 249)",
+        "shadow": true,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": false,
+        "outlineStr": "none 0px rgb(255, 247, 249)",
+        "shadow": true,
+        "inView": true,
+        "focusVisible": true
+      }
+    ],
+    "faq": {
+      "kind": "aria-buttons",
+      "count": 6,
+      "toggled": "false -> true",
+      "panelVisible": true,
+      "panelHeight": 113.0625,
+      "toggledBack": "false",
+      "keyboardEnter": "true"
+    },
+    "form": {
+      "action": "mailto:hello@iramaedia.com",
+      "method": "post",
+      "fields": [
+        "input[text] name=name req=true auto=name",
+        "input[email] name=email req=true auto=email",
+        "input[text] name=brand req=false auto=organization",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[radio] name=budget req=false auto=",
+        "input[radio] name=budget req=false auto=",
+        "input[radio] name=budget req=false auto=",
+        "input[radio] name=budget req=false auto=",
+        "input[radio] name=budget req=false auto=",
+        "textarea[textarea] name=message req=true auto="
+      ],
+      "hasSubmit": true,
+      "urlAfterEmpty": "unchanged",
+      "invalidAfterEmpty": [
+        "name",
+        "email",
+        "message"
+      ],
+      "statusTextAfterEmpty": "",
+      "popupUrl": null,
+      "urlAfterValid": "unchanged",
+      "statusTextAfterValid": ""
+    },
+    "root-desktop": {
+      "status": 200,
+      "loadMs": 1649,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 1.8919,
+      "lcpMs": 688,
+      "invisibleAfterScroll": [
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Yes. Strategy, editing, design and management all ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Consistency shows up in the first month. Growth in",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Not at all. Plenty of great accounts are built on ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Always. You get a monthly calendar to review, and ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Packages run month to month. I ask for one month’s",
+          "opacity": 1,
+          "visible": false
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "overflow": false,
+        "offenders": []
+      },
+      "runningAnimations": 11,
+      "console": [],
+      "pageErrors": [],
+      "failed": [
+        "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20Management%2C%20Content%20creation%2C%20Reels%2C%20Strategy%2C%20Design%2C%20Not%20sure%20yet%0AMonthly%20budget%3A%20Not%20sure%20yet%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site :: net::ERR_ABORTED"
+      ],
+      "http": [],
+      "kbLocal": 558,
+      "kbExternal": 590,
+      "requestCount": 20,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "root-tablet": {
+      "status": 200,
+      "loadMs": 1202,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0.0012,
+      "lcpMs": 3060,
+      "invisibleAfterScroll": [
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Yes. Strategy, editing, design and management all ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Consistency shows up in the first month. Growth in",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Not at all. Plenty of great accounts are built on ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Always. You get a monthly calendar to review, and ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Packages run month to month. I ask for one month’s",
+          "opacity": 1,
+          "visible": false
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "bodyScrollWidth": 768,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 279,
+      "kbExternal": 295,
+      "requestCount": 10,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "root-mobile": {
+      "status": 200,
+      "loadMs": 1463,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0,
+      "lcpMs": 3284,
+      "invisibleAfterScroll": [
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Yes. Strategy, editing, design and management all ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Consistency shows up in the first month. Growth in",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Not at all. Plenty of great accounts are built on ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Always. You get a monthly calendar to review, and ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Packages run month to month. I ask for one month’s",
+          "opacity": 1,
+          "visible": false
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "mobileNav": {
+        "steps": [],
+        "toggleVisible": true,
+        "labelBefore": "Open menu",
+        "expandedAfterOpen": "true",
+        "menuVisibleOpen": true,
+        "menuLinksVisible": 8,
+        "bodyScrollLocked": "hidden/hidden",
+        "toggleOnTop": true,
+        "expandedAfterEscape": "false",
+        "expandedAfterLinkClick": "false",
+        "menuVisibleAfterLink": false,
+        "linkTarget": "#work",
+        "hashAfter": "#work",
+        "scrollYAfter": 8407,
+        "finalExpanded": "false"
+      },
+      "overflowAfterNav": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 558,
+      "kbExternal": 590,
+      "requestCount": 20,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "sub-desktop": {
+      "status": 200,
+      "loadMs": 1001,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 3.835,
+      "lcpMs": 332,
+      "invisibleAfterScroll": [
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Yes. Strategy, editing, design and management all ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Consistency shows up in the first month. Growth in",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Not at all. Plenty of great accounts are built on ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Always. You get a monthly calendar to review, and ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Packages run month to month. I ask for one month’s",
+          "opacity": 1,
+          "visible": false
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 279,
+      "kbExternal": 295,
+      "requestCount": 10,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "sub-mobile": {
+      "status": 200,
+      "loadMs": 1442,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0,
+      "lcpMs": 3264,
+      "invisibleAfterScroll": [
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Yes. Strategy, editing, design and management all ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Consistency shows up in the first month. Growth in",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Not at all. Plenty of great accounts are built on ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Always. You get a monthly calendar to review, and ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Packages run month to month. I ask for one month’s",
+          "opacity": 1,
+          "visible": false
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "mobileNav": {
+        "steps": [],
+        "toggleVisible": true,
+        "labelBefore": "Open menu",
+        "expandedAfterOpen": "true",
+        "menuVisibleOpen": true,
+        "menuLinksVisible": 8,
+        "bodyScrollLocked": "hidden/hidden",
+        "toggleOnTop": true,
+        "expandedAfterEscape": "false",
+        "expandedAfterLinkClick": "false",
+        "menuVisibleAfterLink": false,
+        "linkTarget": "#work",
+        "hashAfter": "#work",
+        "scrollYAfter": 8407,
+        "finalExpanded": "false"
+      },
+      "overflowAfterNav": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 558,
+      "kbExternal": 590,
+      "requestCount": 20,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "extraWidths": {
+      "320": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "bodyScrollWidth": 320,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 6
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "bodyScrollWidth": 1024,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 6
+      },
+      "1920": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 6
+      }
+    },
+    "anchorJumps": {
+      "about": {
+        "invisible": [
+          "SPAN.num \"01\" op=0.00",
+          "P. \"Taste first. Pretty is the bas\" op=0.00",
+          "STRONG. \"Taste first.\" op=0.00"
+        ],
+        "invisibleCount": 3,
+        "headerBottom": 72,
+        "targetTop": 88,
+        "headingTop": 301,
+        "headingUnderHeader": false
+      },
+      "services": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 88,
+        "headingTop": 261,
+        "headingUnderHeader": false
+      },
+      "work": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 88,
+        "headingTop": 3375,
+        "headingUnderHeader": false
+      },
+      "process": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 88,
+        "headingTop": 260,
+        "headingUnderHeader": false
+      },
+      "packages": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 88,
+        "headingTop": 301,
+        "headingUnderHeader": false
+      },
+      "faq": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 350,
+        "headingTop": 523,
+        "headingUnderHeader": false
+      },
+      "contact": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 1197,
+        "headingTop": 1373,
+        "headingUnderHeader": false
+      }
+    },
+    "reducedMotion": {
+      "invisibleAtTopNoScroll": 163,
+      "invisibleAfterJump": [
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Yes. Strategy, editing, design and management all ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Consistency shows up in the first month. Growth in",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Not at all. Plenty of great accounts are built on ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Always. You get a monthly calendar to review, and ",
+          "opacity": 1,
+          "visible": false
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Packages run month to month. I ask for one month’s",
+          "opacity": 1,
+          "visible": false
+        }
+      ],
+      "runningAnimations": [],
+      "runningCount": 0,
+      "scrollBehavior": "auto",
+      "errors": []
+    },
+    "noJS": {
+      "invisible": 0
+    },
+    "screens": {
+      "320": [
+        "hero",
+        "hero-mid",
+        "work",
+        "contact",
+        "footer"
+      ],
+      "375": [
+        "hero",
+        "hero-mid",
+        "marquee",
+        "about",
+        "services",
+        "services-mid",
+        "work",
+        "process",
+        "results",
+        "packages",
+        "faq",
+        "contact",
+        "footer"
+      ],
+      "768": [
+        "hero",
+        "hero-mid",
+        "work",
+        "contact",
+        "footer"
+      ],
+      "1440": [
+        "hero",
+        "hero-mid",
+        "marquee",
+        "about",
+        "services",
+        "services-mid",
+        "work",
+        "process",
+        "results",
+        "packages",
+        "faq",
+        "contact",
+        "footer"
+      ]
+    },
+    "readability": {
+      "375": {
+        "bodyFam": "Plus Jakarta Sans",
+        "h1Fam": "Fraunces",
+        "fontsLoaded": [
+          "Fraunces 300 600 italic",
+          "Fraunces 300 600 normal",
+          "Plus Jakarta Sans 400 800 normal"
+        ],
+        "textNodes": 365,
+        "flags": [
+          {
+            "sev": "Medium",
+            "rule": "label<13px",
+            "where": "375 top SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "2",
+            "rect": [
+              84,
+              17660,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Low",
+            "rule": "label tracking>.14em",
+            "where": "375 top SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "2",
+            "rect": [
+              84,
+              17660,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "375 section.hero P.hero__lead hero-fade \"I’m Ira. I plan, shoot, edit and post co\"",
+            "count": 1,
+            "size": 19.1,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "10",
+            "rect": [
+              20,
+              363,
+              323,
+              83
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "375 section.hero P.qualifier__text reveal is-in \"Small brands with good taste and no time\"",
+            "count": 1,
+            "size": 19.1,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "21",
+            "rect": [
+              20,
+              1086,
+              330,
+              52
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 section.hero LI.reveal is-in \"Cafés & restaurants\"",
+            "count": 6,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "22",
+            "rect": [
+              35,
+              1164,
+              142,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "375 section.hero LI.reveal is-in \"Cafés & restaurants\"",
+            "count": 6,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "22",
+            "rect": [
+              35,
+              1164,
+              142,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 about SPAN.num \"01\"",
+            "count": 3,
+            "size": 15,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(122, 95, 46)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 5.24,
+            "complexBg": false,
+            "qa": "44",
+            "rect": [
+              20,
+              2541,
+              18,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.24<7",
+            "where": "375 about SPAN.num \"01\"",
+            "count": 3,
+            "size": 15,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(122, 95, 46)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 5.24,
+            "complexBg": false,
+            "qa": "44",
+            "rect": [
+              20,
+              2541,
+              18,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 services LI. \"Monthly content calendar\"",
+            "count": 12,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(26, 38, 34)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 13.67,
+            "complexBg": false,
+            "qa": "88",
+            "rect": [
+              63,
+              3967,
+              183,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "375 services P.card__desc \"Photos and short-form video made for the\"",
+            "count": 1,
+            "size": 17,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "95",
+            "rect": [
+              48,
+              4685,
+              272,
+              106
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 services LI. \"On-site or flat-lay shoots\"",
+            "count": 4,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "97",
+            "rect": [
+              63,
+              4864,
+              183,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "375 services LI. \"On-site or flat-lay shoots\"",
+            "count": 4,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "97",
+            "rect": [
+              63,
+              4864,
+              183,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.07<7",
+            "where": "375 services P.card__desc \"Hooks in the first second, clean cuts, c\"",
+            "count": 1,
+            "size": 17,
+            "weight": 400,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(242,201,214)",
+            "ratio": 6.07,
+            "complexBg": false,
+            "qa": "105",
+            "rect": [
+              48,
+              5617,
+              272,
+              78
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 services P. \"Templates, carousels, highlight covers a\"",
+            "count": 5,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(60,85,77)",
+            "ratio": 6.07,
+            "complexBg": true,
+            "qa": "123",
+            "rect": [
+              49,
+              7348,
+              273,
+              66
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.07<7",
+            "where": "375 services P. \"Templates, carousels, highlight covers a\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(60,85,77)",
+            "ratio": 6.07,
+            "complexBg": true,
+            "qa": "123",
+            "rect": [
+              49,
+              7348,
+              273,
+              66
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 work SPAN.hint-mob \"Swipe to browse\"",
+            "count": 1,
+            "size": 15,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 10.6,
+            "complexBg": false,
+            "qa": "145",
+            "rect": [
+              20,
+              8824,
+              122,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 work P.work__client \"Client name · Café · Food & drink\"",
+            "count": 8,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 10.6,
+            "complexBg": false,
+            "qa": "150",
+            "rect": [
+              20,
+              9476,
+              232,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 section.results P.note reveal is-in \"Results vary by account and goals. Ask m\"",
+            "count": 1,
+            "size": 15,
+            "weight": 400,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 7.91,
+            "complexBg": false,
+            "qa": "214",
+            "rect": [
+              20,
+              11559,
+              318,
+              44
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "375 packages P.lead reveal is-in \"Monthly packages, no long contracts. Eve\"",
+            "count": 1,
+            "size": 19.1,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "224",
+            "rect": [
+              52,
+              12383,
+              271,
+              83
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 packages SPAN.pkg__from \"From\"",
+            "count": 2,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "226",
+            "rect": [
+              49,
+              13322,
+              37,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 packages SPAN.pkg__per \"/month\"",
+            "count": 2,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "228",
+            "rect": [
+              132,
+              13360,
+              54,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 packages SPAN.pkg__from \"From\"",
+            "count": 1,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 7.91,
+            "complexBg": false,
+            "qa": "246",
+            "rect": [
+              49,
+              12598,
+              37,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 packages SPAN.pkg__per \"/month\"",
+            "count": 1,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 7.91,
+            "complexBg": false,
+            "qa": "248",
+            "rect": [
+              130,
+              12636,
+              54,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "375 packages P.pkgs__note reveal is-in \"Need a one-off? Strategy sessions, Reels\"",
+            "count": 1,
+            "size": 17,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "286",
+            "rect": [
+              23,
+              14719,
+              329,
+              86
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "375 contact P.lead reveal is-in \"Tell me a little about your brand and wh\"",
+            "count": 1,
+            "size": 19.1,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "306",
+            "rect": [
+              20,
+              16138,
+              319,
+              83
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 contact P.field__hint \"Optional, but it helps me get a feel for\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "313",
+            "rect": [
+              41,
+              16859,
+              245,
+              44
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 contact P.field--full form__req \"Required\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "328",
+            "rect": [
+              48,
+              17606,
+              68,
+              19
+            ]
+          },
+          {
+            "sev": "Medium",
+            "rule": "label<13px",
+            "where": "375 footer.footer SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 13.41,
+            "complexBg": false,
+            "qa": "331",
+            "rect": [
+              84,
+              17924,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Low",
+            "rule": "label tracking>.14em",
+            "where": "375 footer.footer SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 13.41,
+            "complexBg": false,
+            "qa": "331",
+            "rect": [
+              84,
+              17924,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "375 footer.footer P. \"© 2026 IraMaedia. Made with care.\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 10.6,
+            "complexBg": false,
+            "qa": "348",
+            "rect": [
+              20,
+              18253,
+              249,
+              19
+            ]
+          },
+          {
+            "sev": "Medium",
+            "rule": "italic outside display headline",
+            "where": "375 about SPAN.signature__name \"Ira\"",
+            "count": 1,
+            "size": 28.1,
+            "weight": 400,
+            "family": "Fraunces",
+            "style": "italic",
+            "color": "rgb(46, 99, 83)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 6.07,
+            "complexBg": false,
+            "qa": "42",
+            "rect": [
+              20,
+              2447,
+              38,
+              34
+            ]
+          }
+        ],
+        "clips": [],
+        "inventory": {
+          "label | Plus Jakarta Sans 600 17px ls0.005 | rgb(20, 48, 42) on rgb(255,247,249)": 1,
+          "label | Plus Jakarta Sans 800 21px ls-0.02 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 12px ls0.32 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(213, 226, 221) on rgb(46,99,83)": 3,
+          "display | Fraunces 400 52px ls-0.03 | rgb(255, 247, 249) on rgb(46,99,83)": 9,
+          "display | Fraunces 400i 52px ls-0.03 | rgb(242, 201, 214) on rgb(46,99,83)": 2,
+          "body | Plus Jakarta Sans 450 19.1px ls0.004 | rgb(255, 247, 249) on rgb(46,99,83)": 3,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(255, 247, 249) on rgb(46,99,83)": 3,
+          "label | Plus Jakarta Sans 600 16px ls0.01 | rgb(20, 48, 42) on rgb(251,236,241)": 3,
+          "label | Plus Jakarta Sans 600 17px ls0.005 | rgb(255, 247, 249) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 600 11px ls0.008 | rgb(251, 236, 241) on rgb(46,99,83)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(251, 236, 241) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 500 10px ls0.009 | rgb(251, 236, 241) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 11px ls0.008 | rgb(61, 28, 41) on rgb(232,180,196)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(61, 28, 41) on rgb(232,180,196)": 3,
+          "label | Plus Jakarta Sans 500 10px ls0.009 | rgb(61, 28, 41) on rgb(232,180,196)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(46,99,83)": 6,
+          "display | Fraunces 400 32.1px ls-0.015 | rgb(46, 99, 83) on rgb(251,236,241)": 16,
+          "label | Plus Jakarta Sans 800 64px ls-0.02 | rgb(255, 247, 249) on rgb(244,216,225)": 1,
+          "label | Plus Jakarta Sans 700 13.5px ls0.2 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(46, 99, 83) on rgb(251,236,241)": 2,
+          "display | Fraunces 400 40px ls-0.025 | rgb(26, 38, 34) on rgb(251,236,241)": 9,
+          "display | Fraunces 400i 40px ls-0.025 | rgb(122, 58, 82) on rgb(251,236,241)": 2,
+          "body | Plus Jakarta Sans 400 17px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 6,
+          "display | Fraunces 400i 28.1px ls0 | rgb(46, 99, 83) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(61, 76, 71) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 15px ls0 | rgb(122, 95, 46) on rgb(251,236,241)": 3,
+          "body | Plus Jakarta Sans 700 17px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 3,
+          "display | Fraunces 400 32.1px ls-0.015 | rgb(26, 38, 34) on rgb(251,236,241)": 24,
+          "display | Fraunces 400 32.1px ls-0.015 | rgb(122, 58, 82) on rgb(251,236,241)": 2,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(213, 226, 221) on rgb(30,66,55)": 2,
+          "display | Fraunces 400 40px ls-0.025 | rgb(255, 247, 249) on rgb(30,66,55)": 3,
+          "display | Fraunces 400i 40px ls-0.025 | rgb(232, 180, 196) on rgb(30,66,55)": 1,
+          "body | Plus Jakarta Sans 450 19.1px ls0.004 | rgb(213, 226, 221) on rgb(30,66,55)": 1,
+          "display | Fraunces 400 28.1px ls0 | rgb(122, 95, 46) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(122, 58, 82) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 4,
+          "body | Plus Jakarta Sans 600 11px ls0 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "display | Fraunces 450 28.1px ls0.003 | rgb(235, 217, 180) on rgb(46,99,83)": 1,
+          "display | Fraunces 400 32.1px ls-0.015 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 450 17px ls0.005 | rgb(213, 226, 221) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(242, 201, 214) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0.006 | rgb(255, 247, 249) on rgb(46,99,83)": 4,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(61, 28, 41) on rgb(232,180,196)": 2,
+          "display | Fraunces 400 28.1px ls0 | rgb(122, 95, 46) on rgb(242,201,214)": 1,
+          "display | Fraunces 400 32.1px ls-0.015 | rgb(26, 38, 34) on rgb(242,201,214)": 1,
+          "body | Plus Jakarta Sans 400 17px ls0 | rgb(61, 76, 71) on rgb(242,201,214)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(122, 58, 82) on rgb(242,201,214)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(26, 38, 34) on rgb(242,201,214)": 4,
+          "display | Fraunces 500 18px ls0 | rgb(20, 48, 42) on rgb(183,203,197)": 1,
+          "display | Fraunces 400 28.1px ls0 | rgb(122, 95, 46) on rgb(247,241,234)": 5,
+          "display | Fraunces 400 32.1px ls-0.015 | rgb(26, 38, 34) on rgb(247,241,234)": 1,
+          "body | Plus Jakarta Sans 400 17px ls0 | rgb(61, 76, 71) on rgb(247,241,234)": 7,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(122, 58, 82) on rgb(247,241,234)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(26, 38, 34) on rgb(247,241,234)": 4,
+          "body | Plus Jakarta Sans 600 15px ls0.006 | rgb(235, 217, 180) on rgb(60,85,77)": 1,
+          "display | Fraunces 400 28.1px ls-0.01 | rgb(255, 247, 249) on rgb(60,85,77)": 1,
+          "body | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(60,85,77)": 1,
+          "body | Plus Jakarta Sans 600 15px ls0.006 | rgb(235, 217, 180) on rgb(30,66,55)": 4,
+          "label | Plus Jakarta Sans 600 20.1px ls-0.01 | rgb(255, 247, 249) on rgb(30,66,55)": 6,
+          "body | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 6,
+          "display | Fraunces 400 28.1px ls-0.01 | rgb(255, 247, 249) on rgb(41,75,65)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(213, 226, 221) on rgb(20,48,42)": 1,
+          "display | Fraunces 400 40px ls-0.025 | rgb(255, 247, 249) on rgb(20,48,42)": 4,
+          "display | Fraunces 400i 40px ls-0.025 | rgb(232, 180, 196) on rgb(20,48,42)": 1,
+          "body | Plus Jakarta Sans 450 19.1px ls0.004 | rgb(213, 226, 221) on rgb(20,48,42)": 1,
+          "body | Plus Jakarta Sans 600 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(30, 66, 55) on rgb(235,217,198)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(30, 66, 55) on rgb(235,217,198)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(232, 180, 196) on rgb(20,48,42)": 8,
+          "label | Plus Jakarta Sans 600 20.1px ls-0.01 | rgb(255, 247, 249) on rgb(20,48,42)": 8,
+          "body | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 9,
+          "display | Fraunces 500 18px ls0.005 | rgb(20, 48, 42) on rgb(183,203,197)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(20, 48, 42) on rgb(183,203,197)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(122, 58, 82) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(122, 58, 82) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(251, 236, 241) on rgb(46,99,83)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(20, 48, 42) on rgb(247,241,234)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(20, 48, 42) on rgb(247,241,234)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(251, 236, 241) on rgb(122,58,82)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(251, 236, 241) on rgb(122,58,82)": 1,
+          "display | Fraunces 450 32.1px ls-0.01 | rgb(255, 247, 249) on rgb(20,48,42)": 1,
+          "label | Plus Jakarta Sans 600 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 2,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(46, 99, 83) on rgb(247,241,234)": 2,
+          "display | Fraunces 400 40px ls-0.025 | rgb(26, 38, 34) on rgb(247,241,234)": 6,
+          "display | Fraunces 400i 40px ls-0.025 | rgb(122, 58, 82) on rgb(247,241,234)": 2,
+          "label | Plus Jakarta Sans 600 20.1px ls-0.01 | rgb(26, 38, 34) on rgb(247,241,234)": 10,
+          "display | Fraunces 400 28.1px ls-0.01 | rgb(46, 99, 83) on rgb(251,236,241)": 3,
+          "body | Plus Jakarta Sans 400 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 1,
+          "display | Fraunces 400 28.1px ls-0.01 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 17px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 400 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 8,
+          "body | Plus Jakarta Sans 600 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 2,
+          "display | Fraunces 400 40px ls-0.025 | rgb(255, 247, 249) on rgb(46,99,83)": 2,
+          "display | Fraunces 400i 40px ls-0.025 | rgb(242, 201, 214) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 450 19.1px ls0.004 | rgb(213, 226, 221) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 4,
+          "display | Fraunces 450 32.1px ls-0.02 | rgb(255, 247, 249) on rgb(30,66,55)": 2,
+          "label | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 14,
+          "body | Plus Jakarta Sans 600 17px ls0.005 | rgb(255, 247, 249) on rgb(30,66,55)": 13,
+          "body | Plus Jakarta Sans 450 17px ls0.005 | rgb(213, 226, 221) on rgb(30,66,55)": 3,
+          "label | Plus Jakarta Sans 600 16px ls0.01 | rgb(255, 247, 249) on rgb(30,66,55)": 2,
+          "label | Plus Jakarta Sans 600 20.1px ls-0.01 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 2,
+          "display | Fraunces 400 32.1px ls-0.02 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 17px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 8,
+          "label | Plus Jakarta Sans 600 16px ls0.01 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 17px ls0 | rgb(46, 99, 83) on rgb(247,241,234)": 2,
+          "display | Fraunces 450 28.1px ls-0.01 | rgb(255, 247, 249) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 600 15px ls0.006 | rgb(255, 247, 249) on rgb(30,66,55)": 6,
+          "label | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 11,
+          "label | Plus Jakarta Sans 800 21px ls-0.02 | rgb(255, 247, 249) on rgb(20,48,42)": 1,
+          "label | Plus Jakarta Sans 600 12px ls0.32 | rgb(255, 247, 249) on rgb(20,48,42)": 1,
+          "label | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 7,
+          "label | Plus Jakarta Sans 800 41.3px ls0.2 | rgb(46, 99, 83) on rgb(20,48,42)": 9,
+          "label | Plus Jakarta Sans 600 15px ls0.006 | rgb(255, 247, 249) on rgb(20,48,42)": 1
+        },
+        "minBody": 11,
+        "minLabel": 10,
+        "minDisplay": 18
+      },
+      "1440": {
+        "bodyFam": "Plus Jakarta Sans",
+        "h1Fam": "Fraunces",
+        "fontsLoaded": [
+          "Fraunces 300 600 italic",
+          "Fraunces 300 600 normal",
+          "Plus Jakarta Sans 400 800 normal"
+        ],
+        "textNodes": 375,
+        "flags": [
+          {
+            "sev": "Medium",
+            "rule": "label<13px",
+            "where": "1440 top SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "2",
+            "rect": [
+              188,
+              16133,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Low",
+            "rule": "label tracking>.14em",
+            "where": "1440 top SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "2",
+            "rect": [
+              188,
+              16133,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "1440 section.hero P.hero__lead hero-fade \"I’m Ira. I plan, shoot, edit and post co\"",
+            "count": 1,
+            "size": 22,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "17",
+            "rect": [
+              124,
+              612,
+              484,
+              96
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "1440 section.hero P.qualifier__text reveal is-in \"Small brands with good taste and no time\"",
+            "count": 1,
+            "size": 22,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "31",
+            "rect": [
+              255,
+              951,
+              431,
+              60
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 section.hero LI.reveal is-in \"Cafés & restaurants\"",
+            "count": 6,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "32",
+            "rect": [
+              892,
+              950,
+              142,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "1440 section.hero LI.reveal is-in \"Cafés & restaurants\"",
+            "count": 6,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "32",
+            "rect": [
+              892,
+              950,
+              142,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 about SPAN.num \"01\"",
+            "count": 3,
+            "size": 15,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(122, 95, 46)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 5.24,
+            "complexBg": false,
+            "qa": "54",
+            "rect": [
+              736,
+              1936,
+              18,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.24<7",
+            "where": "1440 about SPAN.num \"01\"",
+            "count": 3,
+            "size": 15,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(122, 95, 46)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 5.24,
+            "complexBg": false,
+            "qa": "54",
+            "rect": [
+              736,
+              1936,
+              18,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 services LI. \"Monthly content calendar\"",
+            "count": 12,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(26, 38, 34)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 13.67,
+            "complexBg": false,
+            "qa": "98",
+            "rect": [
+              258,
+              5719,
+              161,
+              17
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "1440 services P.card__desc \"Photos and short-form video made for the\"",
+            "count": 1,
+            "size": 18,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "105",
+            "rect": [
+              223,
+              5593,
+              490,
+              48
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 services LI. \"On-site or flat-lay shoots\"",
+            "count": 4,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "107",
+            "rect": [
+              237,
+              5709,
+              168,
+              17
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "1440 services LI. \"On-site or flat-lay shoots\"",
+            "count": 4,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "107",
+            "rect": [
+              237,
+              5709,
+              168,
+              17
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.07<7",
+            "where": "1440 services P.card__desc \"Hooks in the first second, clean cuts, c\"",
+            "count": 1,
+            "size": 18,
+            "weight": 400,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(242,201,214)",
+            "ratio": 6.07,
+            "complexBg": false,
+            "qa": "115",
+            "rect": [
+              202,
+              5633,
+              532,
+              51
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 services P. \"Templates, carousels, highlight covers a\"",
+            "count": 5,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(60,85,77)",
+            "ratio": 6.07,
+            "complexBg": true,
+            "qa": "133",
+            "rect": [
+              153,
+              6477,
+              378,
+              42
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.07<7",
+            "where": "1440 services P. \"Templates, carousels, highlight covers a\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(60,85,77)",
+            "ratio": 6.07,
+            "complexBg": true,
+            "qa": "133",
+            "rect": [
+              153,
+              6477,
+              378,
+              42
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 work SPAN.hint-desk \"Scroll to browse\"",
+            "count": 1,
+            "size": 15,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 10.6,
+            "complexBg": false,
+            "qa": "155",
+            "rect": [
+              -2865,
+              10420,
+              119,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 work P.work__client \"Client name · Café · Food & drink\"",
+            "count": 8,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 10.6,
+            "complexBg": false,
+            "qa": "160",
+            "rect": [
+              -2260,
+              10492,
+              232,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 section.results P.note reveal is-in \"Results vary by account and goals. Ask m\"",
+            "count": 1,
+            "size": 15,
+            "weight": 400,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 7.91,
+            "complexBg": false,
+            "qa": "224",
+            "rect": [
+              124,
+              12408,
+              488,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "1440 packages P.lead reveal is-in \"Monthly packages, no long contracts. Eve\"",
+            "count": 1,
+            "size": 22,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "234",
+            "rect": [
+              491,
+              12939,
+              458,
+              62
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 packages SPAN.pkg__from \"From\"",
+            "count": 2,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "236",
+            "rect": [
+              157,
+              13190,
+              37,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 packages SPAN.pkg__per \"/month\"",
+            "count": 2,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "238",
+            "rect": [
+              292,
+              13249,
+              54,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 packages SPAN.pkg__from \"From\"",
+            "count": 1,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 7.91,
+            "complexBg": false,
+            "qa": "256",
+            "rect": [
+              562,
+              13190,
+              37,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 packages SPAN.pkg__per \"/month\"",
+            "count": 1,
+            "size": 15,
+            "weight": 500,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(61, 76, 71)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 7.91,
+            "complexBg": false,
+            "qa": "258",
+            "rect": [
+              696,
+              13249,
+              54,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 5.21<7",
+            "where": "1440 packages P.pkgs__note reveal is-in \"Need a one-off? Strategy sessions, Reels\"",
+            "count": 1,
+            "size": 18,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 5.21,
+            "complexBg": false,
+            "qa": "296",
+            "rect": [
+              319,
+              13911,
+              698,
+              23
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body not AAA 6.58<7",
+            "where": "1440 contact P.lead reveal is-in \"Tell me a little about your brand and wh\"",
+            "count": 1,
+            "size": 22,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(46,99,83)",
+            "ratio": 6.58,
+            "complexBg": false,
+            "qa": "316",
+            "rect": [
+              124,
+              15459,
+              441,
+              96
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 contact P.field__hint \"Optional, but it helps me get a feel for\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "323",
+            "rect": [
+              700,
+              15712,
+              303,
+              19
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 contact P.field--full form__req \"Required\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(30,66,55)",
+            "ratio": 8.34,
+            "complexBg": false,
+            "qa": "338",
+            "rect": [
+              708,
+              16279,
+              68,
+              19
+            ]
+          },
+          {
+            "sev": "Medium",
+            "rule": "label<13px",
+            "where": "1440 footer.footer SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 13.41,
+            "complexBg": false,
+            "qa": "341",
+            "rect": [
+              188,
+              16685,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Low",
+            "rule": "label tracking>.14em",
+            "where": "1440 footer.footer SPAN.logo__word \"IRAMAEDIA\"",
+            "count": 1,
+            "size": 12,
+            "weight": 600,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(255, 247, 249)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 13.41,
+            "complexBg": false,
+            "qa": "341",
+            "rect": [
+              188,
+              16685,
+              100,
+              15
+            ]
+          },
+          {
+            "sev": "Info",
+            "rule": "body<16px",
+            "where": "1440 footer.footer P. \"© 2026 IraMaedia. Made with care.\"",
+            "count": 1,
+            "size": 15,
+            "weight": 450,
+            "family": "Plus Jakarta Sans",
+            "style": "normal",
+            "color": "rgb(213, 226, 221)",
+            "bg": "rgb(20,48,42)",
+            "ratio": 10.6,
+            "complexBg": false,
+            "qa": "358",
+            "rect": [
+              124,
+              16949,
+              249,
+              19
+            ]
+          },
+          {
+            "sev": "Medium",
+            "rule": "italic outside display headline",
+            "where": "1440 about SPAN.signature__name \"Ira\"",
+            "count": 1,
+            "size": 40,
+            "weight": 400,
+            "family": "Fraunces",
+            "style": "italic",
+            "color": "rgb(46, 99, 83)",
+            "bg": "rgb(251,236,241)",
+            "ratio": 6.07,
+            "complexBg": false,
+            "qa": "52",
+            "rect": [
+              736,
+              1830,
+              53,
+              49
+            ]
+          }
+        ],
+        "clips": [],
+        "inventory": {
+          "label | Plus Jakarta Sans 600 18px ls0.005 | rgb(20, 48, 42) on rgb(255,247,249)": 1,
+          "label | Plus Jakarta Sans 800 21px ls-0.02 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 12px ls0.32 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 500 15px ls0.006 | rgb(255, 247, 249) on rgb(46,99,83)": 5,
+          "label | Plus Jakarta Sans 600 15px ls0.01 | rgb(20, 48, 42) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(213, 226, 221) on rgb(46,99,83)": 4,
+          "display | Fraunces 400 136.2px ls-0.03 | rgb(255, 247, 249) on rgb(46,99,83)": 9,
+          "display | Fraunces 400i 136.2px ls-0.03 | rgb(242, 201, 214) on rgb(46,99,83)": 2,
+          "body | Plus Jakarta Sans 450 22px ls0.004 | rgb(255, 247, 249) on rgb(46,99,83)": 3,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(255, 247, 249) on rgb(46,99,83)": 3,
+          "label | Plus Jakarta Sans 600 16px ls0.01 | rgb(20, 48, 42) on rgb(251,236,241)": 3,
+          "label | Plus Jakarta Sans 600 18px ls0.005 | rgb(255, 247, 249) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 600 11px ls0.008 | rgb(251, 236, 241) on rgb(46,99,83)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(251, 236, 241) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 500 10px ls0.009 | rgb(251, 236, 241) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 11px ls0.008 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "label | Plus Jakarta Sans 500 10px ls0.009 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "label | Plus Jakarta Sans 600 11px ls0.008 | rgb(61, 28, 41) on rgb(232,180,196)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(61, 28, 41) on rgb(232,180,196)": 3,
+          "label | Plus Jakarta Sans 500 10px ls0.009 | rgb(61, 28, 41) on rgb(232,180,196)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(46,99,83)": 6,
+          "display | Fraunces 400 56px ls-0.015 | rgb(46, 99, 83) on rgb(251,236,241)": 16,
+          "label | Plus Jakarta Sans 800 120px ls-0.02 | rgb(255, 247, 249) on rgb(244,216,225)": 1,
+          "label | Plus Jakarta Sans 700 13.5px ls0.2 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(46, 99, 83) on rgb(251,236,241)": 2,
+          "display | Fraunces 400 88px ls-0.025 | rgb(26, 38, 34) on rgb(251,236,241)": 9,
+          "display | Fraunces 400i 88px ls-0.025 | rgb(122, 58, 82) on rgb(251,236,241)": 2,
+          "body | Plus Jakarta Sans 400 18px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 6,
+          "display | Fraunces 400i 40px ls0 | rgb(46, 99, 83) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(61, 76, 71) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 15px ls0 | rgb(122, 95, 46) on rgb(251,236,241)": 3,
+          "body | Plus Jakarta Sans 700 18px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 3,
+          "display | Fraunces 400 56px ls-0.015 | rgb(26, 38, 34) on rgb(251,236,241)": 24,
+          "display | Fraunces 400 56px ls-0.015 | rgb(122, 58, 82) on rgb(251,236,241)": 2,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(213, 226, 221) on rgb(30,66,55)": 2,
+          "display | Fraunces 400 88px ls-0.025 | rgb(255, 247, 249) on rgb(30,66,55)": 3,
+          "display | Fraunces 400i 88px ls-0.025 | rgb(232, 180, 196) on rgb(30,66,55)": 1,
+          "body | Plus Jakarta Sans 450 22px ls0.004 | rgb(213, 226, 221) on rgb(30,66,55)": 1,
+          "display | Fraunces 400 40px ls0 | rgb(122, 95, 46) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(122, 58, 82) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 4,
+          "body | Plus Jakarta Sans 600 11px ls0 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "display | Fraunces 450 40px ls0.002 | rgb(235, 217, 180) on rgb(46,99,83)": 1,
+          "display | Fraunces 400 56px ls-0.015 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 450 18px ls0.005 | rgb(213, 226, 221) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(242, 201, 214) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0.006 | rgb(255, 247, 249) on rgb(46,99,83)": 4,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(61, 28, 41) on rgb(232,180,196)": 2,
+          "display | Fraunces 400 40px ls0 | rgb(122, 95, 46) on rgb(242,201,214)": 1,
+          "display | Fraunces 400 56px ls-0.015 | rgb(26, 38, 34) on rgb(242,201,214)": 1,
+          "body | Plus Jakarta Sans 400 18px ls0 | rgb(61, 76, 71) on rgb(242,201,214)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(122, 58, 82) on rgb(242,201,214)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(26, 38, 34) on rgb(242,201,214)": 4,
+          "display | Fraunces 500 18px ls0 | rgb(20, 48, 42) on rgb(183,203,197)": 1,
+          "display | Fraunces 400 40px ls0 | rgb(122, 95, 46) on rgb(247,241,234)": 5,
+          "display | Fraunces 400 56px ls-0.015 | rgb(26, 38, 34) on rgb(247,241,234)": 1,
+          "body | Plus Jakarta Sans 400 18px ls0 | rgb(61, 76, 71) on rgb(247,241,234)": 7,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(122, 58, 82) on rgb(247,241,234)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(26, 38, 34) on rgb(247,241,234)": 4,
+          "body | Plus Jakarta Sans 600 15px ls0.006 | rgb(235, 217, 180) on rgb(60,85,77)": 1,
+          "display | Fraunces 400 40px ls-0.01 | rgb(255, 247, 249) on rgb(60,85,77)": 1,
+          "body | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(60,85,77)": 1,
+          "body | Plus Jakarta Sans 600 15px ls0.006 | rgb(235, 217, 180) on rgb(30,66,55)": 4,
+          "label | Plus Jakarta Sans 600 24px ls-0.01 | rgb(255, 247, 249) on rgb(30,66,55)": 6,
+          "body | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 6,
+          "display | Fraunces 400 40px ls-0.01 | rgb(255, 247, 249) on rgb(41,75,65)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(213, 226, 221) on rgb(20,48,42)": 1,
+          "display | Fraunces 400 88px ls-0.025 | rgb(255, 247, 249) on rgb(20,48,42)": 4,
+          "display | Fraunces 400i 88px ls-0.025 | rgb(232, 180, 196) on rgb(20,48,42)": 1,
+          "body | Plus Jakarta Sans 450 22px ls0.004 | rgb(213, 226, 221) on rgb(20,48,42)": 1,
+          "body | Plus Jakarta Sans 600 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(30, 66, 55) on rgb(235,217,198)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(30, 66, 55) on rgb(235,217,198)": 1,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(232, 180, 196) on rgb(20,48,42)": 8,
+          "label | Plus Jakarta Sans 600 24px ls-0.01 | rgb(255, 247, 249) on rgb(20,48,42)": 8,
+          "body | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 9,
+          "display | Fraunces 500 18px ls0.005 | rgb(20, 48, 42) on rgb(183,203,197)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(20, 48, 42) on rgb(183,203,197)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(46, 99, 83) on rgb(247,241,234)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(122, 58, 82) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(122, 58, 82) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(251, 236, 241) on rgb(46,99,83)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(20, 48, 42) on rgb(247,241,234)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(20, 48, 42) on rgb(247,241,234)": 1,
+          "display | Fraunces 500 18px ls0.005 | rgb(251, 236, 241) on rgb(122,58,82)": 1,
+          "body | Plus Jakarta Sans 600 11px ls0.008 | rgb(251, 236, 241) on rgb(122,58,82)": 1,
+          "display | Fraunces 450 56px ls-0.01 | rgb(255, 247, 249) on rgb(20,48,42)": 1,
+          "label | Plus Jakarta Sans 600 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 2,
+          "label | Plus Jakarta Sans 600 13px ls0.12 | rgb(46, 99, 83) on rgb(247,241,234)": 2,
+          "display | Fraunces 400 88px ls-0.025 | rgb(26, 38, 34) on rgb(247,241,234)": 6,
+          "display | Fraunces 400i 88px ls-0.025 | rgb(122, 58, 82) on rgb(247,241,234)": 2,
+          "label | Plus Jakarta Sans 600 24px ls-0.01 | rgb(26, 38, 34) on rgb(247,241,234)": 10,
+          "display | Fraunces 400 40px ls-0.01 | rgb(46, 99, 83) on rgb(251,236,241)": 3,
+          "body | Plus Jakarta Sans 400 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 1,
+          "display | Fraunces 400 40px ls-0.01 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 600 17px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "label | Plus Jakarta Sans 400 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 8,
+          "body | Plus Jakarta Sans 600 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 2,
+          "display | Fraunces 400 88px ls-0.025 | rgb(255, 247, 249) on rgb(46,99,83)": 2,
+          "display | Fraunces 400i 88px ls-0.025 | rgb(242, 201, 214) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 450 22px ls0.004 | rgb(213, 226, 221) on rgb(46,99,83)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 4,
+          "display | Fraunces 450 56px ls-0.02 | rgb(255, 247, 249) on rgb(30,66,55)": 2,
+          "label | Plus Jakarta Sans 450 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 14,
+          "body | Plus Jakarta Sans 600 18px ls0.005 | rgb(255, 247, 249) on rgb(30,66,55)": 13,
+          "body | Plus Jakarta Sans 450 18px ls0.005 | rgb(213, 226, 221) on rgb(30,66,55)": 3,
+          "label | Plus Jakarta Sans 600 16px ls0.01 | rgb(255, 247, 249) on rgb(30,66,55)": 2,
+          "label | Plus Jakarta Sans 600 24px ls-0.01 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 500 15px ls0 | rgb(61, 76, 71) on rgb(251,236,241)": 2,
+          "display | Fraunces 400 56px ls-0.02 | rgb(26, 38, 34) on rgb(251,236,241)": 1,
+          "body | Plus Jakarta Sans 600 18px ls0 | rgb(26, 38, 34) on rgb(251,236,241)": 8,
+          "label | Plus Jakarta Sans 600 16px ls0.01 | rgb(255, 247, 249) on rgb(46,99,83)": 1,
+          "label | Plus Jakarta Sans 600 18px ls0 | rgb(46, 99, 83) on rgb(247,241,234)": 2,
+          "display | Fraunces 450 40px ls-0.01 | rgb(255, 247, 249) on rgb(46,99,83)": 2,
+          "label | Plus Jakarta Sans 600 15px ls0.006 | rgb(255, 247, 249) on rgb(30,66,55)": 6,
+          "label | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(30,66,55)": 11,
+          "label | Plus Jakarta Sans 800 21px ls-0.02 | rgb(255, 247, 249) on rgb(20,48,42)": 1,
+          "label | Plus Jakarta Sans 600 12px ls0.32 | rgb(255, 247, 249) on rgb(20,48,42)": 1,
+          "label | Plus Jakarta Sans 500 15px ls0.006 | rgb(213, 226, 221) on rgb(20,48,42)": 7,
+          "label | Plus Jakarta Sans 800 158.4px ls0.2 | rgb(46, 99, 83) on rgb(20,48,42)": 9,
+          "label | Plus Jakarta Sans 600 15px ls0.006 | rgb(255, 247, 249) on rgb(20,48,42)": 1
+        },
+        "minBody": 11,
+        "minLabel": 10,
+        "minDisplay": 18
+      }
+    },
+    "preloader": {
+      "root-1440-normal": {
+        "domContentLoaded": 334,
+        "load": 486,
+        "firstBlockedAt": 334,
+        "lastBlockedAt": 1872,
+        "unblockedAt": 1913,
+        "ready": true,
+        "heroVisibleAt": 334,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "12ms:no-body",
+          "334ms:overlay:DIV.preloader",
+          "1913ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in",
+        "pageErrors": [],
+        "reload": {
+          "firstBlockedAt": null,
+          "unblockedAt": 15,
+          "blockedBy": null,
+          "nowBlocked": ""
+        }
+      },
+      "root-375-normal": {
+        "domContentLoaded": 293,
+        "load": 482,
+        "firstBlockedAt": 310,
+        "lastBlockedAt": 1798,
+        "unblockedAt": 1839,
+        "ready": true,
+        "heroVisibleAt": 310,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "10ms:no-body",
+          "310ms:overlay:DIV.preloader",
+          "1839ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live lenis js-live hero-in",
+        "pageErrors": [],
+        "reload": {
+          "firstBlockedAt": null,
+          "unblockedAt": 11,
+          "blockedBy": null,
+          "nowBlocked": ""
+        }
+      },
+      "sub-1440-normal": {
+        "domContentLoaded": 327,
+        "load": 476,
+        "firstBlockedAt": 358,
+        "lastBlockedAt": 1871,
+        "unblockedAt": 1914,
+        "ready": true,
+        "heroVisibleAt": 358,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "9ms:no-body",
+          "358ms:overlay:DIV.preloader",
+          "1914ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in",
+        "pageErrors": [],
+        "reload": {
+          "firstBlockedAt": null,
+          "unblockedAt": 14,
+          "blockedBy": null,
+          "nowBlocked": ""
+        }
+      },
+      "sub-375-normal": {
+        "domContentLoaded": 257,
+        "load": 521,
+        "firstBlockedAt": 277,
+        "lastBlockedAt": 1802,
+        "unblockedAt": 1843,
+        "ready": true,
+        "heroVisibleAt": 277,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "11ms:no-body",
+          "277ms:overlay:DIV.preloader",
+          "1843ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live lenis js-live hero-in",
+        "pageErrors": [],
+        "reload": {
+          "firstBlockedAt": null,
+          "unblockedAt": 12,
+          "blockedBy": null,
+          "nowBlocked": ""
+        }
+      },
+      "root-1440-click-skip@400ms": {
+        "domContentLoaded": 452,
+        "load": 670,
+        "firstBlockedAt": 475,
+        "lastBlockedAt": 569,
+        "unblockedAt": 689,
+        "ready": true,
+        "heroVisibleAt": 475,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "11ms:no-body",
+          "475ms:overlay:DIV.preloader",
+          "689ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in",
+        "pageErrors": []
+      },
+      "root-1440-esc-skip@400ms": {
+        "domContentLoaded": 411,
+        "load": 549,
+        "firstBlockedAt": 465,
+        "lastBlockedAt": 465,
+        "unblockedAt": 574,
+        "ready": true,
+        "heroVisibleAt": 465,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "12ms:no-body",
+          "465ms:overlay:DIV.preloader",
+          "574ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in",
+        "pageErrors": []
+      },
+      "root-1440-wheel-skip@400ms": {
+        "domContentLoaded": 332,
+        "load": 497,
+        "firstBlockedAt": 352,
+        "lastBlockedAt": 789,
+        "unblockedAt": 831,
+        "ready": true,
+        "heroVisibleAt": 352,
+        "blockedBy": "overlay:DIV.preloader",
+        "nowBlocked": "",
+        "transitions": [
+          "13ms:no-body",
+          "352ms:overlay:DIV.preloader",
+          "831ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [
+          "imd-intro"
+        ],
+        "htmlClass": "js reveal-ok motion-ok gsap-live pin-work has-cursor js-live    hero-in lenis",
+        "pageErrors": []
+      },
+      "skiplink-during-preloader": {
+        "t": 605,
+        "blocked": "overlay:DIV.preloader",
+        "active": "A #main \"Skip to content\"",
+        "onTop": true,
+        "hit": "A.skip-link",
+        "inert": false,
+        "after": {
+          "y": 0,
+          "hash": "#main",
+          "active": "MAIN#main"
+        }
+      },
+      "root-1440-reduced": {
+        "domContentLoaded": 258,
+        "load": 470,
+        "firstBlockedAt": null,
+        "lastBlockedAt": null,
+        "unblockedAt": 13,
+        "ready": true,
+        "heroVisibleAt": 372,
+        "blockedBy": null,
+        "nowBlocked": "",
+        "transitions": [
+          "13ms:no-body",
+          "372ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [],
+        "htmlClass": "js reveal-ok js-live hero-in",
+        "pageErrors": []
+      },
+      "root-375-reduced": {
+        "domContentLoaded": 313,
+        "load": 535,
+        "firstBlockedAt": null,
+        "lastBlockedAt": null,
+        "unblockedAt": 13,
+        "ready": true,
+        "heroVisibleAt": 315,
+        "blockedBy": null,
+        "nowBlocked": "",
+        "transitions": [
+          "13ms:no-body",
+          "315ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [],
+        "htmlClass": "js reveal-ok js-live hero-in",
+        "pageErrors": []
+      },
+      "sub-1440-reduced": {
+        "domContentLoaded": 340,
+        "load": 598,
+        "firstBlockedAt": null,
+        "lastBlockedAt": null,
+        "unblockedAt": 11,
+        "ready": true,
+        "heroVisibleAt": 343,
+        "blockedBy": null,
+        "nowBlocked": "",
+        "transitions": [
+          "11ms:no-body",
+          "343ms:OK"
+        ],
+        "candidates": [],
+        "sessionFlags": [],
+        "htmlClass": "js reveal-ok js-live hero-in",
+        "pageErrors": []
+      },
+      "nojs-1440": {
+        "blocked": "",
+        "hero": true,
+        "invisibleLoaderish": [
+          "DIV.preloader none/visible/1 0x0",
+          "DIV.preloader__logo block/visible/1 0x0",
+          "P.preloader__mark flex/visible/1 0x0",
+          "P.preloader__word flex/visible/1 0x0",
+          "P.preloader__tag block/visible/1 0x0"
+        ],
+        "invisible": 0,
+        "sectionBgs": {
+          "htmlClass": "",
+          "pins": 0,
+          "sections": [
+            {
+              "id": "SECTION",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "about",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "services",
+              "bg": "rgb(30, 66, 55)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "work",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "process",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "packages",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "faq",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "contact",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "FOOTER",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            }
+          ],
+          "nonSolid": []
+        }
+      },
+      "nojs-375": {
+        "blocked": "",
+        "hero": true,
+        "invisibleLoaderish": [
+          "DIV.preloader none/visible/1 0x0",
+          "DIV.preloader__logo block/visible/1 0x0",
+          "P.preloader__mark flex/visible/1 0x0",
+          "P.preloader__word flex/visible/1 0x0",
+          "P.preloader__tag block/visible/1 0x0"
+        ],
+        "invisible": 0,
+        "sectionBgs": {
+          "htmlClass": "",
+          "pins": 0,
+          "sections": [
+            {
+              "id": "SECTION",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "about",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "services",
+              "bg": "rgb(30, 66, 55)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "work",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "process",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "packages",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "faq",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "contact",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "FOOTER",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            }
+          ],
+          "nonSolid": []
+        }
+      }
+    },
+    "scroll": {
+      "320": {
+        "pin": {
+          "pins": [],
+          "sticky": [],
+          "tracks": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 320,
+              "scrollWidth": 2074,
+              "native": true,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 19576,
+          "steps": 72,
+          "finalY": 18875,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 320,
+              "scrollWidth": 2074,
+              "native": true,
+              "section": "work",
+              "txMin": 0,
+              "txMax": 0,
+              "itemsSeen": 8,
+              "itemsTotal": 8,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 846,
+            "avgMs": 16.7,
+            "p50": 16.7,
+            "p95": 16.7,
+            "max": 16.8,
+            "over50ms": 0,
+            "pctOver34ms": 0
+          }
+        }
+      },
+      "768": {
+        "pin": {
+          "pins": [],
+          "sticky": [
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "LI.card"
+          ],
+          "tracks": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 768,
+              "scrollWidth": 2617,
+              "native": true,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 16900,
+          "steps": 43,
+          "finalY": 15874,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 768,
+              "scrollWidth": 2617,
+              "native": true,
+              "section": "work",
+              "txMin": 0,
+              "txMax": 0,
+              "itemsSeen": 8,
+              "itemsTotal": 8,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 491,
+            "avgMs": 16.8,
+            "p50": 16.7,
+            "p95": 16.7,
+            "max": 33.4,
+            "over50ms": 0,
+            "pctOver34ms": 0
+          }
+        },
+        "stackCards": {
+          "cards": 4,
+          "positions": [
+            "sticky"
+          ],
+          "coveredLast": [],
+          "coveredAny": [
+            "card1 heading covered by LI.card card--green @y=4494",
+            "card1 heading covered by LI.card card--green @y=4648",
+            "card1 heading covered by LI.card card--green @y=4801",
+            "card1 heading covered by LI.card card--green @y=4955",
+            "card1 heading covered by LI.card card--green @y=5109",
+            "card2 heading covered by LI.card card--rose @y=5109",
+            "card1 heading covered by LI.card card--rose @y=5262",
+            "card2 heading covered by LI.card card--rose @y=5262"
+          ]
+        }
+      },
+      "1920": {
+        "pin": {
+          "pins": [
+            "DIV#.work__pin h=4309"
+          ],
+          "sticky": [
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "DIV.faq__intro",
+            "DIV.contact__info"
+          ],
+          "tracks": [
+            {
+              "el": "DIV.work__track",
+              "items": 3,
+              "width": 5149,
+              "scrollWidth": 5149,
+              "native": false,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 17623,
+          "steps": 42,
+          "finalY": 16542,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "DIV.work__track",
+              "items": 3,
+              "width": 5149,
+              "scrollWidth": 5149,
+              "native": false,
+              "section": "work",
+              "txMin": -3229,
+              "txMax": 0,
+              "itemsSeen": 3,
+              "itemsTotal": 3,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 290,
+            "avgMs": 35.8,
+            "p50": 33.3,
+            "p95": 50.1,
+            "max": 83.3,
+            "over50ms": 17,
+            "pctOver34ms": 21.4
+          }
+        }
+      },
+      "root-1440": {
+        "anchors": [
+          {
+            "href": "#main",
+            "how": "js",
+            "settleMs": 379,
+            "totalMs": 1142,
+            "scrollY": 0,
+            "hash": "#main",
+            "headerBottom": 72,
+            "targetTop": 0,
+            "headingTop": 177,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#top",
+            "how": "mouse",
+            "settleMs": 378,
+            "totalMs": 1245,
+            "scrollY": 0,
+            "hash": "",
+            "headerBottom": 72,
+            "targetTop": 0,
+            "headingTop": 0,
+            "headingUnderHeader": true,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": false,
+            "hashOk": false,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#work",
+            "how": "mouse",
+            "settleMs": 1349,
+            "totalMs": 2229,
+            "scrollY": 6713,
+            "hash": "#work",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 386,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#work"
+          },
+          {
+            "href": "#services",
+            "how": "mouse",
+            "settleMs": 1337,
+            "totalMs": 2188,
+            "scrollY": 2617,
+            "hash": "#services",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#services"
+          },
+          {
+            "href": "#process",
+            "how": "mouse",
+            "settleMs": 1369,
+            "totalMs": 2276,
+            "scrollY": 10602,
+            "hash": "#process",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 260,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#process"
+          },
+          {
+            "href": "#packages",
+            "how": "mouse",
+            "settleMs": 1332,
+            "totalMs": 2169,
+            "scrollY": 12519,
+            "hash": "#packages",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 301,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#packages"
+          },
+          {
+            "href": "#faq",
+            "how": "mouse",
+            "settleMs": 1343,
+            "totalMs": 2182,
+            "scrollY": 13993,
+            "hash": "#faq",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#faq"
+          },
+          {
+            "href": "#contact",
+            "how": "mouse",
+            "settleMs": 1338,
+            "totalMs": 2180,
+            "scrollY": 14840,
+            "hash": "#contact",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 264,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [
+              "A.big-link \"@iramaedia on Instag\" 0.00",
+              "SPAN.visually-hidden \"(opens in a new tab)\" 0.00"
+            ],
+            "invisibleCount": 2,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#contact"
+          }
+        ],
+        "focus": {
+          "stops": 21,
+          "problems": [
+            {
+              "desc": "A \"Services\" #services",
+              "rect": [
+                550,
+                566,
+                62,
+                44
+              ],
+              "scrollY": 16105,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "svg.footer__globe in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            },
+            {
+              "desc": "A \"Process\" #process",
+              "rect": [
+                637,
+                566,
+                59,
+                44
+              ],
+              "scrollY": 16105,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "use. in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            },
+            {
+              "desc": "A \"Packages\" #packages",
+              "rect": [
+                720,
+                566,
+                71,
+                44
+              ],
+              "scrollY": 16105,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "svg.footer__globe in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            },
+            {
+              "desc": "A \"FAQ\" #faq",
+              "rect": [
+                815,
+                566,
+                31,
+                44
+              ],
+              "scrollY": 16105,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "svg.footer__globe in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            }
+          ],
+          "all": [
+            "A \"hello@iramaedia.com\" mailto:hello@iramaedia.com @124,464,395,60 y=15126",
+            "A \"@iramaedia on Instagram ↗ (o\" https://www.instagram.com/iramaedia/ @124,528,463,108 y=15126",
+            "INPUT#f-name \"\" name @700,406,279,56 y=15126",
+            "INPUT#f-email \"\" email @1004,406,279,56 y=15126",
+            "INPUT#f-brand \"\" brand @700,520,583,56 y=15126",
+            "INPUT \"Management\" needs @700,668,130,44 y=15126",
+            "INPUT \"Content creation\" needs @839,668,158,44 y=15126",
+            "INPUT \"Reels\" needs @1004,668,73,44 y=15126",
+            "INPUT \"Strategy\" needs @1086,668,97,44 y=15126",
+            "INPUT \"Design\" needs @1191,668,85,44 y=15126",
+            "INPUT \"Not sure yet\" needs @700,720,121,44 y=15126",
+            "INPUT \"Under $500\" budget @700,823,122,44 y=15126",
+            "TEXTAREA#f-msg \"\" message @700,465,583,158 y=15638",
+            "BUTTON \"Send my enquiry\"  @700,688,583,56 y=15638",
+            "A \"IMD IRAMAEDIA\" #top @124,566,165,44 y=16105",
+            "A \"Work\" #work @488,566,38,44 y=16105",
+            "A \"Services\" #services @550,566,62,44 y=16105",
+            "A \"Process\" #process @637,566,59,44 y=16105",
+            "A \"Packages\" #packages @720,566,71,44 y=16105",
+            "A \"FAQ\" #faq @815,566,31,44 y=16105",
+            "A \"Instagram ↗ (opens in a new \" https://www.instagram.com/iramaedia/ @1046,566,88,44 y=16105"
+          ]
+        },
+        "pin": {
+          "pins": [
+            "DIV#.work__pin h=3889"
+          ],
+          "sticky": [
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "DIV.faq__intro",
+            "DIV.contact__info"
+          ],
+          "tracks": [
+            {
+              "el": "DIV.work__track",
+              "items": 3,
+              "width": 4429,
+              "scrollWidth": 4429,
+              "native": false,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 17005,
+          "steps": 49,
+          "finalY": 16104,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "DIV.work__track",
+              "items": 3,
+              "width": 4429,
+              "scrollWidth": 4429,
+              "native": false,
+              "section": "work",
+              "txMin": -2989,
+              "txMax": 0,
+              "itemsSeen": 2,
+              "itemsTotal": 3,
+              "unseen": [
+                1
+              ]
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 458,
+            "avgMs": 22.7,
+            "p50": 16.7,
+            "p95": 33.4,
+            "max": 83.4,
+            "over50ms": 6,
+            "pctOver34ms": 3.7
+          }
+        },
+        "keyboard": {
+          "pageDown": 0,
+          "space": 0,
+          "arrowDown": 0,
+          "endAtBottom": true,
+          "homeAtTop": true,
+          "ok": false
+        },
+        "stackCards": {
+          "cards": 4,
+          "positions": [
+            "sticky"
+          ],
+          "coveredLast": [],
+          "coveredAny": [
+            "card1 heading covered by LI.card card--green @y=3740",
+            "card1 heading covered by LI.card card--green @y=3875",
+            "card1 heading covered by LI.card card--green @y=4010",
+            "card1 heading covered by LI.card card--green @y=4145",
+            "card1 heading covered by LI.card card--green @y=4280",
+            "card1 heading covered by LI.card card--rose @y=4415",
+            "card2 heading covered by LI.card card--rose @y=4415",
+            "card1 heading covered by LI.card card--rose @y=4550"
+          ]
+        },
+        "pageErrors": []
+      },
+      "root-375": {
+        "anchors": [
+          {
+            "href": "#main",
+            "how": "js",
+            "settleMs": 382,
+            "totalMs": 1143,
+            "scrollY": 0,
+            "hash": "#main",
+            "headerBottom": 64,
+            "targetTop": 0,
+            "headingTop": 137,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#top",
+            "how": "mouse",
+            "settleMs": 381,
+            "totalMs": 1194,
+            "scrollY": 0,
+            "hash": "",
+            "headerBottom": 64,
+            "targetTop": 0,
+            "headingTop": 0,
+            "headingUnderHeader": true,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": false,
+            "hashOk": false,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#work",
+            "how": "mouse",
+            "settleMs": 1336,
+            "totalMs": 2149,
+            "scrollY": 8407,
+            "hash": "#work",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 205,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#work"
+          },
+          {
+            "href": "#services",
+            "how": "js",
+            "settleMs": 1340,
+            "totalMs": 2099,
+            "scrollY": 3188,
+            "hash": "#services",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 189,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#services"
+          },
+          {
+            "href": "#process",
+            "how": "js",
+            "settleMs": 1324,
+            "totalMs": 2083,
+            "scrollY": 9717,
+            "hash": "#process",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 189,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#process"
+          },
+          {
+            "href": "#packages",
+            "how": "js",
+            "settleMs": 1393,
+            "totalMs": 2151,
+            "scrollY": 12108,
+            "hash": "#packages",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 205,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#packages"
+          },
+          {
+            "href": "#faq",
+            "how": "js",
+            "settleMs": 1403,
+            "totalMs": 2163,
+            "scrollY": 14825,
+            "hash": "#faq",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 189,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [
+              "SPAN. \"Do I approve everyth\" 0.00"
+            ],
+            "invisibleCount": 1,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#faq"
+          },
+          {
+            "href": "#contact",
+            "how": "mouse",
+            "settleMs": 1327,
+            "totalMs": 2149,
+            "scrollY": 15774,
+            "hash": "#contact",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 168,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [
+              "LABEL. \"Your name *\" 0.00"
+            ],
+            "invisibleCount": 1,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#contact"
+          }
+        ],
+        "focus": {
+          "stops": 21,
+          "problems": [
+            {
+              "desc": "INPUT#f-name \"\" name",
+              "rect": [
+                41,
+                750,
+                293,
+                56
+              ],
+              "scrollY": 15838,
+              "inView": true,
+              "covered": false,
+              "coveredBy": null,
+              "opacity": 0,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 64,
+              "bottomBar": 812
+            }
+          ],
+          "all": [
+            "A \"hello@iramaedia.com\" mailto:hello@iramaedia.com @20,419,281,46 y=15838",
+            "A \"@iramaedia on Instagram ↗ (o\" https://www.instagram.com/iramaedia/ @20,469,335,79 y=15838",
+            "INPUT#f-name \"\" name @41,750,293,56 y=15838",
+            "INPUT#f-email \"\" email @41,389,293,56 y=16289",
+            "INPUT#f-brand \"\" brand @41,504,293,56 y=16289",
+            "INPUT \"Management\" needs @41,676,130,44 y=16289",
+            "INPUT \"Content creation\" needs @41,728,157,44 y=16289",
+            "INPUT \"Reels\" needs @206,728,73,44 y=16289",
+            "INPUT \"Strategy\" needs @41,756,97,44 y=16313",
+            "INPUT \"Design\" needs @146,756,85,44 y=16313",
+            "INPUT \"Not sure yet\" needs @41,756,121,44 y=16365",
+            "INPUT \"Under $500\" budget @41,414,122,44 y=16810",
+            "TEXTAREA#f-msg \"\" message @41,621,293,158 y=16810",
+            "BUTTON \"Send my enquiry\"  @41,414,293,56 y=17239",
+            "A \"IMD IRAMAEDIA\" #top @20,671,165,44 y=17239",
+            "A \"Work\" #work @20,739,38,44 y=17239",
+            "A \"Services\" #services @82,739,62,44 y=17239",
+            "A \"Process\" #process @168,739,59,44 y=17239",
+            "A \"Packages\" #packages @251,739,71,44 y=17239",
+            "A \"FAQ\" #faq @20,768,31,44 y=17254",
+            "A \"Instagram ↗ (opens in a new \" https://www.instagram.com/iramaedia/ @20,454,87,44 y=17636"
+          ]
+        },
+        "pin": {
+          "pins": [],
+          "sticky": [],
+          "tracks": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 375,
+              "scrollWidth": 2400,
+              "native": true,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 18448,
+          "steps": 59,
+          "finalY": 17634,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 375,
+              "scrollWidth": 2400,
+              "native": true,
+              "section": "work",
+              "txMin": 0,
+              "txMax": 0,
+              "itemsSeen": 8,
+              "itemsTotal": 8,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 655,
+            "avgMs": 16.7,
+            "p50": 16.7,
+            "p95": 16.7,
+            "max": 16.8,
+            "over50ms": 0,
+            "pctOver34ms": 0
+          }
+        },
+        "menuLock": {
+          "scrolledWhileOpen": 0,
+          "scrolledAfterClose": 600,
+          "bottomBarWhileMenuOpen": {
+            "found": true,
+            "sel": "DIV.bbar",
+            "visible": false,
+            "top": 824,
+            "bottom": 884,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "lockedOk": true,
+          "restoredOk": true
+        },
+        "bottomBar": {
+          "atLoad": {
+            "found": true,
+            "sel": "DIV.bbar",
+            "visible": false,
+            "top": 824,
+            "bottom": 884,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "afterHeroCtas": {
+            "found": true,
+            "sel": "DIV.bbar is-shown",
+            "visible": true,
+            "top": 740,
+            "bottom": 800,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "midPage": {
+            "found": true,
+            "sel": "DIV.bbar is-shown",
+            "visible": true,
+            "top": 740,
+            "bottom": 800,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "contactInView": {
+            "found": true,
+            "sel": "DIV.bbar is-shown",
+            "visible": true,
+            "top": 740,
+            "bottom": 800,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "inputFocused": {
+            "found": true,
+            "sel": "DIV.bbar",
+            "visible": false,
+            "top": 824,
+            "bottom": 884,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "contact50": {
+            "contactVisiblePx": 406,
+            "bar": {
+              "found": true,
+              "sel": "DIV.bbar",
+              "visible": false,
+              "top": 824,
+              "bottom": 884,
+              "opacity": 1,
+              "display": "flex"
+            }
+          },
+          "atBottom": {
+            "found": true,
+            "sel": "DIV.bbar",
+            "visible": false,
+            "top": 824,
+            "bottom": 884,
+            "opacity": 1,
+            "display": "flex"
+          },
+          "footerCovered": [],
+          "ok": true
+        },
+        "pageErrors": []
+      },
+      "sub-1440": {
+        "anchors": [
+          {
+            "href": "#main",
+            "how": "js",
+            "settleMs": 384,
+            "totalMs": 1150,
+            "scrollY": 0,
+            "hash": "#main",
+            "headerBottom": 72,
+            "targetTop": 0,
+            "headingTop": 177,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#top",
+            "how": "mouse",
+            "settleMs": 378,
+            "totalMs": 1225,
+            "scrollY": 0,
+            "hash": "",
+            "headerBottom": 72,
+            "targetTop": 0,
+            "headingTop": 0,
+            "headingUnderHeader": true,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": false,
+            "hashOk": false,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#work",
+            "how": "mouse",
+            "settleMs": 1333,
+            "totalMs": 2164,
+            "scrollY": 6713,
+            "hash": "#work",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 386,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#work"
+          },
+          {
+            "href": "#services",
+            "how": "mouse",
+            "settleMs": 1283,
+            "totalMs": 2171,
+            "scrollY": 2617,
+            "hash": "#services",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#services"
+          },
+          {
+            "href": "#process",
+            "how": "mouse",
+            "settleMs": 1350,
+            "totalMs": 2186,
+            "scrollY": 10602,
+            "hash": "#process",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 260,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#process"
+          },
+          {
+            "href": "#packages",
+            "how": "mouse",
+            "settleMs": 1363,
+            "totalMs": 2200,
+            "scrollY": 12519,
+            "hash": "#packages",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 301,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#packages"
+          },
+          {
+            "href": "#faq",
+            "how": "mouse",
+            "settleMs": 1382,
+            "totalMs": 2213,
+            "scrollY": 13993,
+            "hash": "#faq",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#faq"
+          },
+          {
+            "href": "#contact",
+            "how": "mouse",
+            "settleMs": 1325,
+            "totalMs": 2173,
+            "scrollY": 14840,
+            "hash": "#contact",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 264,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [
+              "A.big-link \"@iramaedia on Instag\" 0.00",
+              "SPAN.visually-hidden \"(opens in a new tab)\" 0.00"
+            ],
+            "invisibleCount": 2,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#contact"
+          }
+        ],
+        "pageErrors": []
+      },
+      "reduced-1440": {
+        "anchors": [
+          {
+            "href": "#main",
+            "how": "js",
+            "settleMs": 382,
+            "totalMs": 1145,
+            "scrollY": 0,
+            "hash": "#main",
+            "headerBottom": 72,
+            "targetTop": 0,
+            "headingTop": 177,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#top",
+            "how": "mouse",
+            "settleMs": 382,
+            "totalMs": 1213,
+            "scrollY": 0,
+            "hash": "",
+            "headerBottom": 72,
+            "targetTop": 0,
+            "headingTop": 0,
+            "headingUnderHeader": true,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": false,
+            "hashOk": false,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#work",
+            "how": "mouse",
+            "settleMs": 379,
+            "totalMs": 1182,
+            "scrollY": 6437,
+            "hash": "#work",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 300,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#work"
+          },
+          {
+            "href": "#services",
+            "how": "mouse",
+            "settleMs": 379,
+            "totalMs": 1181,
+            "scrollY": 2617,
+            "hash": "#services",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#services"
+          },
+          {
+            "href": "#process",
+            "how": "mouse",
+            "settleMs": 380,
+            "totalMs": 1180,
+            "scrollY": 7951,
+            "hash": "#process",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#process"
+          },
+          {
+            "href": "#packages",
+            "how": "mouse",
+            "settleMs": 378,
+            "totalMs": 1179,
+            "scrollY": 9868,
+            "hash": "#packages",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 301,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#packages"
+          },
+          {
+            "href": "#faq",
+            "how": "mouse",
+            "settleMs": 378,
+            "totalMs": 1183,
+            "scrollY": 11342,
+            "hash": "#faq",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 261,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#faq"
+          },
+          {
+            "href": "#contact",
+            "how": "mouse",
+            "settleMs": 380,
+            "totalMs": 1181,
+            "scrollY": 12189,
+            "hash": "#contact",
+            "headerBottom": 72,
+            "targetTop": 88,
+            "headingTop": 264,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#contact"
+          }
+        ],
+        "focus": {
+          "stops": 21,
+          "problems": [
+            {
+              "desc": "A \"Services\" #services",
+              "rect": [
+                550,
+                565,
+                62,
+                44
+              ],
+              "scrollY": 13455,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "svg.footer__globe in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            },
+            {
+              "desc": "A \"Process\" #process",
+              "rect": [
+                637,
+                565,
+                59,
+                44
+              ],
+              "scrollY": 13455,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "use. in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            },
+            {
+              "desc": "A \"Packages\" #packages",
+              "rect": [
+                720,
+                565,
+                71,
+                44
+              ],
+              "scrollY": 13455,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "svg.footer__globe in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            },
+            {
+              "desc": "A \"FAQ\" #faq",
+              "rect": [
+                815,
+                565,
+                31,
+                44
+              ],
+              "scrollY": 13455,
+              "inView": true,
+              "covered": true,
+              "coveredBy": "svg.footer__globe in footer__mark",
+              "opacity": 1,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 72,
+              "bottomBar": 900
+            }
+          ],
+          "all": [
+            "A \"hello@iramaedia.com\" mailto:hello@iramaedia.com @124,464,395,60 y=12475",
+            "A \"@iramaedia on Instagram ↗ (o\" https://www.instagram.com/iramaedia/ @124,528,463,108 y=12475",
+            "INPUT#f-name \"\" name @700,406,279,56 y=12475",
+            "INPUT#f-email \"\" email @1004,406,279,56 y=12475",
+            "INPUT#f-brand \"\" brand @700,521,583,56 y=12475",
+            "INPUT \"Management\" needs @700,668,130,44 y=12475",
+            "INPUT \"Content creation\" needs @839,668,158,44 y=12475",
+            "INPUT \"Reels\" needs @1004,668,73,44 y=12475",
+            "INPUT \"Strategy\" needs @1086,668,97,44 y=12475",
+            "INPUT \"Design\" needs @1191,668,85,44 y=12475",
+            "INPUT \"Not sure yet\" needs @700,720,121,44 y=12475",
+            "INPUT \"Under $500\" budget @700,823,122,44 y=12475",
+            "TEXTAREA#f-msg \"\" message @700,466,583,158 y=12987",
+            "BUTTON \"Send my enquiry\"  @700,688,583,56 y=12987",
+            "A \"IMD IRAMAEDIA\" #top @124,565,165,44 y=13455",
+            "A \"Work\" #work @488,565,38,44 y=13455",
+            "A \"Services\" #services @550,565,62,44 y=13455",
+            "A \"Process\" #process @637,565,59,44 y=13455",
+            "A \"Packages\" #packages @720,565,71,44 y=13455",
+            "A \"FAQ\" #faq @815,565,31,44 y=13455",
+            "A \"Instagram ↗ (opens in a new \" https://www.instagram.com/iramaedia/ @1046,565,88,44 y=13455"
+          ]
+        },
+        "pin": {
+          "pins": [],
+          "sticky": [
+            "DIV.faq__intro",
+            "DIV.contact__info"
+          ],
+          "tracks": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 1440,
+              "scrollWidth": 2788,
+              "native": true,
+              "section": "work"
+            }
+          ],
+          "lenis": false,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 14355,
+          "steps": 38,
+          "finalY": 13455,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 1440,
+              "scrollWidth": 2788,
+              "native": true,
+              "section": "work",
+              "txMin": 0,
+              "txMax": 0,
+              "itemsSeen": 8,
+              "itemsTotal": 8,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 352,
+            "avgMs": 17.5,
+            "p50": 16.7,
+            "p95": 33.2,
+            "max": 33.4,
+            "over50ms": 0,
+            "pctOver34ms": 0
+          }
+        },
+        "sectionBgs": {
+          "htmlClass": "js reveal-ok js-live hero-in",
+          "pins": 0,
+          "sections": [
+            {
+              "id": "SECTION",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "about",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "services",
+              "bg": "rgb(30, 66, 55)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "work",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "process",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "packages",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "faq",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "contact",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "FOOTER",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            }
+          ],
+          "nonSolid": []
+        },
+        "stackCards": {
+          "cards": 4,
+          "positions": [
+            "relative"
+          ],
+          "coveredLast": [],
+          "coveredAny": []
+        },
+        "pageErrors": []
+      },
+      "reduced-375": {
+        "anchors": [
+          {
+            "href": "#main",
+            "how": "js",
+            "settleMs": 379,
+            "totalMs": 1144,
+            "scrollY": 0,
+            "hash": "#main",
+            "headerBottom": 64,
+            "targetTop": 0,
+            "headingTop": 137,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#top",
+            "how": "mouse",
+            "settleMs": 380,
+            "totalMs": 1207,
+            "scrollY": 0,
+            "hash": "",
+            "headerBottom": 64,
+            "targetTop": 0,
+            "headingTop": 0,
+            "headingUnderHeader": true,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "MAIN",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": false,
+            "hashOk": false,
+            "activeEl": "MAIN#main"
+          },
+          {
+            "href": "#work",
+            "how": "mouse",
+            "settleMs": 384,
+            "totalMs": 1181,
+            "scrollY": 8407,
+            "hash": "#work",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 205,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#work"
+          },
+          {
+            "href": "#services",
+            "how": "js",
+            "settleMs": 381,
+            "totalMs": 1142,
+            "scrollY": 3188,
+            "hash": "#services",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 189,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#services"
+          },
+          {
+            "href": "#process",
+            "how": "js",
+            "settleMs": 379,
+            "totalMs": 1138,
+            "scrollY": 9717,
+            "hash": "#process",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 189,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#process"
+          },
+          {
+            "href": "#packages",
+            "how": "js",
+            "settleMs": 382,
+            "totalMs": 1141,
+            "scrollY": 12108,
+            "hash": "#packages",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 205,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#packages"
+          },
+          {
+            "href": "#faq",
+            "how": "js",
+            "settleMs": 383,
+            "totalMs": 1143,
+            "scrollY": 14825,
+            "hash": "#faq",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 189,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [],
+            "invisibleCount": 0,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#faq"
+          },
+          {
+            "href": "#contact",
+            "how": "mouse",
+            "settleMs": 384,
+            "totalMs": 1183,
+            "scrollY": 15774,
+            "hash": "#contact",
+            "headerBottom": 64,
+            "targetTop": 72,
+            "headingTop": 168,
+            "headingUnderHeader": false,
+            "landed": true,
+            "menuOpenAfter": false,
+            "focusedTag": "SECTION",
+            "invisibleInView": [
+              "LABEL. \"Your name *\" 0.00"
+            ],
+            "invisibleCount": 1,
+            "focusInTarget": true,
+            "hashOk": true,
+            "activeEl": "SECTION#contact"
+          }
+        ],
+        "focus": {
+          "stops": 21,
+          "problems": [
+            {
+              "desc": "INPUT#f-name \"\" name",
+              "rect": [
+                41,
+                726,
+                293,
+                56
+              ],
+              "scrollY": 15838,
+              "inView": true,
+              "covered": false,
+              "coveredBy": null,
+              "opacity": 0,
+              "hidden": false,
+              "focusVisible": true,
+              "ring": true,
+              "headerBottom": 64,
+              "bottomBar": 812
+            }
+          ],
+          "all": [
+            "A \"hello@iramaedia.com\" mailto:hello@iramaedia.com @20,419,281,46 y=15838",
+            "A \"@iramaedia on Instagram ↗ (o\" https://www.instagram.com/iramaedia/ @20,469,335,79 y=15838",
+            "INPUT#f-name \"\" name @41,726,293,56 y=15838",
+            "INPUT#f-email \"\" email @41,414,293,56 y=16264",
+            "INPUT#f-brand \"\" brand @41,529,293,56 y=16264",
+            "INPUT \"Management\" needs @41,701,130,44 y=16264",
+            "INPUT \"Content creation\" needs @41,753,157,44 y=16264",
+            "INPUT \"Reels\" needs @206,753,73,44 y=16264",
+            "INPUT \"Strategy\" needs @41,756,97,44 y=16313",
+            "INPUT \"Design\" needs @146,756,85,44 y=16313",
+            "INPUT \"Not sure yet\" needs @41,756,121,44 y=16365",
+            "INPUT \"Under $500\" budget @41,414,122,44 y=16810",
+            "TEXTAREA#f-msg \"\" message @41,621,293,158 y=16810",
+            "BUTTON \"Send my enquiry\"  @41,414,293,56 y=17239",
+            "A \"IMD IRAMAEDIA\" #top @20,671,165,44 y=17239",
+            "A \"Work\" #work @20,739,38,44 y=17239",
+            "A \"Services\" #services @82,739,62,44 y=17239",
+            "A \"Process\" #process @168,739,59,44 y=17239",
+            "A \"Packages\" #packages @251,739,71,44 y=17239",
+            "A \"FAQ\" #faq @20,768,31,44 y=17254",
+            "A \"Instagram ↗ (opens in a new \" https://www.instagram.com/iramaedia/ @20,454,87,44 y=17636"
+          ]
+        },
+        "pin": {
+          "pins": [],
+          "sticky": [],
+          "tracks": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 375,
+              "scrollWidth": 2400,
+              "native": true,
+              "section": "work"
+            }
+          ],
+          "lenis": false,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 18448,
+          "steps": 55,
+          "finalY": 17636,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 375,
+              "scrollWidth": 2400,
+              "native": true,
+              "section": "work",
+              "txMin": 0,
+              "txMax": 0,
+              "itemsSeen": 8,
+              "itemsTotal": 8,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 536,
+            "avgMs": 16.7,
+            "p50": 16.7,
+            "p95": 16.7,
+            "max": 16.8,
+            "over50ms": 0,
+            "pctOver34ms": 0
+          }
+        },
+        "sectionBgs": {
+          "htmlClass": "js reveal-ok js-live hero-in",
+          "pins": 0,
+          "sections": [
+            {
+              "id": "SECTION",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "about",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "services",
+              "bg": "rgb(30, 66, 55)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "work",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "process",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "packages",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "faq",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "contact",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "FOOTER",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            }
+          ],
+          "nonSolid": []
+        },
+        "stackCards": {
+          "cards": 4,
+          "positions": [
+            "relative"
+          ],
+          "coveredLast": [],
+          "coveredAny": []
+        },
+        "pageErrors": []
+      },
+      "1024x600": {
+        "pin": {
+          "pins": [],
+          "sticky": [
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "DIV.faq__intro",
+            "DIV.contact__info"
+          ],
+          "tracks": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 1024,
+              "scrollWidth": 2642,
+              "native": true,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 13202,
+          "steps": 57,
+          "finalY": 12601,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "UL.work__list",
+              "items": 8,
+              "width": 1024,
+              "scrollWidth": 2642,
+              "native": true,
+              "section": "work",
+              "txMin": 0,
+              "txMax": 0,
+              "itemsSeen": 8,
+              "itemsTotal": 8,
+              "unseen": []
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 660,
+            "avgMs": 16.9,
+            "p50": 16.7,
+            "p95": 16.8,
+            "max": 33.4,
+            "over50ms": 0,
+            "pctOver34ms": 0
+          }
+        }
+      },
+      "1024x700": {
+        "pin": {
+          "pins": [
+            "DIV#.work__pin h=3065"
+          ],
+          "sticky": [
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "LI.card",
+            "DIV.faq__intro",
+            "DIV.contact__info"
+          ],
+          "tracks": [
+            {
+              "el": "DIV.work__track",
+              "items": 3,
+              "width": 3389,
+              "scrollWidth": 3389,
+              "native": false,
+              "section": "work"
+            }
+          ],
+          "lenis": true,
+          "gsap": true,
+          "scrollTrigger": true,
+          "docH": 15074,
+          "steps": 56,
+          "finalY": 14373,
+          "reachedBottom": true,
+          "trackSummary": [
+            {
+              "el": "DIV.work__track",
+              "items": 3,
+              "width": 3389,
+              "scrollWidth": 3389,
+              "native": false,
+              "section": "work",
+              "txMin": -2365,
+              "txMax": 0,
+              "itemsSeen": 2,
+              "itemsTotal": 3,
+              "unseen": [
+                1
+              ]
+            }
+          ],
+          "crossSectionOverlaps": [],
+          "intraSectionOverlaps": [],
+          "gapsAtY": [],
+          "overflowAtY": [],
+          "frames": {
+            "n": 639,
+            "avgMs": 17,
+            "p50": 16.7,
+            "p95": 16.8,
+            "max": 66.7,
+            "over50ms": 1,
+            "pctOver34ms": 0.3
+          }
+        }
+      },
+      "hash-1440": {
+        "#packages": {
+          "y": 12519,
+          "headerBottom": 72,
+          "sectionTop": 88,
+          "headingTop": 301,
+          "ok": true
+        },
+        "#work": {
+          "y": 6713,
+          "headerBottom": 72,
+          "sectionTop": 88,
+          "headingTop": 3375,
+          "ok": false
+        },
+        "#contact": {
+          "y": 13731,
+          "headerBottom": 72,
+          "sectionTop": 1197,
+          "headingTop": 1373,
+          "ok": false
+        }
+      },
+      "hash-375": {
+        "#packages": {
+          "y": 12108,
+          "headerBottom": 64,
+          "sectionTop": 72,
+          "headingTop": 205,
+          "ok": true
+        },
+        "#work": {
+          "y": 8407,
+          "headerBottom": 64,
+          "sectionTop": 72,
+          "headingTop": 205,
+          "ok": true
+        },
+        "#contact": {
+          "y": 15774,
+          "headerBottom": 64,
+          "sectionTop": 72,
+          "headingTop": 168,
+          "ok": true
+        }
+      }
+    },
+    "vendorFailure": {
+      "abort-1440": {
+        "mode": "abort",
+        "blocked": [
+          "assets/vendor/gsap.min.js",
+          "assets/vendor/ScrollTrigger.min.js",
+          "assets/vendor/lenis.min.js"
+        ],
+        "timeline": {
+          "domContentLoaded": 285,
+          "load": 485,
+          "firstBlockedAt": null,
+          "lastBlockedAt": null,
+          "unblockedAt": 13,
+          "ready": true,
+          "heroVisibleAt": 290,
+          "blockedBy": null,
+          "nowBlocked": "",
+          "transitions": [
+            "13ms:no-body",
+            "290ms:OK"
+          ],
+          "candidates": [],
+          "sessionFlags": [],
+          "htmlClass": "js reveal-ok js-live hero-in"
+        },
+        "invisibleBeforeScroll": 163,
+        "anchors": [
+          {
+            "href": "#main",
+            "landed": true,
+            "targetTop": 0,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#top",
+            "landed": true,
+            "targetTop": 0,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#work",
+            "landed": true,
+            "targetTop": 88,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#services",
+            "landed": true,
+            "targetTop": 88,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#process",
+            "landed": true,
+            "targetTop": 88,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#packages",
+            "landed": true,
+            "targetTop": 88,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#faq",
+            "landed": true,
+            "targetTop": 88,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#contact",
+            "landed": true,
+            "targetTop": 88,
+            "invisibleCount": 2
+          }
+        ],
+        "invisibleAfterScroll": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Yes. Strategy, editing, design and management all ",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Consistency shows up in the first month. Growth in",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Not at all. Plenty of great accounts are built on ",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Always. You get a monthly calendar to review, and ",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Packages run month to month. I ask for one month’s",
+            "opacity": 1,
+            "visible": false
+          }
+        ],
+        "overflow": false,
+        "sectionBgs": {
+          "htmlClass": "js reveal-ok js-live hero-in",
+          "pins": 0,
+          "sections": [
+            {
+              "id": "SECTION",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "about",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "services",
+              "bg": "rgb(30, 66, 55)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "work",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "process",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "packages",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "faq",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "contact",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "FOOTER",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            }
+          ],
+          "nonSolid": []
+        },
+        "form": {
+          "action": "mailto:hello@iramaedia.com",
+          "method": "post",
+          "fields": [
+            "input[text] name=name req=true auto=name",
+            "input[email] name=email req=true auto=email",
+            "input[text] name=brand req=false auto=organization",
+            "input[checkbox] name=needs req=false auto=",
+            "input[checkbox] name=needs req=false auto=",
+            "input[checkbox] name=needs req=false auto=",
+            "input[checkbox] name=needs req=false auto=",
+            "input[checkbox] name=needs req=false auto=",
+            "input[checkbox] name=needs req=false auto=",
+            "input[radio] name=budget req=false auto=",
+            "input[radio] name=budget req=false auto=",
+            "input[radio] name=budget req=false auto=",
+            "input[radio] name=budget req=false auto=",
+            "input[radio] name=budget req=false auto=",
+            "textarea[textarea] name=message req=true auto="
+          ],
+          "hasSubmit": true,
+          "urlAfterEmpty": "unchanged",
+          "invalidAfterEmpty": [
+            "name",
+            "email",
+            "message"
+          ],
+          "statusTextAfterEmpty": "",
+          "popupUrl": null,
+          "urlAfterValid": "unchanged",
+          "statusTextAfterValid": ""
+        },
+        "pageErrors": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ]
+      },
+      "abort-375": {
+        "mode": "abort",
+        "blocked": [
+          "assets/vendor/gsap.min.js",
+          "assets/vendor/ScrollTrigger.min.js",
+          "assets/vendor/lenis.min.js"
+        ],
+        "timeline": {
+          "domContentLoaded": 486,
+          "load": 979,
+          "firstBlockedAt": null,
+          "lastBlockedAt": null,
+          "unblockedAt": 11,
+          "ready": true,
+          "heroVisibleAt": 489,
+          "blockedBy": null,
+          "nowBlocked": "",
+          "transitions": [
+            "11ms:no-body",
+            "489ms:OK"
+          ],
+          "candidates": [],
+          "sessionFlags": [],
+          "htmlClass": "js reveal-ok js-live hero-in"
+        },
+        "invisibleBeforeScroll": 163,
+        "anchors": [
+          {
+            "href": "#main",
+            "landed": true,
+            "targetTop": 0,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#top",
+            "landed": true,
+            "targetTop": 0,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#work",
+            "landed": true,
+            "targetTop": 72,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#services",
+            "landed": true,
+            "targetTop": 72,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#process",
+            "landed": true,
+            "targetTop": 72,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#packages",
+            "landed": true,
+            "targetTop": 72,
+            "invisibleCount": 0
+          },
+          {
+            "href": "#faq",
+            "landed": true,
+            "targetTop": 72,
+            "invisibleCount": 1
+          },
+          {
+            "href": "#contact",
+            "landed": true,
+            "targetTop": 72,
+            "invisibleCount": 1
+          }
+        ],
+        "invisibleAfterScroll": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Yes. Strategy, editing, design and management all ",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Mostly Instagram, TikTok and Facebook. Pinterest a",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Consistency shows up in the first month. Growth in",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Not at all. Plenty of great accounts are built on ",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Always. You get a monthly calendar to review, and ",
+            "opacity": 1,
+            "visible": false
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Packages run month to month. I ask for one month’s",
+            "opacity": 1,
+            "visible": false
+          }
+        ],
+        "overflow": false,
+        "sectionBgs": {
+          "htmlClass": "js reveal-ok js-live hero-in",
+          "pins": 0,
+          "sections": [
+            {
+              "id": "SECTION",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "about",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "services",
+              "bg": "rgb(30, 66, 55)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "work",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "process",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "SECTION",
+              "bg": "rgb(251, 236, 241)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "packages",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "faq",
+              "bg": "rgb(247, 241, 234)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "contact",
+              "bg": "rgb(46, 99, 83)",
+              "bgImage": false,
+              "solid": true
+            },
+            {
+              "id": "FOOTER",
+              "bg": "rgb(20, 48, 42)",
+              "bgImage": false,
+              "solid": true
+            }
+          ],
+          "nonSolid": []
+        },
+        "mobileNav": {
+          "steps": [],
+          "toggleVisible": true,
+          "labelBefore": "Open menu",
+          "expandedAfterOpen": "true",
+          "menuVisibleOpen": true,
+          "menuLinksVisible": 8,
+          "bodyScrollLocked": "hidden/visible",
+          "toggleOnTop": true,
+          "expandedAfterEscape": "false",
+          "expandedAfterLinkClick": "false",
+          "menuVisibleAfterLink": false,
+          "linkTarget": "#work",
+          "hashAfter": "#work",
+          "scrollYAfter": 8407,
+          "finalExpanded": "false"
+        },
+        "pageErrors": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ]
+      },
+      "hang-1440": {
+        "mode": "hang",
+        "blocked": [
+          "assets/vendor/gsap.min.js",
+          "assets/vendor/ScrollTrigger.min.js",
+          "assets/vendor/lenis.min.js"
+        ],
+        "timeline": {
+          "domContentLoaded": 0,
+          "load": 0,
+          "firstBlockedAt": 221,
+          "lastBlockedAt": 2847,
+          "unblockedAt": 2887,
+          "ready": true,
+          "heroVisibleAt": 221,
+          "blockedBy": "overlay:DIV.preloader",
+          "nowBlocked": "",
+          "transitions": [
+            "13ms:no-body",
+            "221ms:overlay:DIV.preloader",
+            "2887ms:OK"
+          ],
+          "candidates": [
+            {
+              "el": "DIV#.preloader",
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "1",
+              "pointerEvents": "auto",
+              "position": "static",
+              "w": 0,
+              "h": 0,
+              "inDom": true
+            }
+          ],
+          "sessionFlags": [],
+          "htmlClass": "js"
+        },
+        "pageErrors": [],
+        "consoleErrors": []
+      }
+    },
+    "formV2": {
+      "375": {
+        "afterEmpty": {
+          "invalid": [
+            "name",
+            "email",
+            "message"
+          ],
+          "summary": "Almost there. Please check: Your name: Please tell me your name.Email: I need an email to reply to.Tell me about your brand: A line or two a",
+          "summaryLinks": 3,
+          "focus": "DIV#form-summary.form__summary role=alert",
+          "focusInSummary": true,
+          "errorsVisible": [
+            "Please tell me your name.",
+            "I need an email to reply to.",
+            "A line or two about your brand helps a l"
+          ]
+        },
+        "keyboard": {
+          "checkboxChecked": true,
+          "checkboxFocusRing": true,
+          "checkboxNonColour": "\"✓\"",
+          "checkboxToggledBack": true,
+          "radioArrowMoved": true,
+          "radioNonColour": "\"✓\""
+        },
+        "loading": {
+          "text": "Opening your email…",
+          "ariaBusy": null,
+          "disabled": false
+        },
+        "mailto": "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20-%0AMonthly%20budget%3A%20%24500%20to%20%241%2C000%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site",
+        "success": {
+          "headingVisible": true,
+          "focusOnHeading": true,
+          "focus": "H3.form-success__title \"Almost there.\"",
+          "copyButton": "Copy my email instead"
+        },
+        "copyAfter": "Copy my email instead",
+        "copyLive": true,
+        "pageErrors": [],
+        "packagePrefill": {
+          "textarea": "Hi Ira, I’m interested in the Signature package. ",
+          "contactTop": 72,
+          "formTop": 779
+        }
+      },
+      "1440": {
+        "afterEmpty": {
+          "invalid": [
+            "name",
+            "email",
+            "message"
+          ],
+          "summary": "Almost there. Please check: Your name: Please tell me your name.Email: I need an email to reply to.Tell me about your brand: A line or two a",
+          "summaryLinks": 3,
+          "focus": "DIV#form-summary.form__summary role=alert",
+          "focusInSummary": true,
+          "errorsVisible": [
+            "Please tell me your name.",
+            "I need an email to reply to.",
+            "A line or two about your brand helps a l"
+          ]
+        },
+        "keyboard": {
+          "checkboxChecked": true,
+          "checkboxFocusRing": true,
+          "checkboxNonColour": "\"✓\"",
+          "checkboxToggledBack": true,
+          "radioArrowMoved": true,
+          "radioNonColour": "\"✓\""
+        },
+        "loading": {
+          "text": "Opening your email…",
+          "ariaBusy": null,
+          "disabled": false
+        },
+        "mailto": "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20-%0AMonthly%20budget%3A%20%24500%20to%20%241%2C000%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site",
+        "success": {
+          "headingVisible": true,
+          "focusOnHeading": true,
+          "focus": "H3.form-success__title \"Almost there.\"",
+          "copyButton": "Copy my email instead"
+        },
+        "copyAfter": "Copy my email instead",
+        "copyLive": true,
+        "pageErrors": [],
+        "packagePrefill": {
+          "textarea": "Hi Ira, I’m interested in the Signature package. ",
+          "contactTop": 88,
+          "formTop": 657
+        }
+      }
+    },
+    "perf": [
+      {
+        "vp": "1440x900",
+        "cpuThrottle": 1,
+        "readyMs": 2002,
+        "load": {
+          "dcl": 590,
+          "loadEnd": 938,
+          "unblockedAt": 2144,
+          "longtasks": 2,
+          "longestTask": 107,
+          "tbt": 90,
+          "cls": 0.014,
+          "shiftSources": [
+            {
+              "t": 895,
+              "v": 0.011238448380835264,
+              "src": [
+                "I.aurora__b",
+                "#text.",
+                "#text."
+              ]
+            }
+          ]
+        },
+        "scroll": {
+          "frames": 360,
+          "avgFps": 39.8,
+          "p50": 16.7,
+          "p95": 33.4,
+          "maxFrame": 200,
+          "framesOver50": 5,
+          "longtasks": 1,
+          "longestTask": 102,
+          "tbt": 52,
+          "cls": 1.9611,
+          "shiftSources": [
+            {
+              "t": 7746,
+              "v": 1,
+              "src": [
+                "DIV.work__pin"
+              ]
+            },
+            {
+              "t": 9611,
+              "v": 0.9611111111111111,
+              "src": [
+                "DIV.work__pin"
+              ]
+            }
+          ],
+          "scrolledTo": 14173
+        }
+      },
+      {
+        "vp": "375x812",
+        "cpuThrottle": 4,
+        "readyMs": 2422,
+        "load": {
+          "dcl": 1368,
+          "loadEnd": 1374,
+          "unblockedAt": 2894,
+          "longtasks": 11,
+          "longestTask": 265,
+          "tbt": 882,
+          "cls": 0,
+          "shiftSources": []
+        },
+        "scroll": {
+          "frames": 415,
+          "avgFps": 53,
+          "p50": 16.7,
+          "p95": 33.4,
+          "maxFrame": 83.4,
+          "framesOver50": 4,
+          "longtasks": 4,
+          "longestTask": 88,
+          "tbt": 90,
+          "cls": 0,
+          "shiftSources": [],
+          "scrolledTo": 12778
+        }
+      }
+    ]
+  }
+}

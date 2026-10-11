@@ -1,0 +1,348 @@
+TITLE IraMaedia · Social media content that makes them stop scrolling | lang en | desc True | favicon http://localhost:8080/assets/img/favicon.svg | og https://gelizonux.github.io/IraMaedia/assets/img/og-image.png
+HEADINGS
+   H1: Content that makes them stop scrolling.
+   H2: Your brand, but a little more lovely.
+   H2: Everything your feed needs.
+   H3: Social media management
+   H3: Content creation
+   H3: Reels & short-form editing
+   H3: Content strategy
+   H3: Feed & graphic design
+   H3: Captions & copywriting
+   H3: UGC-style content
+   H3: Launch & campaign content
+   H3: Brand photography
+   H3: Not sure what you need?
+   H2: A peek at the grid.
+   H3: Morning menu launch
+   H3: 5 ways to style one blazer
+   H3: A day at the studio
+   H3: Spring grid refresh
+   H3: Behind the bouquet
+   H3: What I wish I knew
+   H3: Unboxing, but pretty
+   H3: Launch week teaser
+   H2: Simple, from hello to posted.
+   H3: Discovery call
+   H3: Strategy & plan
+   H3: Create & approve
+   H3: Post, learn, grow
+   H2: Consistent feeds. Real conversations.
+   H2: Pick your pace.
+   H3: Starter
+   H3: Signature
+   H3: Full Feed
+   H2: Before you ask.
+   H3: Do you work with brands in other cities?
+   H3: Which platforms do you manage?
+   H3: How long until I see results?
+   H3: Do I need to be on camera?
+   H3: Do I approve everything before it’s posted?
+   H3: Is there a minimum contract?
+   H2: Let’s make your feed unforgettable.
+   H3: Almost there.
+headingSkips : []
+h1Count : 1
+landmarks : {'header': 1, 'nav': 2, 'main': 1, 'footer': 1}
+skipLink : #main "Skip to content"
+imgNoAlt : []
+imgCount : 0
+svgNoLabel : 4
+rootAbsoluteUrls : []
+emptyLinks : []
+badHref : []
+blankNoRel : []
+brokenAnchors : []
+unnamedButtons : []
+unlabeledInputs : []
+duplicateIds : []
+junk : []
+doubleWords : []
+LOCAL LINKS {}
+EXTERNAL ['mailto:hello@iramaedia.com', 'https://www.instagram.com/iramaedia/']
+CONTRAST FAILS 20
+   {'text': 'Pretty', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'is', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'the', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'baseline.', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'Every', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'post', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'make', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'has', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'job:', 'tag': 'SPAN', 'cls': 'hl fw', 'ratio': 1.32, 'need': 3, 'color': 'rgb(122, 58, 82)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'stop', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'scroll,', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'start', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'conversation,', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'and', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'bring', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'right', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'people', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'to', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'your', 'tag': 'SPAN', 'cls': 'fw', 'ratio': 1.42, 'need': 3, 'color': 'rgb(26, 38, 34)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+   {'text': 'door.', 'tag': 'SPAN', 'cls': 'hl fw', 'ratio': 1.32, 'need': 3, 'color': 'rgb(122, 58, 82)', 'bg': 'rgb(251,236,241)', 'fontSize': 56, 'opacity': 0.18, 'gradientBg': False}
+FOCUS (no visible indicator):
+  focus stops: 37
+FAQ {'kind': 'aria-buttons', 'count': 6, 'toggled': 'false -> true', 'panelVisible': True, 'panelHeight': 113.0625, 'toggledBack': 'false', 'keyboardEnter': 'true'}
+FORM {'action': 'mailto:hello@iramaedia.com', 'method': 'post', 'fields': ['input[text] name=name req=true auto=name', 'input[email] name=email req=true auto=email', 'input[text] name=brand req=false auto=organization', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[radio] name=budget req=false auto=', 'input[radio] name=budget req=false auto=', 'input[radio] name=budget req=false auto=', 'input[radio] name=budget req=false auto=', 'input[radio] name=budget req=false auto=', 'textarea[textarea] name=message req=true auto='], 'hasSubmit': True, 'urlAfterEmpty': 'unchanged', 'invalidAfterEmpty': ['name', 'email', 'message'], 'statusTextAfterEmpty': '', 'popupUrl': None, 'urlAfterValid': 'unchanged', 'statusTextAfterValid': ''}
+== root-desktop status 200 load 1649 ms CLS 1.8919 LCP 688 KB local/ext 558 590 reqs 20
+   overflow False 1440 1440 []
+   invisible after scroll 6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Always. You get a monthly calendar to review, and ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Packages run month to month. I ask for one month’s', 'opacity': 1, 'visible': False}] | before scroll 167
+   console []
+   pageErrors []
+   failed ['mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20Management%2C%20Content%20creation%2C%20Reels%2C%20Strategy%2C%20Design%2C%20Not%20sure%20yet%0AMonthly%20budget%3A%20Not%20sure%20yet%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site :: net::ERR_ABORTED']
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+   runningAnimations 11
+== root-tablet status 200 load 1202 ms CLS 0.0012 LCP 3060 KB local/ext 279 295 reqs 10
+   overflow False 768 768 []
+   invisible after scroll 6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Always. You get a monthly calendar to review, and ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Packages run month to month. I ask for one month’s', 'opacity': 1, 'visible': False}] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+== root-mobile status 200 load 1463 ms CLS 0 LCP 3284 KB local/ext 558 590 reqs 20
+   overflow False 375 375 []
+   invisible after scroll 6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Always. You get a monthly calendar to review, and ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Packages run month to month. I ask for one month’s', 'opacity': 1, 'visible': False}] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+   mobileNav {'steps': [], 'toggleVisible': True, 'labelBefore': 'Open menu', 'expandedAfterOpen': 'true', 'menuVisibleOpen': True, 'menuLinksVisible': 8, 'bodyScrollLocked': 'hidden/hidden', 'toggleOnTop': True, 'expandedAfterEscape': 'false', 'expandedAfterLinkClick': 'false', 'menuVisibleAfterLink': False, 'linkTarget': '#work', 'hashAfter': '#work', 'scrollYAfter': 8407, 'finalExpanded': 'false'}
+   overflowAfterNav (False, [])
+== sub-desktop status 200 load 1001 ms CLS 3.835 LCP 332 KB local/ext 279 295 reqs 10
+   overflow False 1440 1440 []
+   invisible after scroll 6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Always. You get a monthly calendar to review, and ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Packages run month to month. I ask for one month’s', 'opacity': 1, 'visible': False}] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+== sub-mobile status 200 load 1442 ms CLS 0 LCP 3264 KB local/ext 558 590 reqs 20
+   overflow False 375 375 []
+   invisible after scroll 6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Always. You get a monthly calendar to review, and ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Packages run month to month. I ask for one month’s', 'opacity': 1, 'visible': False}] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+   mobileNav {'steps': [], 'toggleVisible': True, 'labelBefore': 'Open menu', 'expandedAfterOpen': 'true', 'menuVisibleOpen': True, 'menuLinksVisible': 8, 'bodyScrollLocked': 'hidden/hidden', 'toggleOnTop': True, 'expandedAfterEscape': 'false', 'expandedAfterLinkClick': 'false', 'menuVisibleAfterLink': False, 'linkTarget': '#work', 'hashAfter': '#work', 'scrollYAfter': 8407, 'finalExpanded': 'false'}
+   overflowAfterNav (False, [])
+REDUCED MOTION {"invisibleAtTopNoScroll": 163, "invisibleAfterJump": [{"tag": "P", "cls": "", "text": "Yes. Strategy, editing, design and management all ", "opacity": 1, "visible": false}, {"tag": "P", "cls": "", "text": "Mostly Instagram, TikTok and Facebook. Pinterest a", "opacity": 1, "visible": false}, {"tag": "P", "cls": "", "text": "Consistency shows up in the first month. Growth in", "opacity": 1, "visible": false}, {"tag": "P", "cls": "", "text": "Not at all. Plenty of great accounts are built on ", "opacity": 1, "visible": false}, {"tag": "P", "cls": "", "text": "Always. You get a monthly calendar to review, and ", "opacity": 1, "visible": false}, {"tag": "P", "cls": "", "text": "Packages run month to month. I ask for one month\u2019s", "opacity": 1, "visible": false}], "runningAnimations": [], "runningCount": 0, "scrollBehavior": "auto", "errors": []}
+NOJS {'invisible': 0}
+EXTRA WIDTHS {'320': (False, 320, [], 'invis', 6), '1024': (False, 1024, [], 'invis', 6), '1920': (False, 1920, [], 'invis', 6)}
+ANCHOR JUMPS
+   about {'invisible': ['SPAN.num "01" op=0.00', 'P. "Taste first. Pretty is the bas" op=0.00', 'STRONG. "Taste first." op=0.00'], 'invisibleCount': 3, 'headerBottom': 72, 'targetTop': 88, 'headingTop': 301, 'headingUnderHeader': False}
+   services {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 88, 'headingTop': 261, 'headingUnderHeader': False}
+   work {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 88, 'headingTop': 3375, 'headingUnderHeader': False}
+   process {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 88, 'headingTop': 260, 'headingUnderHeader': False}
+   packages {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 88, 'headingTop': 301, 'headingUnderHeader': False}
+   faq {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 350, 'headingTop': 523, 'headingUnderHeader': False}
+   contact {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 1197, 'headingTop': 1373, 'headingUnderHeader': False}
+
+######## READABILITY
+[375] body=Plus Jakarta Sans display=Fraunces textNodes=365 min body/label/display = 11/10/18
+   fonts loaded: ['Fraunces 300 600 italic', 'Fraunces 300 600 normal', 'Plus Jakarta Sans 400 800 normal']
+   flag counts: {('Medium', 'label<13px '): 2, ('Low', 'label tracking>.14em'): 2, ('Info', 'body not'): 11, ('Info', 'body<16px '): 15, ('Medium', 'italic outside'): 1}
+   Medium label<13px                   x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(46,99,83) | 375 top SPAN.logo__word "IRAMAEDIA"
+   Medium label<13px                   x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(20,48,42) | 375 footer.footer SPAN.logo__word "IRAMAEDIA"
+   Medium italic outside display headline x1   28.1px w400 Fraunces italic rgb(46, 99, 83) on rgb(251,236,241) | 375 about SPAN.signature__name "Ira"
+   Low    label tracking>.14em         x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(46,99,83) | 375 top SPAN.logo__word "IRAMAEDIA"
+   Low    label tracking>.14em         x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(20,48,42) | 375 footer.footer SPAN.logo__word "IRAMAEDIA"
+   Info   body<16px                    x6   15px w500 Plus Jakarta San normal rgb(213, 226, 221) on rgb(46,99,83) | 375 section.hero LI.reveal is-in "Cafés & restaurants"
+   Info   body<16px                    x3   15px w600 Plus Jakarta San normal rgb(122, 95, 46) on rgb(251,236,241) | 375 about SPAN.num "01"
+   Info   body<16px                    x12  15px w500 Plus Jakarta San normal rgb(26, 38, 34) on rgb(251,236,241) | 375 services LI. "Monthly content calendar"
+   Info   body<16px                    x4   15px w500 Plus Jakarta San normal rgb(255, 247, 249) on rgb(46,99,83) | 375 services LI. "On-site or flat-lay shoots"
+   Info   body<16px                    x5   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(60,85,77) | 375 services P. "Templates, carousels, highlight covers a"
+   Info   body<16px                    x1   15px w600 Plus Jakarta San normal rgb(213, 226, 221) on rgb(20,48,42) | 375 work SPAN.hint-mob "Swipe to browse"
+   Info   body<16px                    x8   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(20,48,42) | 375 work P.work__client "Client name · Café · Food & drink"
+   Info   body<16px                    x1   15px w400 Plus Jakarta San normal rgb(61, 76, 71) on rgb(251,236,241) | 375 section.results P.note reveal is-in "Results vary by account and goals. Ask m"
+   Info   body<16px                    x2   15px w500 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 375 packages SPAN.pkg__from "From"
+   Info   body<16px                    x2   15px w500 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 375 packages SPAN.pkg__per "/month"
+   Info   body<16px                    x1   15px w500 Plus Jakarta San normal rgb(61, 76, 71) on rgb(251,236,241) | 375 packages SPAN.pkg__from "From"
+   Info   body<16px                    x1   15px w500 Plus Jakarta San normal rgb(61, 76, 71) on rgb(251,236,241) | 375 packages SPAN.pkg__per "/month"
+   Info   body<16px                    x1   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 375 contact P.field__hint "Optional, but it helps me get a feel for"
+   Info   body<16px                    x1   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 375 contact P.field--full form__req "Required"
+   Info   body<16px                    x1   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(20,48,42) | 375 footer.footer P. "© 2026 IraMaedia. Made with care."
+   Info body-not-AAA: 11 groups [(6.58, '375 section.hero P.hero__lead hero-fade "I’m Ira. I plan, sh'), (6.58, '375 section.hero P.qualifier__text reveal is-in "Small brand'), (5.21, '375 section.hero LI.reveal is-in "Cafés & restaurants"'), (5.24, '375 about SPAN.num "01"'), (5.21, '375 services P.card__desc "Photos and short-form video made '), (6.58, '375 services LI. "On-site or flat-lay shoots"'), (6.07, '375 services P.card__desc "Hooks in the first second, clean '), (6.07, '375 services P. "Templates, carousels, highlight covers a"')]
+[1440] body=Plus Jakarta Sans display=Fraunces textNodes=375 min body/label/display = 11/10/18
+   fonts loaded: ['Fraunces 300 600 italic', 'Fraunces 300 600 normal', 'Plus Jakarta Sans 400 800 normal']
+   flag counts: {('Medium', 'label<13px '): 2, ('Low', 'label tracking>.14em'): 2, ('Info', 'body not'): 11, ('Info', 'body<16px '): 15, ('Medium', 'italic outside'): 1}
+   Medium label<13px                   x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(46,99,83) | 1440 top SPAN.logo__word "IRAMAEDIA"
+   Medium label<13px                   x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(20,48,42) | 1440 footer.footer SPAN.logo__word "IRAMAEDIA"
+   Medium italic outside display headline x1   40px w400 Fraunces italic rgb(46, 99, 83) on rgb(251,236,241) | 1440 about SPAN.signature__name "Ira"
+   Low    label tracking>.14em         x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(46,99,83) | 1440 top SPAN.logo__word "IRAMAEDIA"
+   Low    label tracking>.14em         x1   12px w600 Plus Jakarta San normal rgb(255, 247, 249) on rgb(20,48,42) | 1440 footer.footer SPAN.logo__word "IRAMAEDIA"
+   Info   body<16px                    x6   15px w500 Plus Jakarta San normal rgb(213, 226, 221) on rgb(46,99,83) | 1440 section.hero LI.reveal is-in "Cafés & restaurants"
+   Info   body<16px                    x3   15px w600 Plus Jakarta San normal rgb(122, 95, 46) on rgb(251,236,241) | 1440 about SPAN.num "01"
+   Info   body<16px                    x12  15px w500 Plus Jakarta San normal rgb(26, 38, 34) on rgb(251,236,241) | 1440 services LI. "Monthly content calendar"
+   Info   body<16px                    x4   15px w500 Plus Jakarta San normal rgb(255, 247, 249) on rgb(46,99,83) | 1440 services LI. "On-site or flat-lay shoots"
+   Info   body<16px                    x5   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(60,85,77) | 1440 services P. "Templates, carousels, highlight covers a"
+   Info   body<16px                    x1   15px w600 Plus Jakarta San normal rgb(213, 226, 221) on rgb(20,48,42) | 1440 work SPAN.hint-desk "Scroll to browse"
+   Info   body<16px                    x8   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(20,48,42) | 1440 work P.work__client "Client name · Café · Food & drink"
+   Info   body<16px                    x1   15px w400 Plus Jakarta San normal rgb(61, 76, 71) on rgb(251,236,241) | 1440 section.results P.note reveal is-in "Results vary by account and goals. Ask m"
+   Info   body<16px                    x2   15px w500 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 1440 packages SPAN.pkg__from "From"
+   Info   body<16px                    x2   15px w500 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 1440 packages SPAN.pkg__per "/month"
+   Info   body<16px                    x1   15px w500 Plus Jakarta San normal rgb(61, 76, 71) on rgb(251,236,241) | 1440 packages SPAN.pkg__from "From"
+   Info   body<16px                    x1   15px w500 Plus Jakarta San normal rgb(61, 76, 71) on rgb(251,236,241) | 1440 packages SPAN.pkg__per "/month"
+   Info   body<16px                    x1   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 1440 contact P.field__hint "Optional, but it helps me get a feel for"
+   Info   body<16px                    x1   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(30,66,55) | 1440 contact P.field--full form__req "Required"
+   Info   body<16px                    x1   15px w450 Plus Jakarta San normal rgb(213, 226, 221) on rgb(20,48,42) | 1440 footer.footer P. "© 2026 IraMaedia. Made with care."
+   Info body-not-AAA: 11 groups [(6.58, '1440 section.hero P.hero__lead hero-fade "I’m Ira. I plan, s'), (6.58, '1440 section.hero P.qualifier__text reveal is-in "Small bran'), (5.21, '1440 section.hero LI.reveal is-in "Cafés & restaurants"'), (5.24, '1440 about SPAN.num "01"'), (5.21, '1440 services P.card__desc "Photos and short-form video made'), (6.58, '1440 services LI. "On-site or flat-lay shoots"'), (6.07, '1440 services P.card__desc "Hooks in the first second, clean'), (6.07, '1440 services P. "Templates, carousels, highlight covers a"')]
+
+######## PRELOADER
+  root-1440-normal             DCL=334 firstBlocked=334 unblocked=1913 heroVisible=334 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['12ms:no-body', '334ms:overlay:DIV.preloader', '1913ms:OK'] | html: js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in
+       reload: {'firstBlockedAt': None, 'unblockedAt': 15, 'blockedBy': None, 'nowBlocked': ''}
+  root-375-normal              DCL=293 firstBlocked=310 unblocked=1839 heroVisible=310 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['10ms:no-body', '310ms:overlay:DIV.preloader', '1839ms:OK'] | html: js reveal-ok motion-ok gsap-live lenis js-live hero-in
+       reload: {'firstBlockedAt': None, 'unblockedAt': 11, 'blockedBy': None, 'nowBlocked': ''}
+  sub-1440-normal              DCL=327 firstBlocked=358 unblocked=1914 heroVisible=358 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['9ms:no-body', '358ms:overlay:DIV.preloader', '1914ms:OK'] | html: js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in
+       reload: {'firstBlockedAt': None, 'unblockedAt': 14, 'blockedBy': None, 'nowBlocked': ''}
+  sub-375-normal               DCL=257 firstBlocked=277 unblocked=1843 heroVisible=277 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['11ms:no-body', '277ms:overlay:DIV.preloader', '1843ms:OK'] | html: js reveal-ok motion-ok gsap-live lenis js-live hero-in
+       reload: {'firstBlockedAt': None, 'unblockedAt': 12, 'blockedBy': None, 'nowBlocked': ''}
+  root-1440-click-skip@400ms   DCL=452 firstBlocked=475 unblocked=689 heroVisible=475 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['11ms:no-body', '475ms:overlay:DIV.preloader', '689ms:OK'] | html: js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in
+  root-1440-esc-skip@400ms     DCL=411 firstBlocked=465 unblocked=574 heroVisible=465 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['12ms:no-body', '465ms:overlay:DIV.preloader', '574ms:OK'] | html: js reveal-ok motion-ok gsap-live lenis pin-work has-cursor js-live hero-in
+  root-1440-wheel-skip@400ms   DCL=332 firstBlocked=352 unblocked=831 heroVisible=352 nowBlocked='' by=overlay:DIV.preloader errs=[]
+       transitions: ['13ms:no-body', '352ms:overlay:DIV.preloader', '831ms:OK'] | html: js reveal-ok motion-ok gsap-live pin-work has-cursor js-live    hero-in lenis
+  skiplink-during-preloader {"t": 605, "blocked": "overlay:DIV.preloader", "active": "A #main \"Skip to content\"", "onTop": true, "hit": "A.skip-link", "inert": false, "after": {"y": 0, "hash": "#main", "active": "MAIN#main"}}
+  root-1440-reduced            DCL=258 firstBlocked=None unblocked=13 heroVisible=372 nowBlocked='' by=None errs=[]
+       transitions: ['13ms:no-body', '372ms:OK'] | html: js reveal-ok js-live hero-in
+  root-375-reduced             DCL=313 firstBlocked=None unblocked=13 heroVisible=315 nowBlocked='' by=None errs=[]
+       transitions: ['13ms:no-body', '315ms:OK'] | html: js reveal-ok js-live hero-in
+  sub-1440-reduced             DCL=340 firstBlocked=None unblocked=11 heroVisible=343 nowBlocked='' by=None errs=[]
+       transitions: ['11ms:no-body', '343ms:OK'] | html: js reveal-ok js-live hero-in
+  nojs-1440 {"blocked": "", "hero": true, "invisibleLoaderish": ["DIV.preloader none/visible/1 0x0", "DIV.preloader__logo block/visible/1 0x0", "P.preloader__mark flex/visible/1 0x0", "P.preloader__word flex/visible/1 0x0", "P.preloader__tag block/visible/1 0x0"], "invisible": 0, "sectionBgs": {"htmlClass": "", "pins": 0, "sections": [{"id": "SECTION", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "SECTION", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "about", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "services", "bg": "rgb(30, 66, 55
+  nojs-375 {"blocked": "", "hero": true, "invisibleLoaderish": ["DIV.preloader none/visible/1 0x0", "DIV.preloader__logo block/visible/1 0x0", "P.preloader__mark flex/visible/1 0x0", "P.preloader__word flex/visible/1 0x0", "P.preloader__tag block/visible/1 0x0"], "invisible": 0, "sectionBgs": {"htmlClass": "", "pins": 0, "sections": [{"id": "SECTION", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "SECTION", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "about", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "services", "bg": "rgb(30, 66, 55
+
+######## SCROLL / ANCHORS / FOCUS / PIN
+  == 320  errors=None
+    pins=[] sticky=[] lenis=True gsap=True ST=True steps=72 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'UL.work__list', 'items': 8, 'width': 320, 'scrollWidth': 2074, 'native': True, 'section': 'work', 'txMin': 0, 'txMax': 0, 'itemsSeen': 8, 'itemsTotal': 8, 'unseen': []}
+     frames {'n': 846, 'avgMs': 16.7, 'p50': 16.7, 'p95': 16.7, 'max': 16.8, 'over50ms': 0, 'pctOver34ms': 0}
+  == 768  errors=None
+    pins=[] sticky=['LI.card', 'LI.card', 'LI.card', 'LI.card'] lenis=True gsap=True ST=True steps=43 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'UL.work__list', 'items': 8, 'width': 768, 'scrollWidth': 2617, 'native': True, 'section': 'work', 'txMin': 0, 'txMax': 0, 'itemsSeen': 8, 'itemsTotal': 8, 'unseen': []}
+     frames {'n': 491, 'avgMs': 16.8, 'p50': 16.7, 'p95': 16.7, 'max': 33.4, 'over50ms': 0, 'pctOver34ms': 0}
+    stackCards: {"cards": 4, "positions": ["sticky"], "coveredLast": [], "coveredAny": ["card1 heading covered by LI.card card--green @y=4494", "card1 heading covered by LI.card card--green @y=4648", "card1 heading covered by LI.card card--green @y=4801", "card1 heading covered by LI.card card--green @y=4955", "card1 heading covered by LI.card card--green @y=5109", "card2 heading covered by LI.card card--rose @y=5109", "card1 heading covered by LI.card card--rose @y=5262", "card2 heading covered by LI.card card--rose @y=5262"]}
+  == 1920  errors=None
+    pins=['DIV#.work__pin h=4309'] sticky=['LI.card', 'LI.card', 'LI.card', 'LI.card'] lenis=True gsap=True ST=True steps=42 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'DIV.work__track', 'items': 3, 'width': 5149, 'scrollWidth': 5149, 'native': False, 'section': 'work', 'txMin': -3229, 'txMax': 0, 'itemsSeen': 3, 'itemsTotal': 3, 'unseen': []}
+     frames {'n': 290, 'avgMs': 35.8, 'p50': 33.3, 'p95': 50.1, 'max': 83.3, 'over50ms': 17, 'pctOver34ms': 21.4}
+  == root-1440  errors=[]
+    ok #main            js    landed=True secTop=0 headTop=177 hdr=72 focusIn=True hash=True settle=379 invis=0 
+    XX #top             mouse landed=True secTop=0 headTop=0 hdr=72 focusIn=False hash=False settle=378 invis=0 
+    ok #work            mouse landed=True secTop=88 headTop=386 hdr=72 focusIn=True hash=True settle=1349 invis=0 
+    ok #services        mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=1337 invis=0 
+    ok #process         mouse landed=True secTop=88 headTop=260 hdr=72 focusIn=True hash=True settle=1369 invis=0 
+    ok #packages        mouse landed=True secTop=88 headTop=301 hdr=72 focusIn=True hash=True settle=1332 invis=0 
+    ok #faq             mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=1343 invis=0 
+    XX #contact         mouse landed=True secTop=88 headTop=264 hdr=72 focusIn=True hash=True settle=1338 invis=2 ['A.big-link "@iramaedia on Instag" 0.00', 'SPAN.visually-hidden "(opens in a new tab)" 0.00']
+    focus stops=21 problems=4
+       {'desc': 'A "Services" #services', 'rect': [550, 566, 62, 44], 'inView': True, 'covered': True, 'coveredBy': 'svg.footer__globe in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+       {'desc': 'A "Process" #process', 'rect': [637, 566, 59, 44], 'inView': True, 'covered': True, 'coveredBy': 'use. in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+       {'desc': 'A "Packages" #packages', 'rect': [720, 566, 71, 44], 'inView': True, 'covered': True, 'coveredBy': 'svg.footer__globe in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+       {'desc': 'A "FAQ" #faq', 'rect': [815, 566, 31, 44], 'inView': True, 'covered': True, 'coveredBy': 'svg.footer__globe in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+    pins=['DIV#.work__pin h=3889'] sticky=['LI.card', 'LI.card', 'LI.card', 'LI.card'] lenis=True gsap=True ST=True steps=49 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'DIV.work__track', 'items': 3, 'width': 4429, 'scrollWidth': 4429, 'native': False, 'section': 'work', 'txMin': -2989, 'txMax': 0, 'itemsSeen': 2, 'itemsTotal': 3, 'unseen': [1]}
+     frames {'n': 458, 'avgMs': 22.7, 'p50': 16.7, 'p95': 33.4, 'max': 83.4, 'over50ms': 6, 'pctOver34ms': 3.7}
+    keyboard: {"pageDown": 0, "space": 0, "arrowDown": 0, "endAtBottom": true, "homeAtTop": true, "ok": false}
+    stackCards: {"cards": 4, "positions": ["sticky"], "coveredLast": [], "coveredAny": ["card1 heading covered by LI.card card--green @y=3740", "card1 heading covered by LI.card card--green @y=3875", "card1 heading covered by LI.card card--green @y=4010", "card1 heading covered by LI.card card--green @y=4145", "card1 heading covered by LI.card card--green @y=4280", "card1 heading covered by LI.card card--rose @y=4415", "card2 heading covered by LI.card card--rose @y=4415", "card1 heading covered by LI.card card--rose @y=4550"]}
+  == root-375  errors=[]
+    ok #main            js    landed=True secTop=0 headTop=137 hdr=64 focusIn=True hash=True settle=382 invis=0 
+    XX #top             mouse landed=True secTop=0 headTop=0 hdr=64 focusIn=False hash=False settle=381 invis=0 
+    ok #work            mouse landed=True secTop=72 headTop=205 hdr=64 focusIn=True hash=True settle=1336 invis=0 
+    ok #services        js    landed=True secTop=72 headTop=189 hdr=64 focusIn=True hash=True settle=1340 invis=0 
+    ok #process         js    landed=True secTop=72 headTop=189 hdr=64 focusIn=True hash=True settle=1324 invis=0 
+    ok #packages        js    landed=True secTop=72 headTop=205 hdr=64 focusIn=True hash=True settle=1393 invis=0 
+    XX #faq             js    landed=True secTop=72 headTop=189 hdr=64 focusIn=True hash=True settle=1403 invis=1 ['SPAN. "Do I approve everyth" 0.00']
+    XX #contact         mouse landed=True secTop=72 headTop=168 hdr=64 focusIn=True hash=True settle=1327 invis=1 ['LABEL. "Your name *" 0.00']
+    focus stops=21 problems=1
+       {'desc': 'INPUT#f-name "" name', 'rect': [41, 750, 293, 56], 'inView': True, 'covered': False, 'coveredBy': None, 'opacity': 0, 'hidden': False, 'ring': True, 'headerBottom': 64, 'bottomBar': 812}
+    pins=[] sticky=[] lenis=True gsap=True ST=True steps=59 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'UL.work__list', 'items': 8, 'width': 375, 'scrollWidth': 2400, 'native': True, 'section': 'work', 'txMin': 0, 'txMax': 0, 'itemsSeen': 8, 'itemsTotal': 8, 'unseen': []}
+     frames {'n': 655, 'avgMs': 16.7, 'p50': 16.7, 'p95': 16.7, 'max': 16.8, 'over50ms': 0, 'pctOver34ms': 0}
+    menuLock: {"scrolledWhileOpen": 0, "scrolledAfterClose": 600, "bottomBarWhileMenuOpen": {"found": true, "sel": "DIV.bbar", "visible": false, "top": 824, "bottom": 884, "opacity": 1, "display": "flex"}, "lockedOk": true, "restoredOk": true}
+    bottomBar: {"atLoad": {"found": true, "sel": "DIV.bbar", "visible": false, "top": 824, "bottom": 884, "opacity": 1, "display": "flex"}, "afterHeroCtas": {"found": true, "sel": "DIV.bbar is-shown", "visible": true, "top": 740, "bottom": 800, "opacity": 1, "display": "flex"}, "midPage": {"found": true, "sel": "DIV.bbar is-shown", "visible": true, "top": 740, "bottom": 800, "opacity": 1, "display": "flex"}, "contactInView": {"found": true, "sel": "DIV.bbar is-shown", "visible": true, "top": 740, "bottom": 800, "opacity": 1, "display": "flex"}, "inputFocused": {"found": true, "sel": "DIV.bbar", "visible": false, "top": 824, "bottom": 884, "opacity": 1, "display": "flex"}, "contact50": {"contactVisiblePx": 406, "bar": {"found": true, "sel": "DIV.bbar", "visible": false, "top": 824, "bottom": 884, "opacity": 1, "display": "flex"}}, "atBottom": {"found": true, "sel": "DIV.bbar", "visible": false, "top": 8
+  == sub-1440  errors=[]
+    ok #main            js    landed=True secTop=0 headTop=177 hdr=72 focusIn=True hash=True settle=384 invis=0 
+    XX #top             mouse landed=True secTop=0 headTop=0 hdr=72 focusIn=False hash=False settle=378 invis=0 
+    ok #work            mouse landed=True secTop=88 headTop=386 hdr=72 focusIn=True hash=True settle=1333 invis=0 
+    ok #services        mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=1283 invis=0 
+    ok #process         mouse landed=True secTop=88 headTop=260 hdr=72 focusIn=True hash=True settle=1350 invis=0 
+    ok #packages        mouse landed=True secTop=88 headTop=301 hdr=72 focusIn=True hash=True settle=1363 invis=0 
+    ok #faq             mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=1382 invis=0 
+    XX #contact         mouse landed=True secTop=88 headTop=264 hdr=72 focusIn=True hash=True settle=1325 invis=2 ['A.big-link "@iramaedia on Instag" 0.00', 'SPAN.visually-hidden "(opens in a new tab)" 0.00']
+  == reduced-1440  errors=[]
+    ok #main            js    landed=True secTop=0 headTop=177 hdr=72 focusIn=True hash=True settle=382 invis=0 
+    XX #top             mouse landed=True secTop=0 headTop=0 hdr=72 focusIn=False hash=False settle=382 invis=0 
+    ok #work            mouse landed=True secTop=88 headTop=300 hdr=72 focusIn=True hash=True settle=379 invis=0 
+    ok #services        mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=379 invis=0 
+    ok #process         mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=380 invis=0 
+    ok #packages        mouse landed=True secTop=88 headTop=301 hdr=72 focusIn=True hash=True settle=378 invis=0 
+    ok #faq             mouse landed=True secTop=88 headTop=261 hdr=72 focusIn=True hash=True settle=378 invis=0 
+    ok #contact         mouse landed=True secTop=88 headTop=264 hdr=72 focusIn=True hash=True settle=380 invis=0 
+    focus stops=21 problems=4
+       {'desc': 'A "Services" #services', 'rect': [550, 565, 62, 44], 'inView': True, 'covered': True, 'coveredBy': 'svg.footer__globe in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+       {'desc': 'A "Process" #process', 'rect': [637, 565, 59, 44], 'inView': True, 'covered': True, 'coveredBy': 'use. in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+       {'desc': 'A "Packages" #packages', 'rect': [720, 565, 71, 44], 'inView': True, 'covered': True, 'coveredBy': 'svg.footer__globe in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+       {'desc': 'A "FAQ" #faq', 'rect': [815, 565, 31, 44], 'inView': True, 'covered': True, 'coveredBy': 'svg.footer__globe in footer__mark', 'opacity': 1, 'hidden': False, 'ring': True, 'headerBottom': 72, 'bottomBar': 900}
+    pins=[] sticky=['DIV.faq__intro', 'DIV.contact__info'] lenis=False gsap=True ST=True steps=38 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'UL.work__list', 'items': 8, 'width': 1440, 'scrollWidth': 2788, 'native': True, 'section': 'work', 'txMin': 0, 'txMax': 0, 'itemsSeen': 8, 'itemsTotal': 8, 'unseen': []}
+     frames {'n': 352, 'avgMs': 17.5, 'p50': 16.7, 'p95': 33.2, 'max': 33.4, 'over50ms': 0, 'pctOver34ms': 0}
+    stackCards: {"cards": 4, "positions": ["relative"], "coveredLast": [], "coveredAny": []}
+    sectionBgs: {"htmlClass": "js reveal-ok js-live hero-in", "pins": 0, "sections": [{"id": "SECTION", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "SECTION", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "about", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "services", "bg": "rgb(30, 66, 55)", "bgImage": false, "solid": true}, {"id": "work", "bg": "rgb(20, 48, 42)", "bgImage": false, "solid": true}, {"id": "process", "bg": "rgb(247, 241, 234)", "bgImage": false, "solid": true}, {"id": "SECTION", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "packages", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "faq", "bg": "rgb(247, 241, 234)", "bgImage": false, "solid": true}, {"id": "contact", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "FOOTER", "bg": "rgb(20, 48, 42)", "bgImage":
+  == reduced-375  errors=[]
+    ok #main            js    landed=True secTop=0 headTop=137 hdr=64 focusIn=True hash=True settle=379 invis=0 
+    XX #top             mouse landed=True secTop=0 headTop=0 hdr=64 focusIn=False hash=False settle=380 invis=0 
+    ok #work            mouse landed=True secTop=72 headTop=205 hdr=64 focusIn=True hash=True settle=384 invis=0 
+    ok #services        js    landed=True secTop=72 headTop=189 hdr=64 focusIn=True hash=True settle=381 invis=0 
+    ok #process         js    landed=True secTop=72 headTop=189 hdr=64 focusIn=True hash=True settle=379 invis=0 
+    ok #packages        js    landed=True secTop=72 headTop=205 hdr=64 focusIn=True hash=True settle=382 invis=0 
+    ok #faq             js    landed=True secTop=72 headTop=189 hdr=64 focusIn=True hash=True settle=383 invis=0 
+    XX #contact         mouse landed=True secTop=72 headTop=168 hdr=64 focusIn=True hash=True settle=384 invis=1 ['LABEL. "Your name *" 0.00']
+    focus stops=21 problems=1
+       {'desc': 'INPUT#f-name "" name', 'rect': [41, 726, 293, 56], 'inView': True, 'covered': False, 'coveredBy': None, 'opacity': 0, 'hidden': False, 'ring': True, 'headerBottom': 64, 'bottomBar': 812}
+    pins=[] sticky=[] lenis=False gsap=True ST=True steps=55 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'UL.work__list', 'items': 8, 'width': 375, 'scrollWidth': 2400, 'native': True, 'section': 'work', 'txMin': 0, 'txMax': 0, 'itemsSeen': 8, 'itemsTotal': 8, 'unseen': []}
+     frames {'n': 536, 'avgMs': 16.7, 'p50': 16.7, 'p95': 16.7, 'max': 16.8, 'over50ms': 0, 'pctOver34ms': 0}
+    stackCards: {"cards": 4, "positions": ["relative"], "coveredLast": [], "coveredAny": []}
+    sectionBgs: {"htmlClass": "js reveal-ok js-live hero-in", "pins": 0, "sections": [{"id": "SECTION", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "SECTION", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "about", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "services", "bg": "rgb(30, 66, 55)", "bgImage": false, "solid": true}, {"id": "work", "bg": "rgb(20, 48, 42)", "bgImage": false, "solid": true}, {"id": "process", "bg": "rgb(247, 241, 234)", "bgImage": false, "solid": true}, {"id": "SECTION", "bg": "rgb(251, 236, 241)", "bgImage": false, "solid": true}, {"id": "packages", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "faq", "bg": "rgb(247, 241, 234)", "bgImage": false, "solid": true}, {"id": "contact", "bg": "rgb(46, 99, 83)", "bgImage": false, "solid": true}, {"id": "FOOTER", "bg": "rgb(20, 48, 42)", "bgImage":
+  == 1024x600  errors=None
+    pins=[] sticky=['LI.card', 'LI.card', 'LI.card', 'LI.card'] lenis=True gsap=True ST=True steps=57 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'UL.work__list', 'items': 8, 'width': 1024, 'scrollWidth': 2642, 'native': True, 'section': 'work', 'txMin': 0, 'txMax': 0, 'itemsSeen': 8, 'itemsTotal': 8, 'unseen': []}
+     frames {'n': 660, 'avgMs': 16.9, 'p50': 16.7, 'p95': 16.8, 'max': 33.4, 'over50ms': 0, 'pctOver34ms': 0}
+  == 1024x700  errors=None
+    pins=['DIV#.work__pin h=3065'] sticky=['LI.card', 'LI.card', 'LI.card', 'LI.card'] lenis=True gsap=True ST=True steps=56 reachedBottom=True gaps=[] overflowAt=[]
+     track {'el': 'DIV.work__track', 'items': 3, 'width': 3389, 'scrollWidth': 3389, 'native': False, 'section': 'work', 'txMin': -2365, 'txMax': 0, 'itemsSeen': 2, 'itemsTotal': 3, 'unseen': [1]}
+     frames {'n': 639, 'avgMs': 17, 'p50': 16.7, 'p95': 16.8, 'max': 66.7, 'over50ms': 1, 'pctOver34ms': 0.3}
+  hash-1440 {'#packages': {'y': 12519, 'headerBottom': 72, 'sectionTop': 88, 'headingTop': 301, 'ok': True}, '#work': {'y': 6713, 'headerBottom': 72, 'sectionTop': 88, 'headingTop': 3375, 'ok': False}, '#contact': {'y': 13731, 'headerBottom': 72, 'sectionTop': 1197, 'headingTop': 1373, 'ok': False}}
+  hash-375 {'#packages': {'y': 12108, 'headerBottom': 64, 'sectionTop': 72, 'headingTop': 205, 'ok': True}, '#work': {'y': 8407, 'headerBottom': 64, 'sectionTop': 72, 'headingTop': 205, 'ok': True}, '#contact': {'y': 15774, 'headerBottom': 64, 'sectionTop': 72, 'headingTop': 168, 'ok': True}}
+
+######## VENDOR/CDN FAILURE
+  abort-1440 blocked=['assets/vendor/gsap.min.js', 'assets/vendor/ScrollTrigger.min.js', 'assets/vendor/lenis.min.js'] firstBlocked=None unblocked=13 nowBlocked='' hero=290 html='js reveal-ok js-live hero-in' errs=[] console=['Failed to load resource: net::ERR_FAILED', 'Failed to load resource: net::ERR_FAILED', 'Failed to load resource: net::ERR_FAILED']
+     invisible before/after=163/6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}] overflow=False anchorsBad=[{'href': '#contact', 'landed': True, 'targetTop': 88, 'invisibleCount': 2}]
+     sectionBgs nonSolid [] pins 0
+     form {"action": "mailto:hello@iramaedia.com", "method": "post", "fields": ["input[text] name=name req=true auto=name", "input[email] name=email req=true auto=email", "input[text] name=brand req=false auto=organization", "input[checkbox] name=needs req=false auto=", "input[checkbox] name=needs req=false auto=", "input[checkbox] name=needs req=false auto=", "input[checkbox] name=needs req=false auto=", "
+  abort-375 blocked=['assets/vendor/gsap.min.js', 'assets/vendor/ScrollTrigger.min.js', 'assets/vendor/lenis.min.js'] firstBlocked=None unblocked=11 nowBlocked='' hero=489 html='js reveal-ok js-live hero-in' errs=[] console=['Failed to load resource: net::ERR_FAILED', 'Failed to load resource: net::ERR_FAILED', 'Failed to load resource: net::ERR_FAILED']
+     invisible before/after=163/6 [{'tag': 'P', 'cls': '', 'text': 'Yes. Strategy, editing, design and management all ', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Mostly Instagram, TikTok and Facebook. Pinterest a', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Consistency shows up in the first month. Growth in', 'opacity': 1, 'visible': False}, {'tag': 'P', 'cls': '', 'text': 'Not at all. Plenty of great accounts are built on ', 'opacity': 1, 'visible': False}] overflow=False anchorsBad=[{'href': '#faq', 'landed': True, 'targetTop': 72, 'invisibleCount': 1}, {'href': '#contact', 'landed': True, 'targetTop': 72, 'invisibleCount': 1}]
+     sectionBgs nonSolid [] pins 0
+     nav {"steps": [], "toggleVisible": true, "labelBefore": "Open menu", "expandedAfterOpen": "true", "menuVisibleOpen": true, "menuLinksVisible": 8, "bodyScrollLocked": "hidden/visible", "toggleOnTop": true, "expandedAfterEscape": "false", "expandedAfterLinkClick": "false", "menuVisibleAfterLink": false, "linkTarget": "#work", "hashAfter": "#work", "scrollYAfter": 8407, "finalExpanded": "false"}
+  hang-1440 blocked=['assets/vendor/gsap.min.js', 'assets/vendor/ScrollTrigger.min.js', 'assets/vendor/lenis.min.js'] firstBlocked=221 unblocked=2887 nowBlocked='' hero=221 html='js' errs=[] console=[]
+
+######## FORM V2
+  375 {"afterEmpty": {"invalid": ["name", "email", "message"], "summary": "Almost there. Please check: Your name: Please tell me your name.Email: I need an email to reply to.Tell me about your brand: A line or two a", "summaryLinks": 3, "focus": "DIV#form-summary.form__summary role=alert", "focusInSummary": true, "errorsVisible": ["Please tell me your name.", "I need an email to reply to.", "A line or two about your brand helps a l"]}, "keyboard": {"checkboxChecked": true, "checkboxFocusRing": true, "checkboxNonColour": "\"\u2713\"", "checkboxToggledBack": true, "radioArrowMoved": true, "radioNonColour": "\"\u2713\""}, "loading": {"text": "Opening your email\u2026", "ariaBusy": null, "disabled": false}, "mailto": "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20-%0AMonthly%20budget%3A%20%24500%20to%20%241%2C000%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site", "success": {"headingVisible": true, "focusOnHeading": true, "focus": "H3.form-success__title \"Almost there.\"", "copyButton": "Copy my email instead"}, "copyAfter": "Copy my email instead", "copyLive": true, "pageErrors": [], "packagePrefill": {"textarea": "Hi Ira, I\u2019m interested in the Signature package. ", "contactTop": 72, "formTop": 779}}
+  1440 {"afterEmpty": {"invalid": ["name", "email", "message"], "summary": "Almost there. Please check: Your name: Please tell me your name.Email: I need an email to reply to.Tell me about your brand: A line or two a", "summaryLinks": 3, "focus": "DIV#form-summary.form__summary role=alert", "focusInSummary": true, "errorsVisible": ["Please tell me your name.", "I need an email to reply to.", "A line or two about your brand helps a l"]}, "keyboard": {"checkboxChecked": true, "checkboxFocusRing": true, "checkboxNonColour": "\"\u2713\"", "checkboxToggledBack": true, "radioArrowMoved": true, "radioNonColour": "\"\u2713\""}, "loading": {"text": "Opening your email\u2026", "ariaBusy": null, "disabled": false}, "mailto": "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20-%0AMonthly%20budget%3A%20%24500%20to%20%241%2C000%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site", "success": {"headingVisible": true, "focusOnHeading": true, "focus": "H3.form-success__title \"Almost there.\"", "copyButton": "Copy my email instead"}, "copyAfter": "Copy my email instead", "copyLive": true, "pageErrors": [], "packagePrefill": {"textarea": "Hi Ira, I\u2019m interested in the Signature package. ", "contactTop": 88, "formTop": 657}}
+
+######## PERF
+  {"vp": "1440x900", "cpuThrottle": 1, "readyMs": 2002, "load": {"dcl": 590, "loadEnd": 938, "unblockedAt": 2144, "longtasks": 2, "longestTask": 107, "tbt": 90, "cls": 0.014, "shiftSources": [{"t": 895, "v": 0.011238448380835264, "src": ["I.aurora__b", "#text.", "#text."]}]}, "scroll": {"frames": 360, "avgFps": 39.8, "p50": 16.7, "p95": 33.4, "maxFrame": 200, "framesOver50": 5, "longtasks": 1, "longestTask": 102, "tbt": 52, "cls": 1.9611, "shiftSources": [{"t": 7746, "v": 1, "src": ["DIV.work__pin"]}, {"t": 9611, "v": 0.9611111111111111, "src": ["DIV.work__pin"]}], "scrolledTo": 14173}}
+  {"vp": "375x812", "cpuThrottle": 4, "readyMs": 2422, "load": {"dcl": 1368, "loadEnd": 1374, "unblockedAt": 2894, "longtasks": 11, "longestTask": 265, "tbt": 882, "cls": 0, "shiftSources": []}, "scroll": {"frames": 415, "avgFps": 53, "p50": 16.7, "p95": 33.4, "maxFrame": 83.4, "framesOver50": 4, "longtasks": 4, "longestTask": 88, "tbt": 90, "cls": 0, "shiftSources": [], "scrolledTo": 12778}}
+
+######## SCREENS
+{'320': ['hero', 'hero-mid', 'work', 'contact', 'footer'], '375': ['hero', 'hero-mid', 'marquee', 'about', 'services', 'services-mid', 'work', 'process', 'results', 'packages', 'faq', 'contact', 'footer'], '768': ['hero', 'hero-mid', 'work', 'contact', 'footer'], '1440': ['hero', 'hero-mid', 'marquee', 'about', 'services', 'services-mid', 'work', 'process', 'results', 'packages', 'faq', 'contact', 'footer']}

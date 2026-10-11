@@ -782,7 +782,7 @@ const anchorExtras = h => {
 async function keyboardScrollTest(page) {
   await scrollTop(page);
   await page.evaluate(() => document.activeElement && document.activeElement.blur());
-  await page.mouse.click(5, Math.round(page.viewportSize().height / 2)).catch(() => {}); // focus document, not a control
+  await page.evaluate(() => { document.body.setAttribute('tabindex', '-1'); document.body.focus({ preventScroll: true }); document.body.removeAttribute('tabindex'); });
   const y = () => page.evaluate(() => Math.round(scrollY));
   const r = {};
   const y0 = await y();
@@ -1138,7 +1138,7 @@ async function formTestV2(page, shotTag) {
         await settleScroll(page, 2500); await page.waitForTimeout(1300);
         await page.screenshot({ path: `${SHOTS}/round${ROUND}-${wkey}-${id}.png` }); done.push(id);
         // mid-pin shot for pinned sections
-        const pinH = await page.evaluate(id => { const el = document.querySelector(`[data-qa-sec="${id}"]`); const p = el && el.parentElement; return p && p.classList.contains('pin-spacer') ? Math.round(p.getBoundingClientRect().height - innerHeight) : 0; }, id);
+        const pinInfo = await page.evaluate(id => { const el = document.querySelector(`[data-qa-sec="${id}"]`); const p = el && (el.parentElement && el.parentElement.classList.contains('pin-spacer') ? el.parentElement : el.querySelector('.pin-spacer')); return p ? { h: Math.round(p.getBoundingClientRect().height - innerHeight), top: Math.round(p.getBoundingClientRect().top + scrollY) } : { h: 0, top: 0 }; }, id); const pinH = pinInfo.h;
         // hero after fan-out (50% of hero scrolled) and services stack mid-scroll
         if (/hero|top|home/.test(id) || id === 'services') {
           const hh = await page.evaluate(id => document.querySelector(`[data-qa-sec="${id}"]`).getBoundingClientRect().height, id);
@@ -1148,8 +1148,8 @@ async function formTestV2(page, shotTag) {
         }
         if (pinH > 200) {
           for (const frac of [0.05, 0.5, 0.95]) {
-            await page.evaluate(y => { if (window.lenis && window.lenis.scrollTo) try { window.lenis.scrollTo(y, { immediate: true }); } catch (_) {} window.scrollTo({ top: y, behavior: 'instant' }); }, y + Math.round(pinH * frac));
-            await settleScroll(page, 2500); await page.waitForTimeout(1000);
+            await page.evaluate(y => { if (window.lenis && window.lenis.scrollTo) try { window.lenis.scrollTo(y, { immediate: true }); } catch (_) {} window.scrollTo({ top: y, behavior: 'instant' }); }, pinInfo.top + Math.round(pinH * frac));
+            await settleScroll(page, 2500); await page.waitForTimeout(1600);
             await page.screenshot({ path: `${SHOTS}/round${ROUND}-${wkey}-${id}-pin${Math.round(frac * 100)}.png` }); done.push(`${id}-pin${Math.round(frac * 100)}`);
           }
         }

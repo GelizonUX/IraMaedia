@@ -75,3 +75,67 @@ Same matrix as round 1: root and /IraMaedia/ sub-path; widths 320, 375, 768, 102
 13. [Low] Google Fonts transfer is still about 408KB as measured, so the weight trimming didn't show a measurable drop. Check the css2 URL axes or subset with `&text=` for the display face.
 
 **Round 2 result: 0 High, 0 Medium, 2 Low → QA PASS.**
+
+## Round 3 (build r3 = v2 redesign, tested 2026-10-11)
+Matrix:
+- Root and the `/IraMaedia/` sub-path.
+- Widths 320, 375, 768, 1024x600, 1024x700, 1440 and 1920.
+- JS off, reduced motion, and vendor scripts aborted or hanging (`assets/vendor/*`).
+
+New harness checks: readability per text node, preloader timeline, Lenis anchors with focus and hash, keyboard scrolling, Tab into view, a pin/overlap/overflow wheel scan, bottom bar, form v2, and perf. Raw results: `.team/qa/round3-results.json`, summary `.team/qa/sum3.txt`. Screenshots: `.team/shots/round3-*.png` (1440/375/320/768 viewport and full, every section, `-hero-mid`, `-services-mid`, `-work-pin2/50/98`, preloader 300/600/1200ms, form errors and success, bottom bar, menu, reduced, no-JS, vendor failure).
+
+**Passed**
+- **Readability.** Over 365 text nodes at 1440 and 375, the only fonts are Fraunces and Plus Jakarta Sans; Bodoni and Hanken are gone.
+  - Fraunces is never below 28px. Nothing readable is below 15px. Labels are 13px with tracking of .12em or less.
+  - **0 AA failures** on any surface, including the form card, the packages table, the bento and the stacking cards. The about text-fill statement is fully opaque once scrolled past.
+  - Body copy reaches 6.6–13.7:1. 11 style groups are AA but not AAA (Info), e.g. the hero lead at 6.58 and mist on brand green at 5.2. Those are the spec's chosen colours.
+- **Preloader.**
+  - It unblocks at about 1.9s after navigation (about 1.6s after DOMContentLoaded) at 1440 and 375, on root and sub-path.
+  - Click, Esc and wheel skip it in 100–480ms. It does not return on reload in the same session.
+  - It never shows under reduced motion, with JS off, or with vendor scripts aborted. The skip link can be focused and works while it shows, and nothing is inert.
+- **Anchors (Lenis).** All nav, CTA and skip links land with the section top at 88px (desktop) or 72px (mobile). Focus moves into the target and the hash updates. This holds at 1440, 375, sub-path and reduced motion.
+- **Keyboard and focus.**
+  - PageDown, Space, Arrow, End and Home all scroll.
+  - Tabbing into the pinned gallery centres each of the 8 items in turn, at 1440 and 1024x700.
+  - All 37 tab stops have a visible ring.
+- **Pinning.**
+  - The gallery pins at 1440, 1920 and 1024x700, travels through all 8 items, and unpins with no gap or cross-section overlap.
+  - No pin at 1024x600, 768, 375, 320 or reduced motion: those get a contained swipe row with 8 of 8 items reachable.
+  - Stacking cards are sticky at 768 and up, and the last card is never covered. Reduced motion shows a plain list.
+  - **No horizontal overflow** at any width at any scroll step, including mid-gallery and the hero fan-out.
+- **Mobile menu.** It stops page scrolling while open and restores it on close. Esc and link clicks close it. The bottom bar hides while it is open.
+- **Bottom bar.** Hidden at load, shown after the hero CTAs, hidden on input focus and once contact is in view, and never covers footer text.
+- **Form v2.**
+  - Empty submit marks 3 fields `aria-invalid`, shows an error summary (`role=alert`, 3 links) and moves focus to it.
+  - Chips and radios work by keyboard (Space, Arrow) and show a ✓, so state is not colour-only.
+  - The "Opening your email…" loading state shows, a correct mailto is built, and focus moves to the success heading "Almost there.".
+  - Package CTAs prefill "Hi Ira, I'm interested in the Signature package."
+- **Fallbacks.** With vendor scripts aborted (1440 and 375): no page errors, all content visible after scrolling, anchors, form and mobile menu work, sections are solid and nothing pins. With JS off: 0 invisible elements, no preloader. Reduced motion: no Lenis, no pins, solid sections.
+- **Basics.** No console errors, page errors or 404s on either base. Heading order, landmarks and links are OK, and there are no duplicate IDs or unlabeled inputs.
+
+**Issues**
+14. **[High] Package numbers stay at "0".** `initCounters()` sets `.count[data-to]` to `0` and only counts up in a ScrollTrigger `onEnter`. That never fires when you arrive by the nav "Packages" link, by an instant or programmatic jump, by a deep link, or at 375 (tested with wheel scrolling). The cards then read "Platforms 0 · Posts per month 0 · Reels 0", "Up to 0", "0+" (see `round3-1440-packages.png`, `round3-375-packages.png`). It only works when you wheel-scroll slowly at desktop.
+    - Repro: load 1440, click nav "Packages", wait 3s.
+    - Expected: the final values are always shown (1/12, 2/16/4/1, Up to 3/20+/8/2). Either don't zero the text until the tween actually starts, or use `ScrollTrigger.create({... onEnter, onEnterBack})` plus a check like `if (st.progress > 0 || st.isActive)` after refresh. Simplest: tween from 0 with `gsap.from` in `onEnter`, and leave the HTML value in place.
+15. **[Medium] Footer nav links can't be clicked at 1440.** `svg.footer__globe` sits on top of "Services", "Process", "Packages" and "FAQ" in the footer (elementFromPoint hits the svg, and Playwright's click times out because the svg intercepts pointer events). The same happens under reduced motion.
+    - Repro: scroll to the bottom at 1440 and click the footer "Services".
+    - Expected: the links work. Give `.footer__globe` `pointer-events:none` (and/or `z-index` below the nav row).
+16. **[Medium] Desktop deep links to lower sections land in the wrong place.** Loading `/#faq` or `/#contact` at 1440x900 parks at scrollY 13731 for both: FAQ top ends up at 350px and contact top at **1197px**, i.e. below the fold. The likely cause is that the hash scroll runs before the gallery pin-spacer (+2989px) exists. `/#packages`, `/#work` and all mobile hash loads are fine, and clicking the links works.
+    - Repro: open `http://localhost:8080/#contact` at 1440x900.
+    - Expected: the section lands at 88px. Run `lenis.scrollTo(hash, {immediate:true})` after the pin is created, `ScrollTrigger.refresh()` and `document.fonts.ready`, or re-apply it on the ScrollTrigger `refresh` event once.
+17. **[Medium] A focused form field can be invisible.** At 375 (normal and reduced motion), tabbing onto `#f-name` when it sits near the bottom of the viewport (y≈750 of 812) focuses it while it is still at **opacity 0**, because its reveal hasn't triggered and focusing doesn't scroll. The same bottom-edge lag leaves the "Your name" label, an FAQ question, and the "@iramaedia on Instagram" link at opacity 0 just after anchor jumps to #contact or #faq.
+    - Expected: anything focused, or inside the viewport, is visible. Add a `focusin` handler that force-reveals the closest `.reveal`, and/or reduce the IntersectionObserver/ScrollTrigger bottom margin so items already in the viewport reveal at once.
+18. [Low] With vendor scripts that *hang* (not fail), the preloader is shown (the head script adds `motion-ok` before GSAP is confirmed) and blocks content until the CSS failsafe, about **2.9s** after navigation. That is above the 2.4s cap and the 2.5s target. Aborted vendor scripts are fine. Option: start the CSS failsafe at about 2.0s, or only show the preloader once `gsap-live` is set.
+19. [Low] "Back to top" (`#top`) doesn't move focus or update the hash. Spec V2.6-6 says focus should go to the skip-link target.
+20. [Low] At 1440, the last gallery panel's "See more on Instagram ↗" link is partly off-screen when focused by Tab (left 946px, width 625px, so the right edge is at about 1571px). Centre it in the pin like the work items, or let it wrap.
+21. [Low] Layout-shift total is **1.96 during the desktop scroll**: two shifts of about 1.0 attributed to `DIV.work__pin` at pin start and end. I saw no visible jump in the frames. This is the usual effect of `position:fixed` pinning, but Lighthouse and the Chrome UX Report will count it. Consider `pinType:'transform'` (Lenis drives the scroll anyway) and re-measure. CLS on load is 0.014.
+22. [Low] Bottom bar: with a form field centred in the viewport (contact clearly in view, before focusing), the bar is still **shown** and covers about 72px of the form. It only hides once the field has focus or `#contact` is about 50% visible. The spec says hide when ≥25% of `#contact` is visible; on a tall mobile section, use a viewport-based check rather than the section's own intersection ratio.
+23. [Low] The submit loading state doesn't set `disabled` or `aria-busy`, so a double-tap can open two mailto windows.
+24. [Low] Performance at 375 with 4x CPU throttling: total blocking time is 882ms on load (11 long tasks, longest 265ms, mostly GSAP setup and splitting). Desktop: 90ms. Scroll at 1440 averages about 40fps with occasional 100–200ms frames around pin refresh (headless and approximate); 1920 was worse (21% of frames over 34ms). Consider deferring non-visible ScrollTrigger setup with `requestIdleCallback`.
+25. [Info] With reduced motion, below-fold sections still fade in (opacity, 200ms) when they reach the viewport (163 elements at opacity 0 before scrolling). The v2 spec allows this, and everything is visible on arrival.
+26. [Info] The logo wordmark "IRAMAEDIA" (12px, .32em) is exempt by spec but isn't `aria-hidden`, so screen readers read "IMD IRAMAEDIA". This is fine. The signature "Ira" italic is allowed by spec.
+27. [Info] Google Fonts (Fraunces with opsz, wght, SOFT and WONK, plus Jakarta) transfer about 590KB. Fallback fonts would only appear if Google Fonts were blocked, and they weren't in this run.
+28. [Info] The copy-email button label didn't change to "Copied ✓" in headless Chromium. Clipboard permissions here are unreliable, so please verify by hand.
+
+**Round 3 result: 1 High (14), 3 Medium (15–17), 7 Low, 4 Info → not a pass. Retest in round 4.**
+Developer deviation (V2.5-J body colour swap replaced by gradient seams): this passes QA with no contrast failures and solid section backgrounds. The designer is to rule on it.
