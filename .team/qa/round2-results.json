@@ -1,0 +1,1025 @@
+{
+  "round": "2",
+  "root": "http://localhost:8080/",
+  "sub": "http://localhost:8081/IraMaedia/",
+  "checks": {
+    "static": {
+      "headings": [
+        "H1: Content that makes them stop scrolling.",
+        "H2: Your brand, but louder and a little more lovely.",
+        "H2: Everything your feed needs, in one place.",
+        "H3: 01 Social media management Planning, posting, scheduling and",
+        "H3: 02 Content creation Photos and short-form video made for the",
+        "H3: 03 Reels & short-form editing Hooks in the first second, cle",
+        "H3: 04 Content strategy A clear plan for what to post, why, and ",
+        "H3: Feed & graphic design",
+        "H3: Captions & copywriting",
+        "H3: UGC-style content",
+        "H3: Launch & campaign content",
+        "H3: Brand photography",
+        "H2: A peek at the grid.",
+        "H3: Morning menu launch",
+        "H3: 5 ways to style one blazer",
+        "H3: A day at the studio",
+        "H3: Spring grid refresh",
+        "H3: Behind the bouquet",
+        "H3: What I wish I knew",
+        "H3: Unboxing, but pretty",
+        "H3: Launch week teaser",
+        "H2: Simple, from hello to posted.",
+        "H3: Discovery call",
+        "H3: Strategy & plan",
+        "H3: Create & approve",
+        "H3: Post, learn, grow",
+        "H2: Consistent feeds. Real conversations. Less stress.",
+        "H2: Pick your pace.",
+        "H3: Starter",
+        "H3: Signature",
+        "H3: Full Feed",
+        "H2: Before you ask.",
+        "H3: Do you work with brands in other cities?",
+        "H3: Which platforms do you manage?",
+        "H3: How long until I see results?",
+        "H3: Do I need to be on camera?",
+        "H3: Do I approve everything before it’s posted?",
+        "H3: Is there a minimum contract?",
+        "H2: Let’s make your feed unforgettable."
+      ],
+      "headingSkips": [],
+      "h1Count": 1,
+      "landmarks": {
+        "header": 1,
+        "nav": 2,
+        "main": 1,
+        "footer": 1
+      },
+      "skipLink": "#main \"Skip to content\"",
+      "lang": "en",
+      "title": "IraMaedia · Social media content that makes them stop scrolling",
+      "metaDesc": "IraMaedia is Ira’s social media content studio: strategy, Reels, content creation and account management for brands that want a feed with taste.",
+      "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+      "favicon": "http://localhost:8080/assets/img/favicon.svg",
+      "ogImage": "https://gelizonux.github.io/IraMaedia/assets/img/og-image.png",
+      "imgNoAlt": [],
+      "imgCount": 0,
+      "svgNoLabel": 4,
+      "rootAbsoluteUrls": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#top",
+          "text": "IMD\n        \n        IRAMAEDIA",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram ↗",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#contact",
+          "text": "Book a discovery call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "See my work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "See more on Instagram ↗ (opens in a new ",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#contact",
+          "text": "Start here",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Let’s talk",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Ask about it →",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "send an email",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "@iramaedia on Instagram ↗ (opens in a ne",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#top",
+          "text": "IMD\n          \n          IRAMAEDIA",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram ↗ (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#top",
+          "text": "Back to top ↑",
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "emptyLinks": [],
+      "badHref": [],
+      "blankNoRel": [],
+      "brokenAnchors": [],
+      "unnamedButtons": [],
+      "unlabeledInputs": [],
+      "duplicateIds": [],
+      "junk": [],
+      "doubleWords": []
+    },
+    "contrast": [],
+    "localLinkStatus": {},
+    "externalLinks": [
+      "mailto:hello@iramaedia.com",
+      "https://www.instagram.com/iramaedia/"
+    ],
+    "focus": [
+      {
+        "tag": "A",
+        "text": "Skip to content",
+        "href": "#main",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "IMD\n        \n        IRAMAEDIA",
+        "href": "#top",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Work",
+        "href": "#work",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Services",
+        "href": "#services",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Process",
+        "href": "#process",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Packages",
+        "href": "#packages",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "FAQ",
+        "href": "#faq",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a discovery call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "See my work",
+        "href": "#work",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "01\n                Social medi",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "02\n                Content cre",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "03\n                Reels & sho",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "04\n                Content str",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "All",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Reels",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Carousels",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Feed",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "See more on Instagram ↗ (opens",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Previous testimonial",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Next testimonial",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Start here",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Let’s talk",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Ask about it →",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Instagram (opens in a new tab)",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "send an email",
+        "href": "mailto:hello@iramaedia.com",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do you work with brands in oth",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Which platforms do you manage?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "How long until I see results?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do I need to be on camera?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do I approve everything before",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Is there a minimum contract?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "hello@iramaedia.com",
+        "href": "mailto:hello@iramaedia.com",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "@iramaedia on Instagram ↗ (ope",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      }
+    ],
+    "faq": {
+      "kind": "aria-buttons",
+      "count": 6,
+      "toggled": "false -> true",
+      "panelVisible": true,
+      "panelHeight": 112.140625,
+      "toggledBack": "false",
+      "keyboardEnter": "true"
+    },
+    "form": {
+      "action": "mailto:hello@iramaedia.com",
+      "method": "post",
+      "fields": [
+        "input[text] name=name req=true auto=name",
+        "input[email] name=email req=true auto=email",
+        "input[text] name=brand req=false auto=organization",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "textarea[textarea] name=message req=true auto="
+      ],
+      "hasSubmit": true,
+      "urlAfterEmpty": "unchanged",
+      "invalidAfterEmpty": [
+        "name",
+        "email",
+        "message"
+      ],
+      "statusTextAfterEmpty": "Please tell me your name.",
+      "popupUrl": null,
+      "urlAfterValid": "unchanged",
+      "statusTextAfterValid": ""
+    },
+    "root-desktop": {
+      "status": 200,
+      "loadMs": 1576,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0.0101,
+      "lcpMs": 1140,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "overflow": false,
+        "offenders": []
+      },
+      "runningAnimations": 6,
+      "console": [],
+      "pageErrors": [],
+      "failed": [
+        "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20Management%2C%20Content%2C%20Reels%2C%20Strategy%2C%20Design%2C%20Not%20sure%20yet%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site :: net::ERR_ABORTED"
+      ],
+      "http": [],
+      "kbLocal": 242,
+      "kbExternal": 408,
+      "requestCount": 18,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "root-tablet": {
+      "status": 200,
+      "loadMs": 1042,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0.0008,
+      "lcpMs": 1492,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "bodyScrollWidth": 768,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 121,
+      "kbExternal": 204,
+      "requestCount": 9,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "root-mobile": {
+      "status": 200,
+      "loadMs": 1504,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0,
+      "lcpMs": 1048,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "mobileNav": {
+        "steps": [],
+        "toggleVisible": true,
+        "labelBefore": "Open menu",
+        "expandedAfterOpen": "true",
+        "menuVisibleOpen": true,
+        "menuLinksVisible": 8,
+        "bodyScrollLocked": "hidden/visible",
+        "toggleOnTop": true,
+        "expandedAfterEscape": "false",
+        "expandedAfterLinkClick": "false",
+        "menuVisibleAfterLink": false,
+        "linkTarget": "#work",
+        "hashAfter": "#work",
+        "scrollYAfter": 5136,
+        "finalExpanded": "false"
+      },
+      "overflowAfterNav": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 242,
+      "kbExternal": 408,
+      "requestCount": 18,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "sub-desktop": {
+      "status": 200,
+      "loadMs": 1060,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0.0059,
+      "lcpMs": 1472,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 121,
+      "kbExternal": 204,
+      "requestCount": 9,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "sub-mobile": {
+      "status": 200,
+      "loadMs": 1031,
+      "invisibleBeforeScroll": 167,
+      "clsDuringScroll": 0,
+      "lcpMs": 1464,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "mobileNav": {
+        "steps": [],
+        "toggleVisible": true,
+        "labelBefore": "Open menu",
+        "expandedAfterOpen": "true",
+        "menuVisibleOpen": true,
+        "menuLinksVisible": 8,
+        "bodyScrollLocked": "hidden/visible",
+        "toggleOnTop": true,
+        "expandedAfterEscape": "false",
+        "expandedAfterLinkClick": "false",
+        "menuVisibleAfterLink": false,
+        "linkTarget": "#work",
+        "hashAfter": "#work",
+        "scrollYAfter": 5136,
+        "finalExpanded": "false"
+      },
+      "overflowAfterNav": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 242,
+      "kbExternal": 408,
+      "requestCount": 18,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "extraWidths": {
+      "320": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "bodyScrollWidth": 320,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "bodyScrollWidth": 1024,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 0
+      },
+      "1920": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 0
+      }
+    },
+    "anchorJumps": {
+      "about": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 291,
+        "headingUnderHeader": false
+      },
+      "services": {
+        "invisible": [
+          "SPAN.svc__num \"02\" op=0.00",
+          "SPAN.svc__name \"Content creation\" op=0.00",
+          "SPAN.svc__desc \"Photos and short-form video ma\" op=0.00"
+        ],
+        "invisibleCount": 3,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 243,
+        "headingUnderHeader": false
+      },
+      "work": {
+        "invisible": [
+          "DIV.screen-meta screen-meta-- \"yourbrand\" op=0.00"
+        ],
+        "invisibleCount": 1,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 291,
+        "headingUnderHeader": false
+      },
+      "process": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 243,
+        "headingUnderHeader": false
+      },
+      "packages": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 291,
+        "headingUnderHeader": false
+      },
+      "faq": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 243,
+        "headingUnderHeader": false
+      },
+      "contact": {
+        "invisible": [
+          "A.big-link \"@iramaedia on Instagram ↗ (ope\" op=0.00",
+          "SPAN.visually-hidden \"(opens in a new tab)\" op=0.00"
+        ],
+        "invisibleCount": 2,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 248,
+        "headingUnderHeader": false
+      }
+    },
+    "reducedMotion": {
+      "invisibleAtTopNoScroll": 0,
+      "invisibleAfterJump": [],
+      "runningAnimations": [],
+      "runningCount": 0,
+      "scrollBehavior": "auto",
+      "errors": []
+    },
+    "noJS": {
+      "invisible": 0
+    }
+  }
+}

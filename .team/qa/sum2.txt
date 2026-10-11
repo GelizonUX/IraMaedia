@@ -1,0 +1,121 @@
+TITLE IraMaedia · Social media content that makes them stop scrolling | lang en | desc True | favicon http://localhost:8080/assets/img/favicon.svg | og https://gelizonux.github.io/IraMaedia/assets/img/og-image.png
+HEADINGS
+   H1: Content that makes them stop scrolling.
+   H2: Your brand, but louder and a little more lovely.
+   H2: Everything your feed needs, in one place.
+   H3: 01 Social media management Planning, posting, scheduling and
+   H3: 02 Content creation Photos and short-form video made for the
+   H3: 03 Reels & short-form editing Hooks in the first second, cle
+   H3: 04 Content strategy A clear plan for what to post, why, and 
+   H3: Feed & graphic design
+   H3: Captions & copywriting
+   H3: UGC-style content
+   H3: Launch & campaign content
+   H3: Brand photography
+   H2: A peek at the grid.
+   H3: Morning menu launch
+   H3: 5 ways to style one blazer
+   H3: A day at the studio
+   H3: Spring grid refresh
+   H3: Behind the bouquet
+   H3: What I wish I knew
+   H3: Unboxing, but pretty
+   H3: Launch week teaser
+   H2: Simple, from hello to posted.
+   H3: Discovery call
+   H3: Strategy & plan
+   H3: Create & approve
+   H3: Post, learn, grow
+   H2: Consistent feeds. Real conversations. Less stress.
+   H2: Pick your pace.
+   H3: Starter
+   H3: Signature
+   H3: Full Feed
+   H2: Before you ask.
+   H3: Do you work with brands in other cities?
+   H3: Which platforms do you manage?
+   H3: How long until I see results?
+   H3: Do I need to be on camera?
+   H3: Do I approve everything before it’s posted?
+   H3: Is there a minimum contract?
+   H2: Let’s make your feed unforgettable.
+headingSkips : []
+h1Count : 1
+landmarks : {'header': 1, 'nav': 2, 'main': 1, 'footer': 1}
+skipLink : #main "Skip to content"
+imgNoAlt : []
+imgCount : 0
+svgNoLabel : 4
+rootAbsoluteUrls : []
+emptyLinks : []
+badHref : []
+blankNoRel : []
+brokenAnchors : []
+unnamedButtons : []
+unlabeledInputs : []
+duplicateIds : []
+junk : []
+doubleWords : []
+LOCAL LINKS {}
+EXTERNAL ['mailto:hello@iramaedia.com', 'https://www.instagram.com/iramaedia/']
+CONTRAST FAILS 0
+FOCUS (no visible indicator):
+  focus stops: 35
+FAQ {'kind': 'aria-buttons', 'count': 6, 'toggled': 'false -> true', 'panelVisible': True, 'panelHeight': 112.140625, 'toggledBack': 'false', 'keyboardEnter': 'true'}
+FORM {'action': 'mailto:hello@iramaedia.com', 'method': 'post', 'fields': ['input[text] name=name req=true auto=name', 'input[email] name=email req=true auto=email', 'input[text] name=brand req=false auto=organization', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'input[checkbox] name=needs req=false auto=', 'textarea[textarea] name=message req=true auto='], 'hasSubmit': True, 'urlAfterEmpty': 'unchanged', 'invalidAfterEmpty': ['name', 'email', 'message'], 'statusTextAfterEmpty': 'Please tell me your name.', 'popupUrl': None, 'urlAfterValid': 'unchanged', 'statusTextAfterValid': ''}
+== root-desktop status 200 load 1576 ms CLS 0.0101 LCP 1140 KB local/ext 242 408 reqs 18
+   overflow False 1440 1440 []
+   invisible after scroll 0 [] | before scroll 167
+   console []
+   pageErrors []
+   failed ['mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20Management%2C%20Content%2C%20Reels%2C%20Strategy%2C%20Design%2C%20Not%20sure%20yet%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site :: net::ERR_ABORTED']
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+   runningAnimations 6
+== root-tablet status 200 load 1042 ms CLS 0.0008 LCP 1492 KB local/ext 121 204 reqs 9
+   overflow False 768 768 []
+   invisible after scroll 0 [] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+== root-mobile status 200 load 1504 ms CLS 0 LCP 1048 KB local/ext 242 408 reqs 18
+   overflow False 375 375 []
+   invisible after scroll 0 [] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+   mobileNav {'steps': [], 'toggleVisible': True, 'labelBefore': 'Open menu', 'expandedAfterOpen': 'true', 'menuVisibleOpen': True, 'menuLinksVisible': 8, 'bodyScrollLocked': 'hidden/visible', 'toggleOnTop': True, 'expandedAfterEscape': 'false', 'expandedAfterLinkClick': 'false', 'menuVisibleAfterLink': False, 'linkTarget': '#work', 'hashAfter': '#work', 'scrollYAfter': 5136, 'finalExpanded': 'false'}
+   overflowAfterNav (False, [])
+== sub-desktop status 200 load 1060 ms CLS 0.0059 LCP 1472 KB local/ext 121 204 reqs 9
+   overflow False 1440 1440 []
+   invisible after scroll 0 [] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+== sub-mobile status 200 load 1031 ms CLS 0 LCP 1464 KB local/ext 242 408 reqs 18
+   overflow False 375 375 []
+   invisible after scroll 0 [] | before scroll 167
+   console []
+   pageErrors []
+   failed []
+   http []
+   externalHosts ['fonts.googleapis.com', 'fonts.gstatic.com']
+   mobileNav {'steps': [], 'toggleVisible': True, 'labelBefore': 'Open menu', 'expandedAfterOpen': 'true', 'menuVisibleOpen': True, 'menuLinksVisible': 8, 'bodyScrollLocked': 'hidden/visible', 'toggleOnTop': True, 'expandedAfterEscape': 'false', 'expandedAfterLinkClick': 'false', 'menuVisibleAfterLink': False, 'linkTarget': '#work', 'hashAfter': '#work', 'scrollYAfter': 5136, 'finalExpanded': 'false'}
+   overflowAfterNav (False, [])
+REDUCED MOTION {"invisibleAtTopNoScroll": 0, "invisibleAfterJump": [], "runningAnimations": [], "runningCount": 0, "scrollBehavior": "auto", "errors": []}
+NOJS {'invisible': 0}
+EXTRA WIDTHS {'320': (False, 320, [], 'invis', 0), '1024': (False, 1024, [], 'invis', 0), '1920': (False, 1920, [], 'invis', 0)}
+ANCHOR JUMPS
+   about {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 291, 'headingUnderHeader': False}
+   services {'invisible': ['SPAN.svc__num "02" op=0.00', 'SPAN.svc__name "Content creation" op=0.00', 'SPAN.svc__desc "Photos and short-form video ma" op=0.00'], 'invisibleCount': 3, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 243, 'headingUnderHeader': False}
+   work {'invisible': ['DIV.screen-meta screen-meta-- "yourbrand" op=0.00'], 'invisibleCount': 1, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 291, 'headingUnderHeader': False}
+   process {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 243, 'headingUnderHeader': False}
+   packages {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 291, 'headingUnderHeader': False}
+   faq {'invisible': [], 'invisibleCount': 0, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 243, 'headingUnderHeader': False}
+   contact {'invisible': ['A.big-link "@iramaedia on Instagram ↗ (ope" op=0.00', 'SPAN.visually-hidden "(opens in a new tab)" op=0.00'], 'invisibleCount': 2, 'headerBottom': 72, 'targetTop': 72, 'headingTop': 248, 'headingUnderHeader': False}

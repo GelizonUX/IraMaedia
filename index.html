@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>IraMaedia · Social media content that makes them stop scrolling</title>
+  <meta name="description" content="IraMaedia is Ira’s social media content studio: strategy, Reels, content creation and account management for brands that want a feed with taste.">
+  <meta name="theme-color" content="#2E6353">
+  <meta name="color-scheme" content="dark light">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="IraMaedia">
+  <meta property="og:title" content="IraMaedia · Social media content that makes them stop scrolling">
+  <meta property="og:description" content="Strategy, Reels, content creation and account management for brands that want a feed with taste.">
+  <meta property="og:url" content="https://gelizonux.github.io/IraMaedia/">
+  <meta property="og:image" content="https://gelizonux.github.io/IraMaedia/assets/img/og-image.png">
+  <meta property="og:image:alt" content="IraMaedia logo: IMD in blush over a green globe">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IraMaedia · Social media content that makes them stop scrolling">
+  <meta name="twitter:description" content="Strategy, Reels, content creation and account management for brands that want a feed with taste.">
+  <meta name="twitter:image" content="https://gelizonux.github.io/IraMaedia/assets/img/og-image.png">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Plus+Jakarta+Sans:wght@400..800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Progressive enhancement flags. Hidden "before" states only apply under these classes.
+       If main.js never confirms (js-live), the failsafe strips them so content always shows. */
+    (function (d) {
+      var c = d.classList;
+      c.add('js', 'reveal-ok');
+      try { if (sessionStorage.getItem('imd-intro')) c.add('intro-seen'); } catch (e) {}
+      if (window.matchMedia && matchMedia('(prefers-reduced-motion: no-preference)').matches) c.add('motion-ok');
+      // Scripts late (hung vendor file / very slow network)? Drop the intro and motion early, reveals a bit later.
+      setTimeout(function () { if (!c.contains('js-live')) c.remove('motion-ok'); }, 1500);
+      setTimeout(function () { if (!c.contains('js-live')) c.remove('motion-ok', 'reveal-ok'); }, 3500);
+    })(document.documentElement);
+  </script>
+  <!-- Self-hosted, pinned: GSAP 3.12.5 + ScrollTrigger 3.12.5 + Lenis 1.1.13. The site works without them. -->
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/vendor/lenis.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <!-- Shared SVG icons -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-comment" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4.2A8 8 0 1 1 20 12z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-dots" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.4" fill="currentColor"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/><circle cx="19" cy="12" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4L12 3.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16.9" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 200 200"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="100" cy="100" r="98"/><ellipse class="meridian m1" cx="100" cy="100" rx="70" ry="98"/><ellipse class="meridian m2" cx="100" cy="100" rx="38" ry="98"/><path d="M2 100h196M14 52h172M14 148h172"/></g></symbol>
+  </svg>
+
+  <!-- Intro (first visit per session, motion-ok only; CSS fail-safe hides it at 2.6s) -->
+  <div class="preloader" aria-hidden="true">
+    <svg class="preloader__globe" focusable="false"><use href="#i-globe"/></svg>
+    <div class="preloader__logo">
+      <p class="preloader__mark"><span class="pm"><span>I</span></span><span class="pm"><span>M</span></span><span class="pm"><span>D</span></span></p>
+      <p class="preloader__word"><span>I</span><span>R</span><span>A</span><span>M</span><span>A</span><span>E</span><span>D</span><span>I</span><span>A</span></p>
+    </div>
+    <p class="preloader__tag">Content with intention</p>
+    <p class="preloader__count"><span data-count>000</span></p>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"></span>
+    <span class="cursor__view">View</span>
+  </div>
+
+  <header class="nav" id="top">
+    <nav class="nav__inner container" aria-label="Primary">
+      <a class="logo" href="#top" aria-label="IraMaedia, back to top">
+        <span class="logo__mark">IMD</span>
+        <span class="logo__rule" aria-hidden="true"></span>
+        <span class="logo__word">IRAMAEDIA</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a class="btn btn--blush btn--sm nav__cta magnetic" href="#contact"><span class="btn__label">Book a call</span></a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+    <div class="menu__inner container">
+      <ul class="menu__links">
+        <li style="--i:0"><a href="#work">Work</a></li>
+        <li style="--i:1"><a href="#services">Services</a></li>
+        <li style="--i:2"><a href="#process">Process</a></li>
+        <li style="--i:3"><a href="#packages">Packages</a></li>
+        <li style="--i:4"><a href="#faq">FAQ</a></li>
+        <li style="--i:5"><a href="#contact">Book a call</a></li>
+      </ul>
+      <div class="menu__foot">
+        <!-- CONTENT: placeholder email, confirm before launch -->
+        <a href="mailto:hello@iramaedia.com">hello@iramaedia.com</a>
+        <a href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">Instagram ↗<span class="visually-hidden"> (opens in a new tab)</span></a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero surface" data-bg="#2E6353" data-theme="dark" aria-labelledby="hero-title">
+      <div class="aurora" aria-hidden="true"><i class="aurora__a"></i><i class="aurora__b"></i><i class="aurora__c"></i></div>
+
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="label hero__eyebrow hero-fade" style="--i:0"><span class="eb-hide">Social media </span>content creator &amp; manager</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="line"><span class="w" style="--wi:0"><span>Content</span></span> <span class="w" style="--wi:1"><span>that</span></span></span>
+            <span class="line"><span class="w" style="--wi:2"><span>makes</span></span> <span class="w" style="--wi:3"><span>them</span></span> <span class="w w--stop" style="--wi:5"><span><em class="stop">stop<svg class="stop__underline" viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 13c40-8 95-11 194-4" pathLength="1"/></svg></em></span></span></span>
+            <span class="line"><span class="w" style="--wi:4"><span>scrolling.</span></span></span>
+          </h1>
+          <div class="hero__copy">
+            <p class="hero__lead hero-fade" style="--i:1">I’m Ira. I plan, shoot, edit and post content that makes your brand look as good online as it feels in person.</p>
+            <!-- CONTENT: availability line -->
+            <p class="chip-status hero-fade" style="--i:2"><span class="dot" aria-hidden="true"></span>Booking new clients now</p>
+            <div class="hero__ctas hero-fade" style="--i:3">
+              <a class="btn btn--blush magnetic" href="#contact"><span class="btn__label">Book a free discovery call <svg class="btn__icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+              <a class="link link--dark" href="#work">See the work</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__stage" aria-hidden="true">
+          <svg class="hero__globe" focusable="false"><use href="#i-globe"/></svg>
+          <div class="stack">
+            <div class="stack__slot stack__slot--l">
+              <div class="phone phone--hero" style="--d:0ms">
+                <div class="phone__screen tint-forest">
+                  <div class="art art--arch"></div>
+                </div>
+              </div>
+            </div>
+            <div class="stack__slot stack__slot--r">
+              <div class="phone phone--hero" style="--d:120ms">
+                <div class="phone__screen tint-cream">
+                  <div class="post-head"><span class="avatar"></span><span>yourbrand</span><svg><use href="#i-dots"/></svg></div>
+                  <div class="art art--sun"></div>
+                  <p class="overlay">5am club? no. 10am, with coffee.</p>
+                  <div class="post-foot"><span class="icons"><svg><use href="#i-heart"/></svg><svg><use href="#i-comment"/></svg><svg><use href="#i-share"/></svg></span><span class="likes">liked by you and others</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="stack__slot stack__slot--c">
+              <div class="phone phone--hero" style="--d:240ms">
+                <div class="phone__screen tint-rose is-reel">
+                  <div class="post-head"><span class="avatar"></span><span>yourbrand</span><svg><use href="#i-dots"/></svg></div>
+                  <div class="art art--circle"></div>
+                  <span class="play"><svg><use href="#i-play"/></svg></span>
+                  <p class="overlay">new menu, who dis</p>
+                  <div class="post-foot"><span class="icons"><svg><use href="#i-heart"/></svg><svg><use href="#i-comment"/></svg><svg><use href="#i-share"/></svg></span><span class="likes">liked by you and others</span></div>
+                  <span class="reel-bar reel-bar--loop"><span></span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Qualifier: who I help -->
+      <div class="qualifier">
+        <div class="container qualifier__inner">
+          <p class="label qualifier__label reveal">Who I help</p>
+          <p class="qualifier__text reveal" style="--i:1">Small brands with good taste and no time to post.</p>
+          <!-- CONTENT: client types -->
+          <ul class="qualifier__tags" aria-label="Brands I work with">
+            <li class="reveal" style="--i:0">Cafés &amp; restaurants</li>
+            <li class="reveal" style="--i:1">Boutiques</li>
+            <li class="reveal" style="--i:2">Salons &amp; beauty</li>
+            <li class="reveal" style="--i:3">Wellness studios</li>
+            <li class="reveal" style="--i:4">Coaches</li>
+            <li class="reveal" style="--i:5">Makers &amp; e-commerce</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee surface" data-bg="#FBECF1" data-theme="light" aria-label="What I do">
+      <div class="marquee__row">
+        <div class="marquee__track">
+          <p class="marquee__group">Reels <span class="star" aria-hidden="true">✦</span> Content strategy <span class="star" aria-hidden="true">✦</span> Feed design <span class="star" aria-hidden="true">✦</span> Captions that sound like you <span class="star" aria-hidden="true">✦</span> UGC <span class="star" aria-hidden="true">✦</span> Community management <span class="star" aria-hidden="true">✦</span> Product shoots <span class="star" aria-hidden="true">✦</span> Launch campaigns <span class="star" aria-hidden="true">✦</span></p>
+          <p class="marquee__group" aria-hidden="true">Reels <span class="star">✦</span> Content strategy <span class="star">✦</span> Feed design <span class="star">✦</span> Captions that sound like you <span class="star">✦</span> UGC <span class="star">✦</span> Community management <span class="star">✦</span> Product shoots <span class="star">✦</span> Launch campaigns <span class="star">✦</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about surface section-light" id="about" data-bg="#FBECF1" data-theme="light" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__media">
+          <!-- CONTENT: replace the arch art with her photo later, e.g. <img src="assets/img/ira.jpg" alt="Ira, founder of IraMaedia"> -->
+          <div class="arch">
+            <div class="arch__inner">
+              <svg class="arch__globe" aria-hidden="true" focusable="false"><use href="#i-globe"/></svg>
+              <span class="arch__mono" aria-hidden="true">IMD</span>
+            </div>
+          </div>
+          <svg class="badge" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+            <defs><path id="badge-path" d="M100 100m-74 0a74 74 0 1 1 148 0a74 74 0 1 1-148 0"/></defs>
+            <circle cx="100" cy="100" r="98" class="badge__bg"/>
+            <text><textPath href="#badge-path" textLength="462">IRAMAEDIA ✦ CONTENT WITH INTENTION ✦ </textPath></text>
+            <text x="100" y="112" text-anchor="middle" class="badge__star">✦</text>
+          </svg>
+        </div>
+        <div class="about__copy">
+          <p class="label reveal">Hello, I’m Ira</p>
+          <h2 class="d1 split-words" id="about-title">Your brand, but a little more <em>lovely.</em></h2>
+          <div class="prose reveal" style="--i:1">
+            <p>I’m a social media content creator and manager for small businesses and personal brands who know they should be posting more, but would rather be running the business.</p>
+            <p>I take the whole thing off your plate: the strategy, the shoot, the edit, the caption, the posting schedule, the replies. You get a feed that looks intentional and content that sounds like you on a good day.</p>
+          </div>
+          <p class="signature reveal" style="--i:2"><span class="signature__name">Ira</span><span class="signature__role">Founder, IraMaedia</span></p>
+          <ol class="values">
+            <li class="reveal" style="--i:0"><span class="num">01</span><p><strong>Taste first.</strong> Pretty is the baseline, not the goal.</p></li>
+            <li class="reveal" style="--i:1"><span class="num">02</span><p><strong>Strategy, always.</strong> Every post has a job.</p></li>
+            <li class="reveal" style="--i:2"><span class="num">03</span><p><strong>You sound like you.</strong> Never like a template.</p></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="statement" data-fill>Pretty is the baseline. Every post I make has a <span class="hl">job:</span> stop the scroll, start the conversation, and bring the right people to your <span class="hl">door.</span></p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services surface sheet section-forest" id="services" data-bg="#1E4237" data-theme="dark" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="label reveal">Services</p>
+            <h2 class="d1 split-words" id="services-title">Everything your feed <em>needs.</em></h2>
+          </div>
+          <p class="lead reveal" style="--i:1">Hire me for the full package or just the piece you’re missing. Most clients start with management and add the rest as they grow.</p>
+        </div>
+
+        <ol class="cards" data-cards>
+          <li class="card card--blush" style="--i:0">
+            <div class="card__body">
+              <p class="card__num" aria-hidden="true">01</p>
+              <h3 class="card__name">Social media management</h3>
+              <p class="card__desc">Planning, posting, scheduling and community care, so your accounts stay active and you stay sane.</p>
+              <p class="card__inc">What’s included</p>
+              <ul class="tags"><li>Monthly content calendar</li><li>Scheduling &amp; posting</li><li>Comment &amp; DM replies</li><li>Monthly insights report</li></ul>
+            </div>
+            <div class="card__art" aria-hidden="true">
+              <div class="phone phone--card"><div class="phone__screen tint-cream screen--grid"><div class="screen-meta screen-meta--top"><span class="avatar"></span>yourbrand</div><div class="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+            </div>
+            <span class="card__shade" aria-hidden="true"></span>
+          </li>
+          <li class="card card--green" style="--i:1">
+            <div class="card__body">
+              <p class="card__num" aria-hidden="true">02</p>
+              <h3 class="card__name">Content creation</h3>
+              <p class="card__desc">Photos and short-form video made for the feed, styled to your brand and shot with the algorithm in mind.</p>
+              <p class="card__inc">What’s included</p>
+              <ul class="tags"><li>On-site or flat-lay shoots</li><li>Product &amp; lifestyle photos</li><li>Behind-the-scenes content</li><li>Batch shoot days</li></ul>
+            </div>
+            <div class="card__art" aria-hidden="true">
+              <div class="phone phone--card"><div class="phone__screen tint-rose"><div class="post-head"><span class="avatar"></span><span>yourbrand</span><svg><use href="#i-dots"/></svg></div><div class="art art--arch"></div><p class="overlay">styled, shot, posted</p></div></div>
+            </div>
+            <span class="card__shade" aria-hidden="true"></span>
+          </li>
+          <li class="card card--rose" style="--i:2">
+            <div class="card__body">
+              <p class="card__num" aria-hidden="true">03</p>
+              <h3 class="card__name">Reels &amp; short-form editing</h3>
+              <p class="card__desc">Hooks in the first second, clean cuts, captions on screen, trending audio used with taste.</p>
+              <p class="card__inc">What’s included</p>
+              <ul class="tags"><li>Hook writing</li><li>Editing &amp; captions</li><li>Cover frames</li><li>TikTok &amp; Shorts versions</li></ul>
+            </div>
+            <div class="card__art" aria-hidden="true">
+              <div class="phone phone--card"><div class="phone__screen tint-sage is-reel"><div class="art art--rings"></div><span class="play"><svg><use href="#i-play"/></svg></span><p class="overlay">POV: your 7am class</p><span class="reel-bar"><span></span></span></div></div>
+            </div>
+            <span class="card__shade" aria-hidden="true"></span>
+          </li>
+          <li class="card card--cream" style="--i:3">
+            <div class="card__body">
+              <p class="card__num" aria-hidden="true">04</p>
+              <h3 class="card__name">Content strategy</h3>
+              <p class="card__desc">A clear plan for what to post, why, and how often. Pillars, voice, goals, and a calendar you can actually follow.</p>
+              <p class="card__inc">What’s included</p>
+              <ul class="tags"><li>Account audit</li><li>Content pillars</li><li>Brand voice guide</li><li>90-day roadmap</li></ul>
+            </div>
+            <div class="card__art" aria-hidden="true">
+              <div class="plan"><i class="p1"></i><i class="p2"></i><i class="p3"></i><i class="p4"></i><i class="p5"></i><i class="p6"></i><i class="p7"></i><i class="p8"></i><i class="p9"></i></div>
+            </div>
+            <span class="card__shade" aria-hidden="true"></span>
+          </li>
+        </ol>
+
+        <div class="bento-wrap">
+          <p class="label reveal">Also on the menu</p>
+          <ul class="bento">
+            <li class="bento__cell bento__cell--tall reveal" style="--i:0"><span class="bento__num" aria-hidden="true">05</span><h3>Feed &amp; graphic design</h3><p>Templates, carousels, highlight covers and a grid that looks good from three feet away.</p></li>
+            <li class="bento__cell reveal" style="--i:1"><span class="bento__num" aria-hidden="true">06</span><h3>Captions &amp; copywriting</h3><p>Captions, bios and CTAs that sound like you, just a little more confident.</p></li>
+            <li class="bento__cell reveal" style="--i:2"><span class="bento__num" aria-hidden="true">07</span><h3>UGC-style content</h3><p>Natural, talk-to-camera videos for ads and product pages.</p></li>
+            <li class="bento__cell reveal" style="--i:3"><span class="bento__num" aria-hidden="true">08</span><h3>Launch &amp; campaign content</h3><p>A focused content push for openings, drops and big announcements.</p></li>
+            <li class="bento__cell reveal" style="--i:4"><span class="bento__num" aria-hidden="true">09</span><h3>Brand photography</h3><p>Simple, styled photos of you, your space and your products.</p></li>
+            <li class="bento__cell bento__cell--cta reveal" style="--i:5"><h3>Not sure what you need?</h3><a class="btn btn--blush" href="#contact"><span class="btn__label">Book a free call <svg class="btn__icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="work surface sheet section-deep" id="work" data-bg="#14302A" data-theme="dark" aria-labelledby="work-title">
+      <div class="work__pin">
+        <div class="work__track">
+          <div class="work__intro">
+            <p class="label reveal">Selected work</p>
+            <h2 class="d1 split-words" id="work-title">A peek at the <em>grid.</em></h2>
+            <p class="lead reveal" style="--i:1">A few examples of the kind of content I make. Real client work is shared on request, and the newest is always on Instagram.</p>
+            <p class="work__hint reveal" style="--i:2"><span class="hint-desk">Scroll to browse</span><span class="hint-mob">Swipe to browse</span><i aria-hidden="true"></i></p>
+          </div>
+
+          <!-- CONTENT: placeholder work tiles. Swap titles / client lines for real projects. -->
+          <ul class="work__list" id="work-list">
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample Reel: Morning menu launch for a café">
+                <div class="phone__screen tint-latte is-reel"><div class="art art--cup"></div><span class="play"><svg><use href="#i-play"/></svg></span><p class="overlay">the oat latte that started it all</p><div class="screen-meta"><span class="avatar"></span>yourbrand</div><span class="reel-bar"><span></span></span></div>
+              </div>
+              <p class="work__tag">Reel</p><h3 class="work__title">Morning menu launch</h3><p class="work__client">Client name · Café · Food &amp; drink</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample carousel: 5 ways to style one blazer for a boutique">
+                <div class="phone__screen tint-rose"><div class="art art--arch"></div><p class="overlay">one piece, five moods</p><span class="carousel-dots"><i class="on"></i><i></i><i></i><i></i><i></i></span><div class="screen-meta"><span class="avatar"></span>yourbrand</div></div>
+              </div>
+              <p class="work__tag">Carousel</p><h3 class="work__title">5 ways to style one blazer</h3><p class="work__client">Client name · Boutique · Fashion</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample Reel: A day at the studio for a pilates studio">
+                <div class="phone__screen tint-sage is-reel"><div class="art art--rings"></div><span class="play"><svg><use href="#i-play"/></svg></span><p class="overlay">POV: your 7am class</p><div class="screen-meta"><span class="avatar"></span>yourbrand</div><span class="reel-bar"><span></span></span></div>
+              </div>
+              <p class="work__tag">Reel</p><h3 class="work__title">A day at the studio</h3><p class="work__client">Client name · Pilates studio · Wellness</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample feed: Spring grid refresh for a skincare brand">
+                <div class="phone__screen tint-cream screen--grid"><div class="screen-meta screen-meta--top"><span class="avatar"></span>yourbrand</div><div class="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+              </div>
+              <p class="work__tag">Feed</p><h3 class="work__title">Spring grid refresh</h3><p class="work__client">Client name · Skincare · Beauty</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample Reel: Behind the bouquet for a florist">
+                <div class="phone__screen tint-blush is-reel"><div class="art art--bloom"></div><span class="play"><svg><use href="#i-play"/></svg></span><p class="overlay">how a Friday order comes together</p><div class="screen-meta"><span class="avatar"></span>yourbrand</div><span class="reel-bar"><span></span></span></div>
+              </div>
+              <p class="work__tag">Reel</p><h3 class="work__title">Behind the bouquet</h3><p class="work__client">Client name · Florist · Local business</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample carousel: What I wish I knew for a coach">
+                <div class="phone__screen tint-forest"><div class="art art--frame"></div><p class="overlay">lesson 03: rest is productive</p><span class="carousel-dots"><i></i><i></i><i class="on"></i><i></i></span><div class="screen-meta"><span class="avatar"></span>yourbrand</div></div>
+              </div>
+              <p class="work__tag">Carousel</p><h3 class="work__title">What I wish I knew</h3><p class="work__client">Client name · Coach · Personal brand</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample Reel: Unboxing, but pretty for a handmade jewelry shop">
+                <div class="phone__screen tint-gold is-reel"><div class="art art--box"></div><span class="play"><svg><use href="#i-play"/></svg></span><p class="overlay">packed with love (and tissue)</p><div class="screen-meta"><span class="avatar"></span>yourbrand</div><span class="reel-bar"><span></span></span></div>
+              </div>
+              <p class="work__tag">Reel</p><h3 class="work__title">Unboxing, but pretty</h3><p class="work__client">Client name · Handmade jewelry · E-commerce</p>
+            </li>
+            <li class="work__item">
+              <div class="phone phone--work" tabindex="0" role="img" aria-label="Sample feed post: Launch week teaser for a salon">
+                <div class="phone__screen tint-berry"><div class="art art--circle"></div><p class="overlay">something new is coming</p><div class="screen-meta"><span class="avatar"></span>yourbrand</div></div>
+              </div>
+              <p class="work__tag">Feed</p><h3 class="work__title">Launch week teaser</h3><p class="work__client">Client name · Salon · Beauty</p>
+            </li>
+          </ul>
+
+          <div class="work__outro">
+            <a class="big-link" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">See more on Instagram&nbsp;↗<span class="visually-hidden"> (opens in a new tab)</span></a>
+          </div>
+        </div>
+        <div class="work__progress" aria-hidden="true"><span class="work__bar"><i></i></span><span class="work__count"><span data-work-current>01</span> / 08</span></div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process surface sheet section-paper" id="process" data-bg="#F7F1EA" data-theme="light" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="label reveal">How it works</p>
+          <h2 class="d1 split-words" id="process-title">Simple, from <em>hello</em> to posted.</h2>
+        </div>
+        <ol class="steps" data-steps>
+          <li class="step"><span class="step__dot" aria-hidden="true"></span><span class="step__num" aria-hidden="true">1</span><h3>Discovery call</h3><p>A relaxed 20-minute chat about your brand, your goals and what’s not working right now.</p></li>
+          <li class="step"><span class="step__dot" aria-hidden="true"></span><span class="step__num" aria-hidden="true">2</span><h3>Strategy &amp; plan</h3><p>I audit your accounts and map out pillars, voice and a content calendar for the month.</p></li>
+          <li class="step"><span class="step__dot" aria-hidden="true"></span><span class="step__num" aria-hidden="true">3</span><h3>Create &amp; approve</h3><p>I shoot, edit and write. You review everything in one place before it goes live.</p></li>
+          <li class="step"><span class="step__dot" aria-hidden="true"></span><span class="step__num" aria-hidden="true">4</span><h3>Post, learn, grow</h3><p>I publish, engage with your community, and send a monthly report with what to do next.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS + TESTIMONIALS ============ -->
+    <section class="results surface sheet section-light" data-bg="#FBECF1" data-theme="light" aria-labelledby="results-title">
+      <div class="container results__grid">
+        <div class="results__left">
+          <p class="label reveal">What clients can expect</p>
+          <h2 class="d1 split-words" id="results-title">Consistent feeds. Real <em>conversations.</em></h2>
+          <ul class="outcomes">
+            <li class="reveal" style="--i:0">A feed that looks like one brand, not five.</li>
+            <li class="reveal" style="--i:1">Posting every week, even in your busiest month.</li>
+            <li class="reveal" style="--i:2">More DMs, saves and shares from people who actually buy.</li>
+          </ul>
+          <p class="note reveal">Results vary by account and goals. Ask me for case studies on our call.</p>
+        </div>
+
+        <!-- CONTENT: placeholder testimonials. Replace with real client quotes + permission before launch. -->
+        <div class="quotes reveal" role="region" aria-roledescription="carousel" aria-label="Kind words from clients">
+          <span class="quotes__mark" aria-hidden="true">“</span>
+          <div class="quotes__stage" aria-live="polite">
+            <figure class="quote is-active" role="group" aria-roledescription="slide" aria-label="1 of 3">
+              <blockquote><p>“Ira took our Instagram from an afterthought to the thing customers mention when they walk in. I finally don’t think about it.”</p></blockquote>
+              <figcaption><strong>Client name</strong><span>Café owner</span></figcaption>
+            </figure>
+            <figure class="quote" role="group" aria-roledescription="slide" aria-label="2 of 3" hidden>
+              <blockquote><p>“She just gets the vibe. Every post looks like us, only better, and I haven’t written a caption in months.”</p></blockquote>
+              <figcaption><strong>Client name</strong><span>Boutique founder</span></figcaption>
+            </figure>
+            <figure class="quote" role="group" aria-roledescription="slide" aria-label="3 of 3" hidden>
+              <blockquote><p>“Organised, quick, and genuinely creative. Our Reels finally feel like they belong to a real brand.”</p></blockquote>
+              <figcaption><strong>Client name</strong><span>Wellness studio</span></figcaption>
+            </figure>
+          </div>
+          <div class="quotes__nav">
+            <button type="button" class="round-btn" data-quote="prev" aria-label="Previous testimonial"><svg aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+            <p class="quotes__count" aria-hidden="true"><span data-quote-current>01</span> / 03</p>
+            <button type="button" class="round-btn" data-quote="next" aria-label="Next testimonial"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PACKAGES ============ -->
+    <!-- CONTENT: prices and inclusions are placeholders, confirm real pricing before launch. -->
+    <section class="packages surface sheet section-green" id="packages" data-bg="#2E6353" data-theme="dark" aria-labelledby="packages-title">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="label reveal">Packages</p>
+          <h2 class="d1 split-words" id="packages-title">Pick your <em>pace.</em></h2>
+          <p class="lead reveal" style="--i:1">Monthly packages, no long contracts. Every package can be tailored.</p>
+        </div>
+        <ul class="pkgs">
+          <li class="pkg pkg--starter reveal" style="--i:0">
+            <div class="pkg__top">
+              <h3 class="pkg__name">Starter</h3>
+              <p class="pkg__price"><span class="pkg__from">From</span> <span class="pkg__amt">$450</span><span class="pkg__per">/month</span></p>
+            </div>
+            <dl class="pkg__rows">
+              <div class="pkg__row"><dt>Best for</dt><dd>Brands ready to show up consistently</dd></div>
+              <div class="pkg__row"><dt>Platforms</dt><dd><span class="count" data-to="1">1</span></dd></div>
+              <div class="pkg__row"><dt>Posts per month</dt><dd><span class="count" data-to="12">12</span></dd></div>
+              <div class="pkg__row"><dt>Reels</dt><dd class="is-no">Not included</dd></div>
+              <div class="pkg__row"><dt>Content shoots</dt><dd class="is-no">Not included</dd></div>
+              <div class="pkg__row"><dt>Community care</dt><dd class="is-no">Not included</dd></div>
+              <div class="pkg__row"><dt>Strategy &amp; reporting</dt><dd>Monthly check-in</dd></div>
+            </dl>
+            <a class="btn btn--outline" href="#contact" data-package="Starter">Start with Starter</a>
+          </li>
+          <li class="pkg pkg--featured reveal" style="--i:1">
+            <div class="pkg__top">
+              <span class="pkg__badge">Most loved</span>
+              <h3 class="pkg__name">Signature</h3>
+              <p class="pkg__price"><span class="pkg__from">From</span> <span class="pkg__amt">$850</span><span class="pkg__per">/month</span></p>
+            </div>
+            <dl class="pkg__rows">
+              <div class="pkg__row"><dt>Best for</dt><dd>Brands that want to grow, not just post</dd></div>
+              <div class="pkg__row"><dt>Platforms</dt><dd><span class="count" data-to="2">2</span></dd></div>
+              <div class="pkg__row"><dt>Posts per month</dt><dd><span class="count" data-to="16">16</span></dd></div>
+              <div class="pkg__row"><dt>Reels</dt><dd><span class="count" data-to="4">4</span></dd></div>
+              <div class="pkg__row"><dt>Content shoots</dt><dd><span class="count" data-to="1">1</span> per month</dd></div>
+              <div class="pkg__row"><dt>Community care</dt><dd>Included</dd></div>
+              <div class="pkg__row"><dt>Strategy &amp; reporting</dt><dd>Monthly report + strategy</dd></div>
+            </dl>
+            <a class="btn btn--green" href="#contact" data-package="Signature">Book a call about Signature</a>
+          </li>
+          <li class="pkg pkg--full reveal" style="--i:2">
+            <div class="pkg__top">
+              <h3 class="pkg__name">Full Feed</h3>
+              <p class="pkg__price"><span class="pkg__from">From</span> <span class="pkg__amt">$1,400</span><span class="pkg__per">/month</span></p>
+            </div>
+            <dl class="pkg__rows">
+              <div class="pkg__row"><dt>Best for</dt><dd>Your whole social presence, handled</dd></div>
+              <div class="pkg__row"><dt>Platforms</dt><dd>Up to <span class="count" data-to="3">3</span></dd></div>
+              <div class="pkg__row"><dt>Posts per month</dt><dd><span class="count" data-to="20">20</span>+</dd></div>
+              <div class="pkg__row"><dt>Reels</dt><dd><span class="count" data-to="8">8</span></dd></div>
+              <div class="pkg__row"><dt>Content shoots</dt><dd><span class="count" data-to="2">2</span> per month</dd></div>
+              <div class="pkg__row"><dt>Community care</dt><dd>Daily</dd></div>
+              <div class="pkg__row"><dt>Strategy &amp; reporting</dt><dd>Quarterly strategy session</dd></div>
+            </dl>
+            <a class="btn btn--outline" href="#contact" data-package="Full Feed">Talk about Full Feed</a>
+          </li>
+        </ul>
+        <p class="pkgs__note reveal">Need a one-off? Strategy sessions, Reels packs and shoot days are available too. <a class="link link--dark" href="#contact">Ask about it</a></p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq surface sheet section-paper" id="faq" data-bg="#F7F1EA" data-theme="light" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__intro">
+          <p class="label reveal">Good questions</p>
+          <h2 class="d1 split-words" id="faq-title">Before you <em>ask.</em></h2>
+          <p class="reveal" style="--i:1">Still curious? Message me on <a class="link link--light" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">Instagram<span class="visually-hidden"> (opens in a new tab)</span></a> or <a class="link link--light" href="mailto:hello@iramaedia.com">send an email</a>.</p>
+        </div>
+        <ul class="acc">
+          <li class="acc__item reveal" style="--i:0"><h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq-1"><span>Do you work with brands in other cities?</span><span class="plus" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3><div class="collapse" id="faq-1"><div class="collapse__inner"><p>Yes. Strategy, editing, design and management all work remotely. Shoots happen locally or with content you send me, and I’ll guide you on what to film.</p></div></div></li>
+          <li class="acc__item reveal" style="--i:1"><h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq-2"><span>Which platforms do you manage?</span><span class="plus" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3><div class="collapse" id="faq-2"><div class="collapse__inner"><p>Mostly Instagram, TikTok and Facebook. Pinterest and LinkedIn are possible too, just ask.</p></div></div></li>
+          <li class="acc__item reveal" style="--i:2"><h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq-3"><span>How long until I see results?</span><span class="plus" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3><div class="collapse" id="faq-3"><div class="collapse__inner"><p>Consistency shows up in the first month. Growth in reach and engagement usually builds over three months, which is why I plan in quarters.</p></div></div></li>
+          <li class="acc__item reveal" style="--i:3"><h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq-4"><span>Do I need to be on camera?</span><span class="plus" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3><div class="collapse" id="faq-4"><div class="collapse__inner"><p>Not at all. Plenty of great accounts are built on products, spaces and voiceovers. If you do want to show up, I’ll make it easy and painless.</p></div></div></li>
+          <li class="acc__item reveal" style="--i:4"><h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq-5"><span>Do I approve everything before it’s posted?</span><span class="plus" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3><div class="collapse" id="faq-5"><div class="collapse__inner"><p>Always. You get a monthly calendar to review, and nothing goes live without your okay.</p></div></div></li>
+          <li class="acc__item reveal" style="--i:5"><h3><button type="button" class="acc__btn" aria-expanded="false" aria-controls="faq-6"><span>Is there a minimum contract?</span><span class="plus" aria-hidden="true"><svg><use href="#i-plus"/></svg></span></button></h3><div class="collapse" id="faq-6"><div class="collapse__inner"><p>Packages run month to month. I ask for one month’s notice so the handover is smooth.</p></div></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact surface sheet" id="contact" data-bg="#2E6353" data-theme="dark" aria-labelledby="contact-title">
+      <div class="aurora aurora--contact" aria-hidden="true"><i class="aurora__a"></i><i class="aurora__b"></i><i class="aurora__c"></i></div>
+      <div class="container">
+        <h2 class="contact__title split-words" id="contact-title">Let’s make your feed <em>unforgettable.</em></h2>
+        <div class="contact__grid">
+          <div class="contact__info">
+            <p class="lead reveal">Tell me a little about your brand and what you need. I reply within two business days, usually sooner.</p>
+            <ul class="contact__links">
+              <!-- CONTENT: placeholder email, confirm before launch -->
+              <li class="reveal" style="--i:1"><a class="big-link" href="mailto:hello@iramaedia.com">hello@iramaedia.com</a></li>
+              <li class="reveal" style="--i:2"><a class="big-link" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">@iramaedia on Instagram&nbsp;↗<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            </ul>
+            <!-- CONTENT: availability line -->
+            <p class="chip-status contact__status reveal" style="--i:3"><span class="dot" aria-hidden="true"></span>Booking new clients now</p>
+          </div>
+
+          <div class="form-card reveal">
+            <form class="form" id="contact-form" action="mailto:hello@iramaedia.com" method="post" enctype="text/plain" novalidate>
+              <div class="form__summary" id="form-summary" role="alert" tabindex="-1" hidden>
+                <p class="form__summary-title"><svg aria-hidden="true"><use href="#i-alert"/></svg>Almost there. Please check:</p>
+                <ul class="form__summary-list"></ul>
+              </div>
+              <div class="field">
+                <label for="f-name">Your name <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="f-name-err">
+                <p class="field__err" id="f-name-err"></p>
+              </div>
+              <div class="field">
+                <label for="f-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="f-email-err">
+                <p class="field__err" id="f-email-err"></p>
+              </div>
+              <div class="field field--full">
+                <label for="f-brand">Brand or Instagram handle</label>
+                <input id="f-brand" name="brand" type="text" autocomplete="organization" aria-describedby="f-brand-hint">
+                <p class="field__hint" id="f-brand-hint">Optional, but it helps me get a feel for you.</p>
+              </div>
+              <fieldset class="field field--full pills">
+                <legend>What do you need?</legend>
+                <div class="pills__list">
+                  <label class="pill"><input type="checkbox" name="needs" value="Management"><span>Management</span></label>
+                  <label class="pill"><input type="checkbox" name="needs" value="Content creation"><span>Content creation</span></label>
+                  <label class="pill"><input type="checkbox" name="needs" value="Reels"><span>Reels</span></label>
+                  <label class="pill"><input type="checkbox" name="needs" value="Strategy"><span>Strategy</span></label>
+                  <label class="pill"><input type="checkbox" name="needs" value="Design"><span>Design</span></label>
+                  <label class="pill"><input type="checkbox" name="needs" value="Not sure yet"><span>Not sure yet</span></label>
+                </div>
+              </fieldset>
+              <fieldset class="field field--full pills">
+                <legend>Monthly budget</legend>
+                <div class="pills__list">
+                  <label class="pill"><input type="radio" name="budget" value="Under $500"><span>Under $500</span></label>
+                  <label class="pill"><input type="radio" name="budget" value="$500 to $1,000"><span>$500 to $1,000</span></label>
+                  <label class="pill"><input type="radio" name="budget" value="$1,000 to $2,000"><span>$1,000 to $2,000</span></label>
+                  <label class="pill"><input type="radio" name="budget" value="$2,000+"><span>$2,000+</span></label>
+                  <label class="pill"><input type="radio" name="budget" value="Not sure yet"><span>Not sure yet</span></label>
+                </div>
+              </fieldset>
+              <div class="field field--full">
+                <label for="f-msg">Tell me about your brand <span class="req" aria-hidden="true">*</span></label>
+                <textarea id="f-msg" name="message" rows="5" required aria-describedby="f-msg-err"></textarea>
+                <p class="field__err" id="f-msg-err"></p>
+              </div>
+              <p class="field--full form__req"><span aria-hidden="true">*</span> Required</p>
+              <div class="field--full form__foot">
+                <button class="btn btn--blush btn--block btn--lg" type="submit"><span class="btn__label"><span class="spinner" aria-hidden="true"></span><span data-submit-text>Send my enquiry</span></span></button>
+                <p class="form__status" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+
+            <div class="form-success" id="form-success" hidden>
+              <span class="form-success__disc" aria-hidden="true"><svg><use href="#i-check"/></svg></span>
+              <h3 class="form-success__title" tabindex="-1">Almost there.</h3>
+              <p>Your email app should have opened with everything filled in. Hit send and I’ll reply within two business days.</p>
+              <div class="form-success__actions">
+                <button class="btn btn--outline" type="button" data-copy="hello@iramaedia.com">Copy my email instead</button>
+                <button class="link link--dark link-btn" type="button" data-edit>Edit my message</button>
+              </div>
+              <p class="visually-hidden" aria-live="polite" data-copy-status></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <a class="logo" href="#top" aria-label="IraMaedia, back to top">
+          <span class="logo__mark">IMD</span>
+          <span class="logo__rule" aria-hidden="true"></span>
+          <span class="logo__word">IRAMAEDIA</span>
+        </a>
+        <nav aria-label="Footer">
+          <ul class="footer__links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <ul class="footer__social">
+          <li><a href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">Instagram ↗<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          <li><a href="mailto:hello@iramaedia.com">hello@iramaedia.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__mark" aria-hidden="true">
+      <svg class="footer__globe" focusable="false"><use href="#i-globe"/></svg>
+      <p class="wordmark"><span>I</span><span>R</span><span>A</span><span>M</span><span>A</span><span>E</span><span>D</span><span>I</span><span>A</span></p>
+    </div>
+    <div class="container footer__base">
+      <p>© 2026 IraMaedia. Made with care.</p>
+      <a class="link link--dark" href="#top" data-top>Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Mobile bottom bar (< 768px) -->
+  <div class="bbar" data-bbar>
+    <a class="btn btn--blush bbar__cta" href="#contact">Book a free call</a>
+    <a class="bbar__ig" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener" aria-label="Message me on Instagram (opens in a new tab)"><svg aria-hidden="true"><use href="#i-ig"/></svg></a>
+  </div>
+</body>
+</html>

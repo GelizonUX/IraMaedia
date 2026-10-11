@@ -1,0 +1,2783 @@
+{
+  "round": "1",
+  "root": "http://localhost:8080/",
+  "sub": "http://localhost:8081/IraMaedia/",
+  "checks": {
+    "static": {
+      "headings": [
+        "H1: Content that makes them stop scrolling.",
+        "H2: Your brand, but louder and a little more lovely.",
+        "H2: Everything your feed needs, in one place.",
+        "H3: 01 Social media management Planning, posting, scheduling and",
+        "H3: 02 Content creation Photos and short-form video made for the",
+        "H3: 03 Reels & short-form editing Hooks in the first second, cle",
+        "H3: 04 Content strategy A clear plan for what to post, why, and ",
+        "H3: Feed & graphic design",
+        "H3: Captions & copywriting",
+        "H3: UGC-style content",
+        "H3: Launch & campaign content",
+        "H3: Brand photography",
+        "H2: A peek at the grid.",
+        "H3: Morning menu launch",
+        "H3: 5 ways to style one blazer",
+        "H3: A day at the studio",
+        "H3: Spring grid refresh",
+        "H3: Behind the bouquet",
+        "H3: What I wish I knew",
+        "H3: Unboxing, but pretty",
+        "H3: Launch week teaser",
+        "H2: Simple, from hello to posted.",
+        "H3: Discovery call",
+        "H3: Strategy & plan",
+        "H3: Create & approve",
+        "H3: Post, learn, grow",
+        "H2: Consistent feeds. Real conversations. Less stress.",
+        "H2: Pick your pace.",
+        "H3: Starter",
+        "H3: Signature",
+        "H3: Full Feed",
+        "H2: Before you ask.",
+        "H3: Do you work with brands outside my city?",
+        "H3: Which platforms do you manage?",
+        "H3: How long until I see results?",
+        "H3: Do I need to be on camera?",
+        "H3: Do I approve everything before it's posted?",
+        "H3: Is there a minimum contract?",
+        "H2: Let's make your feed unforgettable."
+      ],
+      "headingSkips": [],
+      "h1Count": 1,
+      "landmarks": {
+        "header": 1,
+        "nav": 2,
+        "main": 1,
+        "footer": 1
+      },
+      "skipLink": "#main \"Skip to content\"",
+      "lang": "en",
+      "title": "IraMaedia · Social media content that makes them stop scrolling",
+      "metaDesc": "IraMaedia is Ira's social media content studio: strategy, Reels, content creation and account management for brands that want a feed with taste.",
+      "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+      "favicon": "http://localhost:8080/assets/img/favicon.svg",
+      "ogImage": "https://gelizonux.github.io/IraMaedia/assets/img/og-image.png",
+      "imgNoAlt": [],
+      "imgCount": 0,
+      "svgNoLabel": 4,
+      "rootAbsoluteUrls": [],
+      "links": [
+        {
+          "href": "#main",
+          "text": "Skip to content",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#top",
+          "text": "IMD\n        \n        IRAMAEDIA",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram ↗",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#contact",
+          "text": "Book a discovery call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "See my work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "See more on Instagram ↗ (opens in a new ",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#contact",
+          "text": "Start here",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Book a call",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Let's talk",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contact",
+          "text": "Ask about it →",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "send an email",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "@iramaedia on Instagram ↗ (opens in a ne",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "#top",
+          "text": "IMD\n          \n          IRAMAEDIA",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#work",
+          "text": "Work",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#services",
+          "text": "Services",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#process",
+          "text": "Process",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#packages",
+          "text": "Packages",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#faq",
+          "text": "FAQ",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.instagram.com/iramaedia/",
+          "text": "Instagram ↗ (opens in a new tab)",
+          "target": "_blank",
+          "rel": "noopener"
+        },
+        {
+          "href": "mailto:hello@iramaedia.com",
+          "text": "hello@iramaedia.com",
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#top",
+          "text": "Back to top ↑",
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "emptyLinks": [],
+      "badHref": [],
+      "blankNoRel": [],
+      "brokenAnchors": [],
+      "unnamedButtons": [],
+      "unlabeledInputs": [],
+      "duplicateIds": [],
+      "junk": [],
+      "doubleWords": []
+    },
+    "contrast": [
+      {
+        "text": "Social media content creator",
+        "tag": "SPAN",
+        "cls": "",
+        "ratio": 4.41,
+        "need": 4.5,
+        "color": "rgba(251, 236, 241, 0.78)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "manager",
+        "tag": "SPAN",
+        "cls": "eyebrow__2",
+        "ratio": 4.41,
+        "need": 4.5,
+        "color": "rgba(251, 236, 241, 0.78)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "01",
+        "tag": "SPAN",
+        "cls": "num",
+        "ratio": 4.25,
+        "need": 4.5,
+        "color": "rgb(138, 109, 54)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 18,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "02",
+        "tag": "SPAN",
+        "cls": "num",
+        "ratio": 4.25,
+        "need": 4.5,
+        "color": "rgb(138, 109, 54)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 18,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "03",
+        "tag": "SPAN",
+        "cls": "num",
+        "ratio": 4.25,
+        "need": 4.5,
+        "color": "rgb(138, 109, 54)",
+        "bg": "rgb(251,236,241)",
+        "fontSize": 18,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "Services",
+        "tag": "P",
+        "cls": "eyebrow reveal is-in",
+        "ratio": 4.41,
+        "need": 4.5,
+        "color": "rgba(251, 236, 241, 0.78)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "01",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "02",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "03",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "04",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "Also on the menu",
+        "tag": "P",
+        "cls": "eyebrow reveal is-in",
+        "ratio": 4.41,
+        "need": 4.5,
+        "color": "rgba(251, 236, 241, 0.78)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "05",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "06",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "07",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "08",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "09",
+        "tag": "SPAN",
+        "cls": "svc__num",
+        "ratio": 3.1,
+        "need": 4.5,
+        "color": "rgb(201, 169, 110)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      },
+      {
+        "text": "POV: your 7am class",
+        "tag": "P",
+        "cls": "overlay",
+        "ratio": 1.98,
+        "need": 4.5,
+        "color": "rgb(251, 236, 241)",
+        "bg": "rgb(152,178,171)",
+        "fontSize": 19,
+        "opacity": 1,
+        "gradientBg": true
+      },
+      {
+        "text": "yourbrand",
+        "tag": "DIV",
+        "cls": "screen-meta",
+        "ratio": 1.98,
+        "need": 4.5,
+        "color": "rgb(251, 236, 241)",
+        "bg": "rgb(152,178,171)",
+        "fontSize": 10.5,
+        "opacity": 1,
+        "gradientBg": true
+      },
+      {
+        "text": "Packages",
+        "tag": "P",
+        "cls": "eyebrow reveal is-in",
+        "ratio": 4.41,
+        "need": 4.5,
+        "color": "rgba(251, 236, 241, 0.78)",
+        "bg": "rgb(46,99,83)",
+        "fontSize": 12,
+        "opacity": 1,
+        "gradientBg": false
+      }
+    ],
+    "localLinkStatus": {},
+    "externalLinks": [
+      "mailto:hello@iramaedia.com",
+      "https://www.instagram.com/iramaedia/"
+    ],
+    "focus": [
+      {
+        "tag": "A",
+        "text": "Skip to content",
+        "href": "#main",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "IMD\n        \n        IRAMAEDIA",
+        "href": "#top",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Work",
+        "href": "#work",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Services",
+        "href": "#services",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Process",
+        "href": "#process",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Packages",
+        "href": "#packages",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "FAQ",
+        "href": "#faq",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a discovery call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "See my work",
+        "href": "#work",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": true,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "01\n                Social medi",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "02\n                Content cre",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "03\n                Reels & sho",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "04\n                Content str",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "All",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Reels",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Carousels",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Feed",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "See more on Instagram ↗ (opens",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Previous testimonial",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Next testimonial",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Start here",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Book a call",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Let's talk",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Ask about it →",
+        "href": "#contact",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "Instagram (opens in a new tab)",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "send an email",
+        "href": "mailto:hello@iramaedia.com",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do you work with brands outsid",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Which platforms do you manage?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "How long until I see results?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do I need to be on camera?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Do I approve everything before",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Is there a minimum contract?",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(122, 58, 82)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "hello@iramaedia.com",
+        "href": "mailto:hello@iramaedia.com",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "text": "@iramaedia on Instagram ↗ (ope",
+        "href": "https://www.instagram.com/iramaedia/",
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "href": null,
+        "outline": true,
+        "outlineStr": "solid 2px rgb(232, 180, 196)",
+        "shadow": false,
+        "inView": false,
+        "focusVisible": true
+      }
+    ],
+    "faq": {
+      "kind": "aria-buttons",
+      "count": 6,
+      "toggled": "false -> true",
+      "panelVisible": true,
+      "panelHeight": 112.140625,
+      "toggledBack": "false",
+      "keyboardEnter": "true"
+    },
+    "form": {
+      "action": "mailto:hello@iramaedia.com",
+      "method": "post",
+      "fields": [
+        "input[text] name=name req=true auto=name",
+        "input[email] name=email req=true auto=email",
+        "input[text] name=brand req=false auto=organization",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "input[checkbox] name=needs req=false auto=",
+        "textarea[textarea] name=message req=true auto="
+      ],
+      "hasSubmit": true,
+      "urlAfterEmpty": "unchanged",
+      "invalidAfterEmpty": [
+        "name",
+        "email",
+        "message"
+      ],
+      "statusTextAfterEmpty": "Please tell me your name.",
+      "popupUrl": null,
+      "urlAfterValid": "unchanged",
+      "statusTextAfterValid": ""
+    },
+    "root-desktop": {
+      "status": 200,
+      "loadMs": 1558,
+      "invisibleBeforeScroll": 166,
+      "clsDuringScroll": 0.0407,
+      "lcpMs": 1124,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "overflow": false,
+        "offenders": []
+      },
+      "runningAnimations": 5,
+      "console": [],
+      "pageErrors": [],
+      "failed": [
+        "mailto:hello@iramaedia.com?subject=New%20enquiry%20from%20QA%20test%20message%20for%20the%20IraMaedia%20site&body=Name%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0AEmail%3A%20qa%40example.com%0ABrand%20%2F%20Instagram%3A%20QA%20test%20message%20for%20the%20IraMaedia%20site%0ANeeds%3A%20Management%2C%20Content%2C%20Reels%2C%20Strategy%2C%20Design%2C%20Not%20sure%20yet%0A%0AQA%20test%20message%20for%20the%20IraMaedia%20site :: net::ERR_ABORTED"
+      ],
+      "http": [],
+      "kbLocal": 238,
+      "kbExternal": 408,
+      "requestCount": 18,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "root-tablet": {
+      "status": 200,
+      "loadMs": 1032,
+      "invisibleBeforeScroll": 166,
+      "clsDuringScroll": 0.0016,
+      "lcpMs": 1488,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "bodyScrollWidth": 768,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 119,
+      "kbExternal": 204,
+      "requestCount": 9,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "root-mobile": {
+      "status": 200,
+      "loadMs": 1519,
+      "invisibleBeforeScroll": 166,
+      "clsDuringScroll": 0,
+      "lcpMs": 1072,
+      "invisibleAfterScroll": [
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "POV: your 7am class",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "A day at the studio",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Pilates studio · Wellness",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta screen-meta--top",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Spring grid refresh",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Skincare · Beauty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "how a Friday order comes together",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Behind the bouquet",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Florist · Local business",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "lesson 03: rest is productive",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Carousel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "What I wish I knew",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Coach · Personal brand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "packed with love (and tissue)",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Unboxing, but pretty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Handmade jewelry · E-commerce",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "something new is coming",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Launch week teaser",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Salon · Beauty",
+          "opacity": 0,
+          "visible": true
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "mobileNav": {
+        "steps": [],
+        "toggleVisible": true,
+        "labelBefore": "Open menu",
+        "expandedAfterOpen": "true",
+        "menuVisibleOpen": true,
+        "menuLinksVisible": 8,
+        "bodyScrollLocked": "hidden/visible",
+        "toggleOnTop": true,
+        "expandedAfterEscape": "false",
+        "expandedAfterLinkClick": "false",
+        "menuVisibleAfterLink": false,
+        "linkTarget": "#work",
+        "hashAfter": "#work",
+        "scrollYAfter": 5155,
+        "finalExpanded": "false"
+      },
+      "overflowAfterNav": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 238,
+      "kbExternal": 408,
+      "requestCount": 18,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "sub-desktop": {
+      "status": 200,
+      "loadMs": 1067,
+      "invisibleBeforeScroll": 166,
+      "clsDuringScroll": 0.0064,
+      "lcpMs": 1452,
+      "invisibleAfterScroll": [],
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 119,
+      "kbExternal": 204,
+      "requestCount": 9,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "sub-mobile": {
+      "status": 200,
+      "loadMs": 1046,
+      "invisibleBeforeScroll": 166,
+      "clsDuringScroll": 0,
+      "lcpMs": 1452,
+      "invisibleAfterScroll": [
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "POV: your 7am class",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "A day at the studio",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Pilates studio · Wellness",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta screen-meta--top",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Spring grid refresh",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Skincare · Beauty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "how a Friday order comes together",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Behind the bouquet",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Florist · Local business",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "lesson 03: rest is productive",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Carousel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "What I wish I knew",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Coach · Personal brand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "packed with love (and tissue)",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Unboxing, but pretty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Handmade jewelry · E-commerce",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "something new is coming",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Launch week teaser",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Salon · Beauty",
+          "opacity": 0,
+          "visible": true
+        }
+      ],
+      "overflow": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "mobileNav": {
+        "steps": [],
+        "toggleVisible": true,
+        "labelBefore": "Open menu",
+        "expandedAfterOpen": "true",
+        "menuVisibleOpen": true,
+        "menuLinksVisible": 8,
+        "bodyScrollLocked": "hidden/visible",
+        "toggleOnTop": true,
+        "expandedAfterEscape": "false",
+        "expandedAfterLinkClick": "false",
+        "menuVisibleAfterLink": false,
+        "linkTarget": "#work",
+        "hashAfter": "#work",
+        "scrollYAfter": 5155,
+        "finalExpanded": "false"
+      },
+      "overflowAfterNav": {
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "bodyScrollWidth": 375,
+        "overflow": false,
+        "offenders": []
+      },
+      "console": [],
+      "pageErrors": [],
+      "failed": [],
+      "http": [],
+      "kbLocal": 238,
+      "kbExternal": 408,
+      "requestCount": 18,
+      "externalHosts": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "extraWidths": {
+      "320": {
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "bodyScrollWidth": 320,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 32
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "bodyScrollWidth": 1024,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 0
+      },
+      "1920": {
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "bodyScrollWidth": 1920,
+        "overflow": false,
+        "offenders": [],
+        "invisible": 0
+      }
+    },
+    "anchorJumps": {
+      "about": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 291,
+        "headingUnderHeader": false
+      },
+      "services": {
+        "invisible": [
+          "SPAN.svc__num \"02\" op=0.00",
+          "SPAN.svc__name \"Content creation\" op=0.00",
+          "SPAN.svc__desc \"Photos and short-form video ma\" op=0.00"
+        ],
+        "invisibleCount": 3,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 243,
+        "headingUnderHeader": false
+      },
+      "work": {
+        "invisible": [
+          "DIV.screen-meta screen-meta-- \"yourbrand\" op=0.00"
+        ],
+        "invisibleCount": 1,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 291,
+        "headingUnderHeader": false
+      },
+      "process": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 243,
+        "headingUnderHeader": false
+      },
+      "packages": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 291,
+        "headingUnderHeader": false
+      },
+      "faq": {
+        "invisible": [],
+        "invisibleCount": 0,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 243,
+        "headingUnderHeader": false
+      },
+      "contact": {
+        "invisible": [
+          "A.big-link \"@iramaedia on Instagram ↗ (ope\" op=0.00",
+          "SPAN.visually-hidden \"(opens in a new tab)\" op=0.00"
+        ],
+        "invisibleCount": 2,
+        "headerBottom": 72,
+        "targetTop": 72,
+        "headingTop": 248,
+        "headingUnderHeader": false
+      }
+    },
+    "reducedMotion": {
+      "invisibleAtTopNoScroll": 166,
+      "invisibleAfterJump": [
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "Hello, I'm Ira",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "I'm a social media content creator and manager for",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "I take the whole thing off your plate: the strateg",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "signature__name",
+          "text": "Ira",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "signature__role",
+          "text": "Founder, IraMaedia",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "num",
+          "text": "01",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Taste first. Pretty is the baseline, not the goal.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "STRONG",
+          "cls": "",
+          "text": "Taste first.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "num",
+          "text": "02",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Strategy, always. Every post has a job.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "STRONG",
+          "cls": "",
+          "text": "Strategy, always.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "num",
+          "text": "03",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "You sound like you. Never like a template.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "STRONG",
+          "cls": "",
+          "text": "You sound like you.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "Services",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "lead reveal",
+          "text": "Hire me for the full package or just the piece you",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "01",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__name",
+          "text": "Social media management",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__desc",
+          "text": "Planning, posting, scheduling and community care, ",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "02",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__name",
+          "text": "Content creation",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__desc",
+          "text": "Photos and short-form video made for the feed, sty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "03",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__name",
+          "text": "Reels & short-form editing",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__desc",
+          "text": "Hooks in the first second, clean cuts, captions on",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "04",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__name",
+          "text": "Content strategy",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__desc",
+          "text": "A clear plan for what to post, why, and how often.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "Also on the menu",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "05",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "text": "Feed & graphic design",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Templates, carousels, highlight covers and a grid ",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "06",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "text": "Captions & copywriting",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Captions, bios and CTAs that sound like you, just ",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "07",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "text": "UGC-style content",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Natural, talk-to-camera videos for ads and product",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "08",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "text": "Launch & campaign content",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "A focused content push for openings, drops and big",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "svc__num",
+          "text": "09",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "",
+          "text": "Brand photography",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "Simple, styled photos of you, your space and your ",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "Selected work",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "lead reveal",
+          "text": "A few examples of the kind of content I make. Real",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "chip is-active",
+          "text": "All",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "chip",
+          "text": "Reels",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "chip",
+          "text": "Carousels",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "chip",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "the oat latte that started it all",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Morning menu launch",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Café · Food & drink",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "one piece, five moods",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Carousel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "5 ways to style one blazer",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Boutique · Fashion",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "POV: your 7am class",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "A day at the studio",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Pilates studio · Wellness",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta screen-meta--top",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Spring grid refresh",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Skincare · Beauty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "how a Friday order comes together",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Behind the bouquet",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Florist · Local business",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "lesson 03: rest is productive",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Carousel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "What I wish I knew",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Coach · Personal brand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "svg",
+          "cls": "",
+          "text": "",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "packed with love (and tissue)",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Reel",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Unboxing, but pretty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Handmade jewelry · E-commerce",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "overlay",
+          "text": "something new is coming",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "DIV",
+          "cls": "screen-meta",
+          "text": "yourbrand",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__tag",
+          "text": "Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "work-item__title",
+          "text": "Launch week teaser",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "work-item__client",
+          "text": "Client name · Salon · Beauty",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "link link--dark",
+          "text": "See more on Instagram ↗ (opens in a new tab)",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "How we work",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "What clients can expect",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "reveal",
+          "text": "A feed that looks like one brand, not five.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "reveal",
+          "text": "Posting every week, even in your busiest month.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "reveal",
+          "text": "More DMs, saves and shares from people who actuall",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "note reveal",
+          "text": "Results vary by account and goals. Ask me for case",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "\"Ira took our Instagram from an afterthought to th",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "STRONG",
+          "cls": "",
+          "text": "Client name",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "Café owner",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "Packages",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "lead reveal",
+          "text": "Monthly packages, no long contracts. Every package",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "pkg__name",
+          "text": "Starter",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkg__tag",
+          "text": "For brands ready to show up consistently.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkg__price",
+          "text": "From $450/month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__from",
+          "text": "From",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__per",
+          "text": "/month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "1 platform",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "12 posts per month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Captions & hashtags",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Scheduling & posting",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Monthly check-in",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "btn btn--outline",
+          "text": "Start here",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__badge",
+          "text": "Most loved",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "pkg__name",
+          "text": "Signature",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkg__tag",
+          "text": "For brands that want to grow, not just post.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkg__price",
+          "text": "From $850/month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__from",
+          "text": "From",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__per",
+          "text": "/month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "2 platforms",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "16 posts incl. 4 Reels",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "1 content shoot per month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Community management",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Strategy & monthly report",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "btn btn--green",
+          "text": "Book a call",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "H3",
+          "cls": "pkg__name",
+          "text": "Full Feed",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkg__tag",
+          "text": "Your whole social presence, handled.",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkg__price",
+          "text": "From $1,400/month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__from",
+          "text": "From",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "pkg__per",
+          "text": "/month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Up to 3 platforms",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "20+ posts incl. 8 Reels",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "2 content shoots per month",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Daily engagement",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "LI",
+          "cls": "",
+          "text": "Quarterly strategy session",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "btn btn--outline",
+          "text": "Let's talk",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "pkgs__note reveal",
+          "text": "Need a one-off? Strategy sessions, Reels packs and",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "link link--dark",
+          "text": "Ask about it →",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "eyebrow reveal",
+          "text": "Good questions",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "reveal",
+          "text": "Still curious? Message me on Instagram (opens in a",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "link link--light",
+          "text": "Instagram (opens in a new tab)",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "link link--light",
+          "text": "send an email",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "Do you work with brands outside my city?",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "Which platforms do you manage?",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "How long until I see results?",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "Do I need to be on camera?",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "Do I approve everything before it's posted?",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "text": "Is there a minimum contract?",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "P",
+          "cls": "lead reveal",
+          "text": "Tell me a little about your brand and what you nee",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "big-link",
+          "text": "hello@iramaedia.com",
+          "opacity": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "cls": "big-link",
+          "text": "@iramaedia on Instagram ↗ (opens in a new tab)",
+          "opacity": 0,
+          "visible": true
+        }
+      ],
+      "runningAnimations": [],
+      "runningCount": 0,
+      "scrollBehavior": "auto",
+      "errors": []
+    },
+    "noJS": {
+      "invisible": 0
+    }
+  }
+}
