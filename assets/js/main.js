@@ -160,8 +160,8 @@
       els.push(el);
     });
 
-    if (!('IntersectionObserver' in window)) {
-      els.forEach(function (el) { el.classList.add('is-in'); });
+    if (reduced || !('IntersectionObserver' in window)) {
+      els.forEach(function (el) { el.classList.add('is-in'); if (el.hasAttribute('data-steps')) lightSteps(el); });
       return;
     }
     var io = new IntersectionObserver(function (entries) {
@@ -192,15 +192,30 @@
       }
     });
 
-    // Safety net: anything still hidden after load + a while becomes visible if in view on resize etc.
-    window.addEventListener('load', function () {
-      setTimeout(function () {
-        els.forEach(function (el) {
-          var r = el.getBoundingClientRect();
-          if (r.top < window.innerHeight && r.bottom > 0) el.classList.add('is-in');
-        });
-      }, 1500);
-    });
+    // Anything that ends up above the viewport (anchor jump, fast scroll, reload mid-page)
+    // is revealed instantly so scrolling back up never shows empty gaps.
+    var pending = els.slice();
+    var sweeping = false;
+    function sweep() {
+      sweeping = false;
+      pending = pending.filter(function (el) {
+        if (el.classList.contains('is-in')) return false;
+        var r = el.getBoundingClientRect();
+        if (r.bottom < 0) {
+          el.classList.add('is-instant', 'is-in');
+          if (el.hasAttribute('data-steps')) lightSteps(el);
+          requestAnimationFrame(function () { requestAnimationFrame(function () { el.classList.remove('is-instant'); }); });
+          return false;
+        }
+        return true;
+      });
+      if (!pending.length) window.removeEventListener('scroll', onSweep);
+    }
+    function onSweep() { if (!sweeping) { sweeping = true; requestAnimationFrame(sweep); } }
+    window.addEventListener('scroll', onSweep, { passive: true });
+    window.addEventListener('hashchange', onSweep);
+    window.addEventListener('load', onSweep);
+    onSweep();
   }
   function lightSteps(list) {
     $$('.step', list).forEach(function (s, i) {
@@ -415,7 +430,7 @@
     $$('[data-package]').forEach(function (a) {
       a.addEventListener('click', function () {
         var msg = $('#f-msg');
-        if (msg && !msg.value) msg.value = "Hi Ira, I'm interested in the " + a.getAttribute('data-package') + ' package. ';
+        if (msg && !msg.value) msg.value = "Hi Ira, I’m interested in the " + a.getAttribute('data-package') + ' package. ';
       });
     });
 
@@ -466,7 +481,7 @@
       ].join('\n');
       var href = 'mailto:' + to + '?subject=' + encodeURIComponent('New enquiry from ' + name) + '&body=' + encodeURIComponent(body);
       status.classList.add('is-success');
-      status.textContent = 'Thank you! Your email app should open with everything filled in. If it doesn\'t, write to ' + to + '.';
+      status.textContent = 'Thank you! Your email app should open with everything filled in. If it doesn’t, write to ' + to + '.';
       window.location.href = href;
     });
   }

@@ -38,3 +38,40 @@ Tested at root `http://localhost:8080/` and at the GitHub Pages sub-path `http:/
 11. [Info] With reduced motion, reveals still wait for IntersectionObserver (200ms fade). That's acceptable. Showing everything at once would be stricter.
 
 Note for designer: the "Skip to content" pill and the header partway down the round-1 full-page shots were **a QA harness artifact**: the screenshot was taken during the page's smooth scroll back to top. The harness is fixed and the shots have been retaken. In the live page the skip link sits at top:-71px until focused.
+
+## Round 2 (build r2, tested 2026-10-11)
+Same matrix as round 1: root and /IraMaedia/ sub-path; widths 320, 375, 768, 1024, 1440 and 1920; JS off; reduced motion. Raw results: `.team/qa/round2-results.json`. Screenshots: `.team/shots/round2-*.png`.
+
+**Re-verified round-1 items**
+- #1 FIXED: `.svc__num` and `.pkg__from` on dark are #EBD9B4. The contrast scan now finds **0 AA failures** on the whole page.
+- #2 FIXED: dark-section eyebrows are rgba(251,236,241,.86), about 4.9:1.
+- #3 FIXED: `.num` is #7A5F2E on blush, 5.24:1.
+- #4 FIXED: the scrolled nav is a solid-reading forest bar over light sections with no ghosting (`round2-desktop-at-about.png`).
+- #5 FIXED: the sage tint uses forest ink.
+- #6 FIXED: "How it works" and "Do you work with brands in other cities?".
+- #7 FIXED: curly quotes and apostrophes.
+- #8 accepted by designer; prices stay as placeholders.
+- #10 mostly fixed (see 12).
+- #11 FIXED: with reduced motion, all content shows at load (0 invisible without scrolling).
+
+**Designer items checked**
+- The mobile hero eyebrow "Content creator · Manager" stays on one line at 320 and 375.
+- No hero title indent on mobile: every line starts at left 20px.
+- At 320 the work filter chips sit on one row and scroll inside that row (row scrollWidth 360 > 288). The page itself stays at 320 with no sideways scroll, before and after filtering.
+- 1440x900: the front phone's like bar ends at y=808, above the fold.
+- The contact column shows the availability chip.
+
+**Still passing:** 0 console errors and 0 404s on both bases; no overflow at any width, including with the menu open; 0 invisible elements after scrolling at any width, and the mobile carousel is fine too. Also:
+- all links and anchors resolve, the heading order is valid, and landmarks are present;
+- all 35 focus stops show an outline;
+- the mobile menu traps focus and closes on Esc and on link click;
+- the FAQ works with mouse and keyboard;
+- form validation and the mailto open correctly;
+- content is visible with JS off;
+- layout shift 0.01 on desktop.
+
+**Remaining issues**
+12. [Low] After a direct anchor jump (e.g. `#services`, `#contact` at 1440x900), items sitting in the bottom ~10% of the viewport (y≈813–886 of 900) stay at opacity 0 until the user scrolls a little. The likely cause is a negative bottom rootMargin or threshold on the IntersectionObserver. Optional: reveal anything already inside the viewport on load or on hashchange.
+13. [Low] Google Fonts transfer is still about 408KB as measured, so the weight trimming didn't show a measurable drop. Check the css2 URL axes or subset with `&text=` for the display face.
+
+**Round 2 result: 0 High, 0 Medium, 2 Low → QA PASS.**
