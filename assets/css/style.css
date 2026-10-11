@@ -138,8 +138,24 @@ body::after {
 .section-deep { background-color: var(--forest-900); color: var(--petal); }
 .section-light, .marquee { background-color: var(--blush-50); color: var(--ink-900); font-weight: 400; letter-spacing: 0; }
 .section-paper { background-color: var(--cream-50); color: var(--ink-900); font-weight: 400; letter-spacing: 0; }
-/* Background colour transitions: body carries the colour while JS runs them */
-html.bgfx .surface:not(.hero):not(.contact) { background-color: transparent; }
+/* Soft colour seams between sections (no hard cuts). Each section blends in from the
+   previous surface inside its own top padding, so text always sits on its own solid colour. */
+.surface[data-prev] { --seam: clamp(64px, 7vw, 112px); }
+.services { --prev: var(--blush-50); }
+.work { --prev: var(--forest-800); }
+.process { --prev: var(--forest-900); }
+.results { --prev: var(--cream-50); }
+.packages { --prev: var(--blush-50); }
+.faq { --prev: var(--green-700); }
+.contact { --prev: var(--cream-50); }
+.surface[data-prev]::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: var(--seam); z-index: -1; pointer-events: none;
+  background: linear-gradient(180deg, var(--prev), transparent);
+}
+.footer::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 56px; pointer-events: none;
+  background: linear-gradient(180deg, var(--green-700), transparent);
+}
 
 /* ---------- Type ---------- */
 .label {
@@ -613,7 +629,7 @@ html.gsap-live .marquee__track { animation: none; }
 .is-offscreen .marquee__track { animation-play-state: paused; }
 
 /* ---------- About ---------- */
-.about { padding-block: var(--pad-hero) 0; }
+.about { padding-block: var(--pad-hero) 0; overflow-x: clip; }
 .about__grid { display: grid; gap: 64px; }
 .about__media { position: relative; max-width: 440px; width: 100%; justify-self: center; }
 .arch {
@@ -669,7 +685,6 @@ html.gsap-live .marquee__track { animation: none; }
 .card {
   position: relative; overflow: hidden;
   display: grid; gap: 32px;
-  min-height: min(72vh, 620px);
   padding: clamp(28px, 4vw, 56px);
   border-radius: var(--r-lg);
   color: var(--ink-900); font-weight: 400; letter-spacing: 0;
@@ -704,7 +719,7 @@ html.gsap-live .marquee__track { animation: none; }
 .plan .p4, .plan .p8 { background: linear-gradient(160deg, #F7F1EA, #C9A96E); }
 .plan .p5 { background: var(--blush-50); box-shadow: inset 0 0 0 1px rgba(46, 99, 83, .2); }
 @media (min-width: 768px) {
-  .card { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: center; }
+  .card { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: center; min-height: min(72vh, 620px); }
   .phone--card { width: 190px; }
   /* Sticky stacking only with motion */
   html.motion-ok .cards { gap: 12vh; }
@@ -877,7 +892,7 @@ html.pin-work .work__bar { width: 200px; flex: none; }
 .pkg__rows { display: flex; flex-direction: column; border-top: 1px solid rgba(201, 169, 110, .6); margin-bottom: 28px; }
 .pkg__row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding-block: 12px; border-bottom: 1px solid var(--line-on-dark); }
 .pkg__row dt { font-size: var(--fs-small); color: var(--mist); flex: none; max-width: 45%; }
-.pkg__row dd { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+.pkg__row dd { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; text-wrap: balance; }
 .pkg__row dd.is-no { font-weight: 450; color: var(--mist); }
 .pkg .btn { width: 100%; margin-top: auto; }
 .pkg--featured { background: var(--blush-50); color: var(--ink-900); border-color: var(--blush-50); font-weight: 400; letter-spacing: 0; }

@@ -1128,20 +1128,20 @@ async function formTestV2(page, shotTag) {
       const ctx = await newCtx(browser, ctxOpts(vp)); const page = await ctx.newPage();
       await page.goto(ROOT, { waitUntil: 'load' }); await waitReady(page, 8000); await page.waitForTimeout(1200);
       await page.screenshot({ path: `${SHOTS}/round${ROUND}-${wkey}-viewport.png` });
-      const secs = await page.evaluate(() => [...document.querySelectorAll('main section[id], main > [id], footer[id], footer')].map(s => s.id || 'footer').filter((v, i, a) => a.indexOf(v) === i));
+      const secs = await page.evaluate(() => { const out = []; for (const s of document.querySelectorAll('main > section, main section[id], main > [id], footer')) { const n = s.id || (s.tagName === 'FOOTER' ? 'footer' : String(s.className).split(/\s+/)[0]); if (!n || out.includes(n)) continue; s.dataset.qaSec = n; out.push(n); } return out; });
       const key = /hero|top|home|intro|work|portfolio|contact|footer/;
       const list = (wkey === 1440 || wkey === 375) ? secs : secs.filter(s => key.test(s));
       const done = [];
       for (const id of list) {
-        const y = await page.evaluate(id => { const el = id === 'footer' ? document.querySelector('footer') : document.getElementById(id); const host = el.parentElement && el.parentElement.classList.contains('pin-spacer') ? el.parentElement : el; return Math.round(host.getBoundingClientRect().top + scrollY); }, id);
+        const y = await page.evaluate(id => { const el = document.querySelector(`[data-qa-sec="${id}"]`); const host = el.parentElement && el.parentElement.classList.contains('pin-spacer') ? el.parentElement : el; return Math.round(host.getBoundingClientRect().top + scrollY); }, id);
         await page.evaluate(y => { if (window.lenis && window.lenis.scrollTo) try { window.lenis.scrollTo(y, { immediate: true }); } catch (_) {} window.scrollTo({ top: y, behavior: 'instant' }); }, y);
         await settleScroll(page, 2500); await page.waitForTimeout(1300);
         await page.screenshot({ path: `${SHOTS}/round${ROUND}-${wkey}-${id}.png` }); done.push(id);
         // mid-pin shot for pinned sections
-        const pinH = await page.evaluate(id => { const el = document.getElementById(id); const p = el && el.parentElement; return p && p.classList.contains('pin-spacer') ? Math.round(p.getBoundingClientRect().height - innerHeight) : 0; }, id);
+        const pinH = await page.evaluate(id => { const el = document.querySelector(`[data-qa-sec="${id}"]`); const p = el && el.parentElement; return p && p.classList.contains('pin-spacer') ? Math.round(p.getBoundingClientRect().height - innerHeight) : 0; }, id);
         // hero after fan-out (50% of hero scrolled) and services stack mid-scroll
         if (/hero|top|home/.test(id) || id === 'services') {
-          const hh = await page.evaluate(id => document.getElementById(id).getBoundingClientRect().height, id);
+          const hh = await page.evaluate(id => document.querySelector(`[data-qa-sec="${id}"]`).getBoundingClientRect().height, id);
           await page.evaluate(y => { if (window.lenis && window.lenis.scrollTo) try { window.lenis.scrollTo(y, { immediate: true }); } catch (_) {} window.scrollTo({ top: y, behavior: 'instant' }); }, y + Math.round(hh * 0.5));
           await settleScroll(page, 2500); await page.waitForTimeout(1000);
           await page.screenshot({ path: `${SHOTS}/round${ROUND}-${wkey}-${id}-mid.png` }); done.push(`${id}-mid`);

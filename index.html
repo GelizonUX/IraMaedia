@@ -35,7 +35,7 @@
       c.add('js', 'reveal-ok');
       try { if (sessionStorage.getItem('imd-intro')) c.add('intro-seen'); } catch (e) {}
       if (window.matchMedia && matchMedia('(prefers-reduced-motion: no-preference)').matches) c.add('motion-ok');
-      setTimeout(function () { if (!c.contains('js-live')) c.remove('motion-ok', 'reveal-ok', 'bgfx'); }, 3500);
+      setTimeout(function () { if (!c.contains('js-live')) c.remove('motion-ok', 'reveal-ok'); }, 3500);
     })(document.documentElement);
   </script>
   <!-- Self-hosted, pinned: GSAP 3.12.5 + ScrollTrigger 3.12.5 + Lenis 1.1.13. The site works without them. -->
@@ -251,7 +251,7 @@
     </section>
 
     <!-- ============ SERVICES ============ -->
-    <section class="services surface section-forest" id="services" data-bg="#1E4237" data-theme="dark" aria-labelledby="services-title">
+    <section class="services surface section-forest" data-prev id="services" data-bg="#1E4237" data-theme="dark" aria-labelledby="services-title">
       <div class="container">
         <div class="section-head section-head--split">
           <div>
@@ -331,7 +331,7 @@
     </section>
 
     <!-- ============ WORK ============ -->
-    <section class="work surface section-deep" id="work" data-bg="#14302A" data-theme="dark" aria-labelledby="work-title">
+    <section class="work surface section-deep" data-prev id="work" data-bg="#14302A" data-theme="dark" aria-labelledby="work-title">
       <div class="work__pin">
         <div class="work__track">
           <div class="work__intro">
@@ -394,7 +394,7 @@
           </ul>
 
           <div class="work__outro">
-            <a class="big-link" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">See more on Instagram ↗<span class="visually-hidden"> (opens in a new tab)</span></a>
+            <a class="big-link" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">See more on Instagram&nbsp;↗<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
         </div>
         <div class="work__progress" aria-hidden="true"><span class="work__bar"><i></i></span><span class="work__count"><span data-work-current>01</span> / 08</span></div>
@@ -402,7 +402,7 @@
     </section>
 
     <!-- ============ PROCESS ============ -->
-    <section class="process surface section-paper" id="process" data-bg="#F7F1EA" data-theme="light" aria-labelledby="process-title">
+    <section class="process surface section-paper" data-prev id="process" data-bg="#F7F1EA" data-theme="light" aria-labelledby="process-title">
       <div class="container">
         <div class="section-head">
           <p class="label reveal">How it works</p>
@@ -418,7 +418,7 @@
     </section>
 
     <!-- ============ RESULTS + TESTIMONIALS ============ -->
-    <section class="results surface section-light" data-bg="#FBECF1" data-theme="light" aria-labelledby="results-title">
+    <section class="results surface section-light" data-prev data-bg="#FBECF1" data-theme="light" aria-labelledby="results-title">
       <div class="container results__grid">
         <div class="results__left">
           <p class="label reveal">What clients can expect</p>
@@ -459,7 +459,7 @@
 
     <!-- ============ PACKAGES ============ -->
     <!-- CONTENT: prices and inclusions are placeholders, confirm real pricing before launch. -->
-    <section class="packages surface section-green" id="packages" data-bg="#2E6353" data-theme="dark" aria-labelledby="packages-title">
+    <section class="packages surface section-green" data-prev id="packages" data-bg="#2E6353" data-theme="dark" aria-labelledby="packages-title">
       <div class="container">
         <div class="section-head section-head--center">
           <p class="label reveal">Packages</p>
@@ -522,7 +522,7 @@
     </section>
 
     <!-- ============ FAQ ============ -->
-    <section class="faq surface section-paper" id="faq" data-bg="#F7F1EA" data-theme="light" aria-labelledby="faq-title">
+    <section class="faq surface section-paper" data-prev id="faq" data-bg="#F7F1EA" data-theme="light" aria-labelledby="faq-title">
       <div class="container faq__grid">
         <div class="faq__intro">
           <p class="label reveal">Good questions</p>
@@ -541,7 +541,7 @@
     </section>
 
     <!-- ============ CONTACT ============ -->
-    <section class="contact surface" id="contact" data-bg="#2E6353" data-theme="dark" aria-labelledby="contact-title">
+    <section class="contact surface" data-prev id="contact" data-bg="#2E6353" data-theme="dark" aria-labelledby="contact-title">
       <div class="aurora aurora--contact" aria-hidden="true"><i class="aurora__a"></i><i class="aurora__b"></i><i class="aurora__c"></i></div>
       <div class="container">
         <h2 class="contact__title split-words" id="contact-title">Let’s make your feed <em>unforgettable.</em></h2>
@@ -551,7 +551,7 @@
             <ul class="contact__links">
               <!-- CONTENT: placeholder email, confirm before launch -->
               <li class="reveal" style="--i:1"><a class="big-link" href="mailto:hello@iramaedia.com">hello@iramaedia.com</a></li>
-              <li class="reveal" style="--i:2"><a class="big-link" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">@iramaedia on Instagram ↗<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+              <li class="reveal" style="--i:2"><a class="big-link" href="https://www.instagram.com/iramaedia/" target="_blank" rel="noopener">@iramaedia on Instagram&nbsp;↗<span class="visually-hidden"> (opens in a new tab)</span></a></li>
             </ul>
             <!-- CONTENT: availability line -->
             <p class="chip-status contact__status reveal" style="--i:3"><span class="dot" aria-hidden="true"></span>Booking new clients now</p>

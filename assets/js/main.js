@@ -20,7 +20,7 @@
   function safe(fn) { try { fn(); } catch (err) { if (window.console) console.warn('[IraMaedia]', fn.name || 'init', err); } }
   function navOffset() { return window.innerWidth >= 768 ? 88 : 72; }
 
-  if (!M) doc.classList.remove('motion-ok', 'bgfx');
+  if (!M) doc.classList.remove('motion-ok');
   if (M) {
     gsap.registerPlugin(ST);
     doc.classList.add('gsap-live');
@@ -563,21 +563,14 @@
     apply(st.progress);
   }
 
-  /* ---------- Background colour transitions ---------- */
+  /* ---------- Theme flag for cursor (light/dark section under the pointer area) ---------- */
   function initBackgrounds() {
-    var secs = $$('.surface[data-bg]');
-    if (!secs.length) return;
-    doc.classList.add('bgfx');
-    body.style.backgroundColor = secs[0].getAttribute('data-bg');
+    var secs = $$('.surface[data-theme]');
     doc.setAttribute('data-theme', 'dark');
     secs.forEach(function (sec) {
       ST.create({
-        trigger: sec, start: 'top 55%', end: 'bottom 55%',
-        onToggle: function (self) {
-          if (!self.isActive) return;
-          gsap.to(body, { backgroundColor: sec.getAttribute('data-bg'), duration: 0.8, ease: 'power2.inOut', overwrite: true });
-          doc.setAttribute('data-theme', sec.getAttribute('data-theme') || 'dark');
-        }
+        trigger: sec, start: 'top 50%', end: 'bottom 50%',
+        onToggle: function (self) { if (self.isActive) doc.setAttribute('data-theme', sec.getAttribute('data-theme') || 'dark'); }
       });
     });
   }
