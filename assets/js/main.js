@@ -58,10 +58,17 @@
   });
 
   // Re-measure once fonts are in (line breaks change pin distances etc.)
-  if (M && document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(function () { ST.refresh(); jumpToHash(); });
-  } else if (M) {
-    window.addEventListener('load', function () { ST.refresh(); jumpToHash(); });
+  if (M) {
+    var hashDone = false;
+    var onRefresh = function () {
+      if (hashDone) return;
+      hashDone = true;
+      ST.removeEventListener('refresh', onRefresh);
+      requestAnimationFrame(jumpToHash);
+    };
+    var ready = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
+    Promise.all([ready, new Promise(function (r) { if (document.readyState === 'complete') r(); else window.addEventListener('load', r); })])
+      .then(function () { ST.addEventListener('refresh', onRefresh); ST.refresh(); });
   }
 
   /* ---------- Lenis smooth scroll ---------- */
@@ -80,7 +87,10 @@
     var t;
     try { t = document.querySelector(location.hash); } catch (e) { return; }
     if (!t) return;
-    if (lenis) lenis.scrollTo(t, { offset: -navOffset(), immediate: true, force: true });
+    var y = t.getBoundingClientRect().top + window.scrollY - navOffset();
+    if (lenis && lenis.resize) lenis.resize();
+    window.scrollTo(0, y);
+    if (lenis) lenis.scrollTo(y, { immediate: true, force: true });
   }
 
   /* ---------- Anchors: smooth scroll + focus + hash ---------- */
@@ -93,11 +103,16 @@
   function scrollToTarget(target, hash) {
     var top = hash === '#top';
     var focusEl = top ? $('#main') : target;
+    var called = false;
     function done() {
+      if (called) return;
+      called = true;
       if (history.pushState) history.pushState(null, '', top ? location.pathname + location.search : hash);
       focusTarget(focusEl);
     }
     if (lenis) {
+      if (lenis.resize) lenis.resize();
+      setTimeout(done, 1500);
       lenis.scrollTo(top ? 0 : target, {
         offset: top ? 0 : -navOffset(),
         duration: 1.2,
@@ -268,7 +283,17 @@
         e.target.classList.add('is-in');
         io.unobserve(e.target);
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    }, { threshold: 0, rootMargin: '0px 0px -1px 0px' });
+    document.addEventListener('focusin', function (e) {
+      var el = e.target;
+      while (el && el !== document.body) {
+        if (el.classList && (el.classList.contains('reveal') || el.classList.contains('is-split')) && !el.classList.contains('is-in')) {
+          el.classList.add('is-instant', 'is-in');
+          (function (x) { requestAnimationFrame(function () { requestAnimationFrame(function () { x.classList.remove('is-instant'); }); }); })(el);
+        }
+        el = el.parentNode;
+      }
+    });
     els.forEach(function (el) { io.observe(el); });
 
     // clip-path hides the arch from IO, so watch its parent
@@ -506,14 +531,14 @@
         gsap.fromTo(art, { xPercent: 8 }, { xPercent: -8, ease: 'none', scrollTrigger: { trigger: item, containerAnimation: tween, start: 'left right', end: 'right left', scrub: true } });
       });
       function onFocus(e) {
-        var item = e.target.closest('.work__item');
+        var item = e.target.closest('.work__item, .work__outro');
         if (!item) return;
         pin.scrollLeft = 0;
         var st = tween.scrollTrigger;
         var max = dist();
         if (!st || !max) return;
         var x = item.getBoundingClientRect().left - track.getBoundingClientRect().left;
-        var p = Math.min(1, Math.max(0, (x - window.innerWidth / 2 + item.offsetWidth / 2) / max));
+        var p = item.classList.contains('work__outro') ? 1 : Math.min(1, Math.max(0, (x - window.innerWidth / 2 + item.offsetWidth / 2) / max));
         var y = st.start + p * (st.end - st.start);
         if (lenis) lenis.scrollTo(y, { duration: 0.6, force: true });
         else window.scrollTo(0, y);
@@ -577,18 +602,27 @@
 
   /* ---------- Package counters ---------- */
   function initCounters() {
-    $$('.count[data-to]').forEach(function (el) {
-      var to = parseInt(el.getAttribute('data-to'), 10);
-      if (!to) return;
-      var o = { v: 0 };
-      el.textContent = '0';
-      ST.create({
-        trigger: el, start: 'top 80%', end: function () { return '+=' + doc.scrollHeight; }, once: true,
-        onEnter: function () {
-          gsap.to(o, { v: to, duration: 1.2, ease: 'power2.out', onUpdate: function () { el.textContent = Math.round(o.v); } });
-        }
+    var els = $$('.count[data-to]');
+    if (!els.length || !('IntersectionObserver' in window)) return;
+    // The HTML holds the real value. Only counters still below the fold are zeroed and counted up.
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        io.unobserve(e.target);
+        var el = e.target, to = parseInt(el.getAttribute('data-to'), 10), o = { v: 0 };
+        gsap.to(o, { v: to, duration: 1.2, ease: 'power2.out', onUpdate: function () { el.textContent = Math.round(o.v); }, onComplete: function () { el.textContent = to; } });
       });
+    }, { threshold: 0 });
+    els.forEach(function (el) {
+      if (el.getBoundingClientRect().top > window.innerHeight) { el.textContent = '0'; io.observe(el); }
     });
+    // Jumped past (anchor, deep link)? Show the real value straight away.
+    function sweep() {
+      els.forEach(function (el) {
+        if (el.textContent === '0' && el.getBoundingClientRect().bottom < 0) { io.unobserve(el); el.textContent = el.getAttribute('data-to'); }
+      });
+    }
+    window.addEventListener('scroll', sweep, { passive: true });
   }
 
   /* ---------- Custom cursor ---------- */
@@ -749,6 +783,7 @@
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+      if (submit.getAttribute('aria-busy') === 'true') return;
       submitted = true;
       var bad = [];
       required.forEach(function (input) {
@@ -787,12 +822,14 @@
       var href = 'mailto:' + to + '?subject=' + encodeURIComponent('New enquiry from ' + name) + '&body=' + encodeURIComponent(bodyText);
       submit.classList.add('is-loading');
       submit.setAttribute('aria-disabled', 'true');
+      submit.setAttribute('aria-busy', 'true');
       submitText.textContent = 'Opening your email…';
       status.textContent = 'Opening your email app…';
       setTimeout(function () {
         window.location.href = href;
         submit.classList.remove('is-loading');
         submit.removeAttribute('aria-disabled');
+        submit.removeAttribute('aria-busy');
         submitText.textContent = 'Send my enquiry';
         status.textContent = '';
         form.hidden = true;
@@ -843,7 +880,19 @@
       pastHero = !e.isIntersecting && e.boundingClientRect.top < 0;
       update();
     }).observe(ctas);
-    if (contact) new IntersectionObserver(function (es) { inContact = es[0].isIntersecting; update(); }, { rootMargin: '0px 0px -25% 0px' }).observe(contact);
+    // Hidden while the contact section covers the main part of the viewport (viewport-based, not ratio-based)
+    if (contact) {
+      var q = false;
+      var check = function () {
+        q = false;
+        var r = contact.getBoundingClientRect(), h = window.innerHeight;
+        var next = r.top < h * 0.75 && r.bottom > h * 0.25;
+        if (next !== inContact) { inContact = next; update(); }
+      };
+      window.addEventListener('scroll', function () { if (!q) { q = true; requestAnimationFrame(check); } }, { passive: true });
+      window.addEventListener('resize', check, { passive: true });
+      check();
+    }
     document.addEventListener('imd:menu', function (e) { menuOpen = !!e.detail; update(); });
     document.addEventListener('focusin', function (e) { typing = !!(e.target.matches && e.target.matches('input, textarea, select')); update(); });
     document.addEventListener('focusout', function () { setTimeout(function () { var a = document.activeElement; typing = !!(a && a.matches && a.matches('input, textarea, select')); update(); }, 0); });

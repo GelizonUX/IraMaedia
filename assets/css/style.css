@@ -1022,8 +1022,9 @@ html.pin-work .work__bar { width: 200px; flex: none; }
 .footer__links, .footer__social { display: flex; flex-wrap: wrap; gap: 0 24px; font-size: var(--fs-small); font-weight: 500; color: var(--mist); }
 .footer__links a, .footer__social a { display: inline-flex; align-items: center; min-height: 44px; transition: color 200ms ease; }
 @media (hover: hover) and (pointer: fine) { .footer__links a:hover, .footer__social a:hover { color: var(--rose-200); } }
-.footer__mark { position: relative; display: grid; place-items: center; padding-block: 24px 8px; }
-.footer__globe { position: absolute; width: min(56vw, 420px); height: min(56vw, 420px); top: 55%; left: 50%; transform: translate(-50%, -50%); color: var(--sage-300); opacity: .08; }
+.footer__mark { position: relative; z-index: 0; display: grid; place-items: center; padding-block: 24px 8px; pointer-events: none; }
+.footer__row, .footer__base { position: relative; z-index: 1; }
+.footer__globe { position: absolute; width: min(56vw, 420px); height: min(56vw, 420px); top: 55%; left: 50%; transform: translate(-50%, -50%); color: var(--sage-300); opacity: .08; pointer-events: none; }
 .wordmark { position: relative; display: flex; justify-content: center; font-weight: 800; letter-spacing: .2em; margin-right: -.2em; line-height: .9; font-size: min(11vw, 13rem); color: var(--green-700); white-space: nowrap; }
 .wordmark span { display: inline-block; }
 .footer__base {

@@ -771,6 +771,39 @@ async function perfRun(browser, url, vp, cpuRate) {
   return { vp: `${vp.w}x${vp.h}`, cpuThrottle: cpuRate, readyMs, load: { dcl: load.dcl, loadEnd: load.loadEnd, unblockedAt: load.unblockedAt, longtasks: lt.length, longestTask: Math.max(0, ...lt.map(l => l.d)), tbt: lt.reduce((a, l) => a + Math.max(0, l.d - 50), 0), cls: load.cls, shiftSources: load.shiftSources }, scroll };
 }
 
+
+// Round 4: rounded "sheet" section edges with negative margin-top.
+const sheetEdgeProbe = () => {
+  const secs = [...document.querySelectorAll('main > section, main > div > section, main > *, footer')].filter((e, i, a) => a.indexOf(e) === i && e.getBoundingClientRect().height > 40);
+  const top = el => el.getBoundingClientRect().top + scrollY;
+  const textRects = el => { const out = []; const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) { if (!n.textContent.trim()) continue; const pe = n.parentElement; if (pe.closest('[aria-hidden=true], .visually-hidden, .sr-only')) continue; const cs = getComputedStyle(pe); if (cs.visibility === 'hidden' || cs.display === 'none') continue; const rg = document.createRange(); rg.selectNodeContents(n); for (const r of rg.getClientRects()) if (r.width > 1 && r.height > 1) out.push({ t: r.top + scrollY, b: r.bottom + scrollY, l: r.left, r: r.right, txt: n.textContent.trim().slice(0, 30), el: pe }); } return out; };
+  const res = { pairs: [], problems: [] };
+  for (let i = 1; i < secs.length; i++) {
+    const prev = secs[i - 1], cur = secs[i];
+    if (prev.contains(cur) || cur.contains(prev)) continue;
+    const cs = getComputedStyle(cur);
+    const rad = parseFloat(cs.borderTopLeftRadius) || 0; const mt = parseFloat(cs.marginTop) || 0;
+    const cTop = top(cur); const pB = top(prev) + prev.getBoundingClientRect().height;
+    const overlapPx = Math.round(pB - cTop);
+    const name = e => e.id || (e.tagName.toLowerCase() + '.' + String(e.className).split(' ')[0]);
+    const pair = { prev: name(prev), cur: name(cur), radius: rad, marginTop: mt, overlapPx, z: cs.zIndex, pos: cs.position };
+    res.pairs.push(pair);
+    if (overlapPx <= 0 && rad === 0) continue;
+    // previous section's text sitting in the overlap band (would be covered by cur)
+    for (const r of textRects(prev)) if (r.b > cTop + 1 && r.t < pB) res.problems.push(`${pair.prev} text "${r.txt}" (y ${Math.round(r.t)}–${Math.round(r.b)}) under ${pair.cur} edge (top ${Math.round(cTop)})`);
+    // current section's own text inside its curved band
+    const band = Math.max(rad, overlapPx);
+    for (const r of textRects(cur)) if (r.t < cTop + band * 0.75) res.problems.push(`${pair.cur} text "${r.txt}" inside its top edge band (${Math.round(r.t - cTop)}px from top, radius ${rad})`);
+    // z-order: sample inside the band at x centre -> should hit cur (it paints over prev), and in the corner -> should hit prev
+    const y = cTop + Math.min(band, 40) / 2 - scrollY;
+    if (y > 0 && y < innerHeight) {
+      const h = document.elementFromPoint(innerWidth / 2, y); pair.centreHit = h ? (cur.contains(h) ? 'cur' : prev.contains(h) ? 'prev' : h.tagName) : null;
+      if (h && overlapPx > 0 && !cur.contains(h) && !h.closest('header')) res.problems.push(`z-order: ${pair.cur} edge band at centre paints under ${name(h.closest('main > *, footer') || h)}`);
+    }
+  }
+  return res;
+};
+
 // ---------- designer v2 extras ----------
 // Anchor result enrichment: focus moved into target, hash updated.
 const anchorExtras = h => {
@@ -1251,6 +1284,10 @@ async function formTestV2(page, shotTag) {
       r.anchors = await anchorClickTest(page);
       if (!label.startsWith('sub')) r.focus = await focusScrollTest(page);
       if (!label.startsWith('sub')) r.pin = await pinScan(page, label);
+      if (!label.startsWith('sub')) {
+        await page.evaluate(`window.sheetEdgeProbe = ${sheetEdgeProbe.toString()}`);
+        r.sheet = await page.evaluate(async () => { const out = { problems: [], pairs: null }; const H = document.documentElement.scrollHeight; for (let y = 0; y < H; y += innerHeight * 0.8) { window.scrollTo({ top: y, behavior: 'instant' }); await new Promise(r => setTimeout(r, 250)); const p = window.sheetEdgeProbe(); out.pairs = out.pairs || p.pairs; for (const x of p.problems) if (!out.problems.includes(x)) out.problems.push(x); } return out; }).catch(e => ({ err: e.message }));
+      }
       if (label === 'root-1440') { r.keyboard = await keyboardScrollTest(page); r.stackCards = await stackCardsTest(page); }
       if (label === 'root-375') { r.menuLock = await menuScrollLockTest(page); r.bottomBar = await bottomBarTest(page); }
       if (label.startsWith('reduced')) { await scrollTop(page); r.sectionBgs = await page.evaluate(sectionBgProbe); r.stackCards = await stackCardsTest(page); }
@@ -1262,6 +1299,8 @@ async function formTestV2(page, shotTag) {
       const ctx = await newCtx(browser, ctxOpts(vp)); const page = await ctx.newPage();
       await page.goto(ROOT, { waitUntil: 'networkidle' }).catch(() => {}); await waitReady(page, 8000);
       out[label] = { pin: await pinScan(page, label) };
+      await page.evaluate(`window.sheetEdgeProbe = ${sheetEdgeProbe.toString()}`);
+      out[label].sheet = await page.evaluate(async () => { const out = { problems: [], pairs: null }; const H = document.documentElement.scrollHeight; for (let y = 0; y < H; y += innerHeight * 0.8) { window.scrollTo({ top: y, behavior: 'instant' }); await new Promise(r => setTimeout(r, 250)); const p = window.sheetEdgeProbe(); out.pairs = out.pairs || p.pairs; for (const x of p.problems) if (!out.problems.includes(x)) out.problems.push(x); } return out; }).catch(e => ({ err: e.message }));
       if (label === '768') out[label].stackCards = await stackCardsTest(page);
       await ctx.close();
     }

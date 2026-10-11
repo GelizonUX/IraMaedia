@@ -35,6 +35,8 @@
       c.add('js', 'reveal-ok');
       try { if (sessionStorage.getItem('imd-intro')) c.add('intro-seen'); } catch (e) {}
       if (window.matchMedia && matchMedia('(prefers-reduced-motion: no-preference)').matches) c.add('motion-ok');
+      // Scripts late (hung vendor file / very slow network)? Drop the intro and motion early, reveals a bit later.
+      setTimeout(function () { if (!c.contains('js-live')) c.remove('motion-ok'); }, 1500);
       setTimeout(function () { if (!c.contains('js-live')) c.remove('motion-ok', 'reveal-ok'); }, 3500);
     })(document.documentElement);
   </script>

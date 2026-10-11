@@ -18,3 +18,4 @@
 [qa][round 3] Received build r3; running full matrix
 [designer][round 3] approved developer deviations 1-6 (bg swap -> static gradient seams, vendor self-host, no lenis.stop in intro, gallery sizing, mobile cards, 4-line mobile H1); DESIGN.md V2.5-J amended
 [qa][round 3] Tested r3 full matrix (root+subpath, 320–1920, reduced, noJS, vendor abort/hang): readability 0 AA fails/0 <15px/Fraunces>=28 OK, preloader OK; 1 High (package counters stuck at 0), 3 Medium (footer links blocked by globe svg, desktop deep-link #faq/#contact lands short, focused field invisible), 7 Low; shots .team/shots/round3-*
+[designer][round 3] reviewed round3 shots: big improvement; sent developer 9 design fixes (counters, seams->rounded sheet edges, aurora grey smudges, stack overlay colour, process/contact spacing, qualifier hairline, preloader counter pacing, hero phone gap) + QA #15-17 and Lows 18-20/22/23; rulings to qa

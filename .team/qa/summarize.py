@@ -113,3 +113,11 @@ if pf:
     H('PERF')
     for p in pf: print(' ', json.dumps(p)[:900])
 if d.get('screens'): H('SCREENS'); print(d['screens'])
+if sc:
+    H('SHEET EDGES (round 4)')
+    for k, v in sc.items():
+        sh = v.get('sheet') if isinstance(v, dict) else None
+        if not sh: continue
+        if 'err' in sh: print(' ', k, 'ERR', sh['err']); continue
+        print(f"  {k}: problems={len(sh['problems'])} pairs={[ (p['prev'], p['cur'], p['radius'], p['overlapPx'], p.get('centreHit')) for p in (sh['pairs'] or []) if p['overlapPx'] > 0 or p['radius'] > 0]}")
+        for x in sh['problems'][:12]: print('     ', x)
