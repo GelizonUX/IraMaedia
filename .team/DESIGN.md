@@ -217,6 +217,7 @@ A full-width band at the bottom of the hero, separated by a top hairline, paddin
 - Reduced motion: line fully drawn, dots filled.
 
 ### J. Background colour transitions between sections
+> **Round 3 ruling (supersedes the body-colour spec below):** each section keeps its own solid background. A static 64–112px gradient seam, blending from the previous section's colour, sits inside the top padding of each section and never runs under text. `html[data-theme]` still flips per section (for the nav and cursor). Reason: with a single body colour, text sat on the wrong surface during transitions, and readability is the client's #1 complaint.
 - With motion-ok, sections that take part get `background: transparent` (class `.bgfx` on html), and `body` carries the colour.
 - One ScrollTrigger per section (`start: 'top 55%'`, `end: 'bottom 55%'`). On `onEnter`/`onEnterBack`: `gsap.to(body, {backgroundColor: section.dataset.bg, duration: .8, ease: 'power2.inOut', overwrite: true})`, and set `html[data-theme]` to `dark` or `light` (used by the nav, cursor and bottom bar).
 - Each section still sets its own text colour, so at rest the contrast is exactly as in the V2.3 surface map.

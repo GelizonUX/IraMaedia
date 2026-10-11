@@ -798,13 +798,14 @@ html.pin-work .work__pin { display: block; position: relative; height: 100vh; ov
 html.pin-work .work__track {
   display: flex; align-items: center; gap: 6vw; height: 100%; width: max-content;
   padding: calc(var(--nav-h) + 8px) 0 64px max(var(--gutter), calc((100vw - 1320px) / 2 + var(--gutter)));
-  --pw: min(280px, calc((100vh - 410px) * .5625));
+  --pw: min(280px, calc((100vh - 350px) * .5625));
 }
 html.pin-work .work__intro { flex: 0 0 36vw; max-width: 36vw; margin: 0; padding: 0; }
 html.pin-work .hint-desk { display: inline; }
 html.pin-work .hint-mob { display: none; }
 html.pin-work .work__list { display: flex; gap: 6vw; overflow: visible; padding: 0; }
-html.pin-work .work__item { flex: 0 0 var(--pw); max-width: none; }
+html.pin-work .work__item { flex: 0 0 max(var(--pw), 220px); max-width: none; }
+html.pin-work .phone--work { width: var(--pw); }
 html.pin-work .work__item:nth-child(even) { translate: 0 40px; }
 html.pin-work .work__item:nth-child(odd) { translate: 0 -20px; }
 html.pin-work .work__outro { flex: 0 0 auto; margin: 0; width: auto; max-width: none; padding: 0 max(var(--gutter), 10vw) 0 0; }

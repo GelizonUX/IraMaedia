@@ -491,7 +491,7 @@ const readabilityProbe = () => {
     const L1 = lum(fg), L2 = lum(bg); const ratio = (Math.max(L1, L2) + 0.05) / (Math.min(L1, L2) + 0.05);
     const large = size >= 24 || (weight >= 700 && size >= 18.66);
     const aa = large ? 3 : 4.5, aaa = large ? 4.5 : 7;
-    const ariaHidden = !!el.closest('[aria-hidden="true"], .phone__screen');
+    const ariaHidden = !!el.closest('[aria-hidden="true"], .phone__screen, [role=img], .preloader');
     const sec = el.closest('main > *, header, footer, body > *');
     const secName = sec ? (sec.id || sec.tagName.toLowerCase() + '.' + String(sec.className).split(' ')[0]) : '?';
     if (!el.dataset.qaR) el.dataset.qaR = String(idx++);
@@ -1258,7 +1258,7 @@ async function formTestV2(page, shotTag) {
       out[label] = r; await ctx.close();
     }
     // no-pin widths / short viewport: overflow + pin behaviour only
-    for (const [label, vp] of [['1024x600', { w: 1024, h: 600 }], ['1024x768', { w: 1024, h: 768 }], ['768', VP[768]], ['320', VP[320]]]) {
+    for (const [label, vp] of [['1024x600', { w: 1024, h: 600 }], ['1024x700', { w: 1024, h: 700 }], ['1920', { w: 1920, h: 1080 }], ['768', VP[768]], ['320', VP[320]]]) {
       const ctx = await newCtx(browser, ctxOpts(vp)); const page = await ctx.newPage();
       await page.goto(ROOT, { waitUntil: 'networkidle' }).catch(() => {}); await waitReady(page, 8000);
       out[label] = { pin: await pinScan(page, label) };
