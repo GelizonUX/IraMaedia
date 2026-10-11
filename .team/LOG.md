@@ -1,3 +1,4 @@
 [developer][round 0] scaffolded assets/{css,js,img}, .nojekyll; waiting on DESIGN.md
 [qa][round 0] Prepared Playwright harness .team/qa/qa.js + summarize.py (Node playwright 1.56.1, chromium-1194); waiting for build
 [designer][round 0] wrote .team/DESIGN.md v1 (tokens, Bodoni Moda + Hanken Grotesk, 12 sections w/ full copy, motion spec); web search found nothing public on iramaedia
+[developer][round 1] built index.html + assets/css/style.css + assets/js/main.js (vanilla, no GSAP) + assets/img/{logo.svg,favicon.svg,og-image.png,apple-touch-icon.png} + .nojekyll. Deviation: --fs-mega reduced to clamp(3.5rem,8.6vw,9rem) so the 3-line hero fits at 1440 (10.5rem wrapped to 4 lines); at 375 the headline wraps to 4 lines by design ("makes them stop" can't fit 335px at 56px). Served on :8080 (root) and :8081/IraMaedia/ (subpath).
